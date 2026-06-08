@@ -1,0 +1,243 @@
+# Imidazole derivatives
+
+**23-119**
+
+**Stereoselective Synthesis of 5-Substituted Pyrrolid[1,2-c]imidazol-3-ones: A 2-step procedure via diastereoselective or enantioselective lithiation. Followed by a PdCl₂-induced salt formation, precatalysts of type (XII) can be prepared.**
+
+(METALLALONS*, C. XU, S.; Org. Lett. 12 (2010) 1, 76-79; Dep. Chem., Brock Univ., St. Catharines, Ont. L2S 3A1, Can.; Eng.) — R. Simon
+
+```
+    O
+   / \
+  /   \
+ /     \
+|       |
+ \     /
+  \   /
+   \ /
+    N
+```
+
+A) 1. A)  
+    2. MeOH, Et₂O, -78°C, [2 h]  
+    3. H₂O, 0°C, 1 h  
+    4. H₂O, 0°C, 1 h  
+    5. H₂O, 0°C, 1 h  
+    6. H₂O, 0°C, 1 h  
+    7. H₂O, 0°C, 1 h  
+    8. H₂O, 0°C, 1 h  
+    9. H₂O, 0°C, 1 h  
+    10. H₂O, 0°C, 1 h  
+    11. H₂O, 0°C, 1 h  
+    12. H₂O, 0°C, 1 h  
+    13. H₂O, 0°C, 1 h  
+    14. H₂O, 0°C, 1 h  
+    15. H₂O, 0°C, 1 h  
+    16. H₂O, 0°C, 1 h  
+    17. H₂O, 0°C, 1 h  
+    18. H₂O, 0°C, 1 h  
+    19. H₂O, 0°C, 1 h  
+    20. H₂O, 0°C, 1 h  
+    21. H₂O, 0°C, 1 h  
+    22. H₂O, 0°C, 1 h  
+    23. H₂O, 0°C, 1 h  
+    24. H₂O, 0°C, 1 h  
+    25. H₂O, 0°C, 1 h  
+    26. H₂O, 0°C, 1 h  
+    27. H₂O, 0°C, 1 h  
+    28. H₂O, 0°C, 1 h  
+    29. H₂O, 0°C, 1 h  
+    30. H₂O, 0°C, 1 h  
+    31. H₂O, 0°C, 1 h  
+    32. H₂O, 0°C, 1 h  
+    33. H₂O, 0°C, 1 h  
+    34. H₂O, 0°C, 1 h  
+    35. H₂O, 0°C, 1 h  
+    36. H₂O, 0°C, 1 h  
+    37. H₂O, 0°C, 1 h  
+    38. H₂O, 0°C, 1 h  
+    39. H₂O, 0°C, 1 h  
+    40. H₂O, 0°C, 1 h  
+    41. H₂O, 0°C, 1 h  
+    42. H₂O, 0°C, 1 h  
+    43. H₂O, 0°C, 1 h  
+    44. H₂O, 0°C, 1 h  
+    45. H₂O, 0°C, 1 h  
+    46. H₂O, 0°C, 1 h  
+    47. H₂O, 0°C, 1 h  
+    48. H₂O, 0°C, 1 h  
+    49. H₂O, 0°C, 1 h  
+    50. H₂O, 0°C, 1 h  
+    51. H₂O, 0°C, 1 h  
+    52. H₂O, 0°C, 1 h  
+    53. H₂O, 0°C, 1 h  
+    54. H₂O, 0°C, 1 h  
+    55. H₂O, 0°C, 1 h  
+    56. H₂O, 0°C, 1 h  
+    57. H₂O, 0°C, 1 h  
+    58. H₂O, 0°C, 1 h  
+    59. H₂O, 0°C, 1 h  
+    60. H₂O, 0°C, 1 h  
+    61. H₂O, 0°C, 1 h  
+    62. H₂O, 0°C, 1 h  
+    63. H₂O, 0°C, 1 h  
+    64. H₂O, 0°C, 1 h  
+    65. H₂O, 0°C, 1 h  
+    66. H₂O, 0°C, 1 h  
+    67. H₂O, 0°C, 1 h  
+    68. H₂O, 0°C, 1 h  
+    69. H₂O, 0°C, 1 h  
+    70. H₂O, 0°C, 1 h  
+    71. H₂O, 0°C, 1 h  
+    72. H₂O, 0°C, 1 h  
+    73. H₂O, 0°C, 1 h  
+    74. H₂O, 0°C, 1 h  
+    75. H₂O, 0°C, 1 h  
+    76. H₂O, 0°C, 1 h  
+    77. H₂O, 0°C, 1 h  
+    78. H₂O, 0°C, 1 h  
+    79. H₂O, 0°C, 1 h  
+    80. H₂O, 0°C, 1 h  
+    81. H₂O, 0°C, 1 h  
+    82. H₂O, 0°C, 1 h  
+    83. H₂O, 0°C, 1 h  
+    84. H₂O, 0°C, 1 h  
+    85. H₂O, 0°C, 1 h  
+    86. H₂O, 0°C, 1 h  
+    87. H₂O, 0°C, 1 h  
+    88. H₂O, 0°C, 1 h  
+    89. H₂O, 0°C, 1 h  
+    90. H₂O, 0°C, 1 h  
+    91. H₂O, 0°C, 1 h  
+    92. H₂O, 0°C, 1 h  
+    93. H₂O, 0°C, 1 h  
+    94. H₂O, 0°C, 1 h  
+    95. H₂O, 0°C, 1 h  
+    96. H₂O, 0°C, 1 h  
+    97. H₂O, 0°C, 1 h  
+    98. H₂O, 0°C, 1 h  
+    99. H₂O, 0°C, 1 h  
+    100. H₂O, 0°C, 1 h  
+    101. H₂O, 0°C, 1 h  
+    102. H₂O, 0°C, 1 h  
+    103. H₂O, 0°C, 1 h  
+    104. H₂O, 0°C, 1 h  
+    105. H₂O, 0°C, 1 h  
+    106. H₂O, 0°C, 1 h  
+    107. H₂O, 0°C, 1 h  
+    108. H₂O, 0°C, 1 h  
+    109. H₂O, 0°C, 1 h  
+    110. H₂O, 0°C, 1 h  
+    111. H₂O, 0°C, 1 h  
+    112. H₂O, 0°C, 1 h  
+    113. H₂O, 0°C, 1 h  
+    114. H₂O, 0°C, 1 h  
+    115. H₂O, 0°C, 1 h  
+    116. H₂O, 0°C, 1 h  
+    117. H₂O, 0°C, 1 h  
+    118. H₂O, 0°C, 1 h  
+    119. H₂O, 0°C, 1 h  
+    120. H₂O, 0°C, 1 h  
+    121. H₂O, 0°C, 1 h  
+    122. H₂O, 0°C, 1 h  
+    123. H₂O, 0°C, 1 h  
+    124. H₂O, 0°C, 1 h  
+    125. H₂O, 0°C, 1 h  
+    126. H₂O, 0°C, 1 h  
+    127. H₂O, 0°C, 1 h  
+    128. H₂O, 0°C, 1 h  
+    129. H₂O, 0°C, 1 h  
+    130. H₂O, 0°C, 1 h  
+    131. H₂O, 0°C, 1 h  
+    132. H₂O, 0°C, 1 h  
+    133. H₂O, 0°C, 1 h  
+    134. H₂O, 0°C, 1 h  
+    135. H₂O, 0°C, 1 h  
+    136. H₂O, 0°C, 1 h  
+    137. H₂O, 0°C, 1 h  
+    138. H₂O, 0°C, 1 h  
+    139. H₂O, 0°C, 1 h  
+    140. H₂O, 0°C, 1 h  
+    141. H₂O, 0°C, 1 h  
+    142. H₂O, 0°C, 1 h  
+    143. H₂O, 0°C, 1 h  
+    144. H₂O, 0°C, 1 h  
+    145. H₂O, 0°C, 1 h  
+    146. H₂O, 0°C, 1 h  
+    147. H₂O, 0°C, 1 h  
+    148. H₂O, 0°C, 1 h  
+    149. H₂O, 0°C, 1 h  
+    150. H₂O, 0°C, 1 h  
+    151. H₂O, 0°C, 1 h  
+    152. H₂O, 0°C, 1 h  
+    153. H₂O, 0°C, 1 h  
+    154. H₂O, 0°C, 1 h  
+    155. H₂O, 0°C, 1 h  
+    156. H₂O, 0°C, 1 h  
+    157. H₂O, 0°C, 1 h  
+    158. H₂O, 0°C, 1 h  
+    159. H₂O, 0°C, 1 h  
+    160. H₂O, 0°C, 1 h  
+    161. H₂O, 0°C, 1 h  
+    162. H₂O, 0°C, 1 h  
+    163. H₂O, 0°C, 1 h  
+    164. H₂O, 0°C, 1 h  
+    165. H₂O, 0°C, 1 h  
+    166. H₂O, 0°C, 1 h  
+    167. H₂O, 0°C, 1 h  
+    168. H₂O, 0°C, 1 h  
+    169. H₂O, 0°C, 1 h  
+    170. H₂O, 0°C, 1 h  
+    171. H₂O, 0°C, 1 h  
+    172. H₂O, 0°C, 1 h  
+    173. H₂O, 0°C, 1 h  
+    174. H₂O, 0°C, 1 h  
+    175. H₂O, 0°C, 1 h  
+    176. H₂O, 0°C, 1 h  
+    177. H₂O, 0°C, 1 h  
+    178. H₂O, 0°C, 1 h  
+    179. H₂O, 0°C, 1 h  
+    180. H₂O, 0°C, 1 h  
+    181. H₂O, 0°C, 1 h  
+    182. H₂O, 0°C, 1 h  
+    183. H₂O, 0°C, 1 h  
+    184. H₂O, 0°C, 1 h  
+    185. H₂O, 0°C, 1 h  
+    186. H₂O, 0°C, 1 h  
+    187. H₂O, 0°C, 1 h  
+    188. H₂O, 0°C, 1 h  
+    189. H₂O, 0°C, 1 h  
+    190. H₂O, 0°C, 1 h  
+    191. H₂O, 0°C, 1 h  
+    192. H₂O, 0°C, 1 h  
+    193. H₂O, 0°C, 1 h  
+    194. H₂O, 0°C, 1 h  
+    195. H₂O, 0°C, 1 h  
+    196. H₂O, 0°C, 1 h  
+    197. H₂O, 0°C, 1 h  
+    198. H₂O, 0°C, 1 h  
+    199. H₂O, 0°C, 1 h  
+    200. H₂O, 0°C, 1 h  
+    201. H₂O, 0°C, 1 h  
+    202. H₂O, 0°C, 1 h  
+    203. H₂O, 0°C, 1 h  
+    204. H₂O, 0°C, 1 h  
+    205. H₂O, 0°C, 1 h  
+    206. H₂O, 0°C, 1 h  
+    207. H₂O, 0°C, 1 h  
+    208. H₂O, 0°C, 1 h  
+    209. H₂O, 0°C, 1 h  
+    210. H₂O, 0°C, 1 h  
+    211. H₂O, 0°C, 1 h  
+    212. H₂O, 0°C, 1 h  
+    213. H₂O, 0°C, 1 h  
+    214. H₂O, 0°C, 1 h  
+    215. H₂O, 0°C, 1 h  
+    216. H₂O, 0°C, 1 h  
+    217. H₂O, 0°C, 1 h  
+    218. H₂O, 0°C, 1 h  
+    219. H₂O, 0°C, 1 h  
+    220. H₂O, 0°C, 1 h  
+    221. H₂O, 0°C, 1 h  
+    222. H₂O, 0°C, 1 h  
+    223. H₂O, 0°C,

@@ -1,0 +1,513 @@
+{
+  "stats": {
+    "n_total": 100,
+    "n_done": 100,
+    "n_error": 0,
+    "avg_latency_s": 28.89,
+    "p50_latency_s": 13.45,
+    "max_latency_s": 66.34,
+    "elapsed_s": 2905.7
+  },
+  "records": [
+    {
+      "image": "PPT_1001115_eng_page_003.png",
+      "latency_s": 4.16,
+      "chars": 366
+    },
+    {
+      "image": "PPT_8076_MEYER_Chapter_2_-_Language_Change_page_021.png",
+      "latency_s": 1.34,
+      "chars": 194
+    },
+    {
+      "image": "PPT_Catalysis.ppt_page_016.png",
+      "latency_s": 8.22,
+      "chars": 1156
+    },
+    {
+      "image": "PPT_MMAT5390Lecture1_page_024.png",
+      "latency_s": 2.37,
+      "chars": 439
+    },
+    {
+      "image": "PPT_all655920_page_008.png",
+      "latency_s": 1.42,
+      "chars": 242
+    },
+    {
+      "image": "PPT_english-studies-s6-on-the-road-resource-3_page_003.png",
+      "latency_s": 1.55,
+      "chars": 428
+    },
+    {
+      "image": "PPT_linear-algebra primer_page_007.png",
+      "latency_s": 1.84,
+      "chars": 254
+    },
+    {
+      "image": "book_en_40.Puzzles.and.Problems.in.Probability.and.Mathematical.Statistics,.Schwarz,.Springer,.2008_page_064.png",
+      "latency_s": 6.2,
+      "chars": 1444
+    },
+    {
+      "image": "book_en_国外数学教材-An Excursion through Elementary Mathematics（初等数学漫游）-An excursion through elementary mathematics, Vol.3 (Caminha Muniz Neto A)_0100.png",
+      "latency_s": 17.45,
+      "chars": 2811
+    },
+    {
+      "image": "book_en_国外数学教材-非数学专业教材-线性代数-Gilbert Strang—Linear Algebra and Its Applications 4e_0017.png",
+      "latency_s": 6.84,
+      "chars": 1755
+    },
+    {
+      "image": "book_en_搬书匠-3396-iPhone The Missing Manual 10th Edition-2017-英文版_page_099.png",
+      "latency_s": 5.53,
+      "chars": 1288
+    },
+    {
+      "image": "book_zh_GB149361994_extracted_page_7.png",
+      "latency_s": 8.83,
+      "chars": 765
+    },
+    {
+      "image": "color_textbook_zhonggaokao_小学_13.人教新起点英语（4-5年级）_人教新起点五年级英语上册_课本_人教新起点英语5A电子课本_page_001.png",
+      "latency_s": 1.83,
+      "chars": 192
+    },
+    {
+      "image": "color_textbook_zhonggaokao_小学_13.人教新起点英语（4-5年级）_人教新起点四年级英语上册_课本_人教新起点英语4A电子课本_page_072.png",
+      "latency_s": 2.65,
+      "chars": 522
+    },
+    {
+      "image": "color_textbook_教材全解1+1二年级上册英语上海牛津版_page_030.png",
+      "latency_s": 5.43,
+      "chars": 641
+    },
+    {
+      "image": "docstructbench_00039896.1983.10545823.pdf_1.jpg",
+      "latency_s": 8.06,
+      "chars": 2095
+    },
+    {
+      "image": "docstructbench_dianzishu_zhongwenzaixian-o.O-61520612.pdf_140.jpg",
+      "latency_s": 5.22,
+      "chars": 494
+    },
+    {
+      "image": "docstructbench_dianzishu_zhongwenzaixian-o.O-63677793.pdf_332.jpg",
+      "latency_s": 11.6,
+      "chars": 981
+    },
+    {
+      "image": "docstructbench_dianzishu_zhongwenzaixian-o.O-63686436.pdf_57.jpg",
+      "latency_s": 5.48,
+      "chars": 490
+    },
+    {
+      "image": "docstructbench_enbook-zlib-o.O-19221575.pdf_1173.jpg",
+      "latency_s": 65.41,
+      "chars": 13179
+    },
+    {
+      "image": "docstructbench_llm-raw-scihub-o.O-ajhb.10190.pdf_5.jpg",
+      "latency_s": 11.16,
+      "chars": 3148
+    },
+    {
+      "image": "docstructbench_llm-raw-scihub-o.O-chin.201023119.pdf_1.jpg",
+      "latency_s": 64.67,
+      "chars": 5954
+    },
+    {
+      "image": "docstructbench_llm-raw-scihub-o.O-j.1365-2818.2003.01210.x.pdf_7.jpg",
+      "latency_s": 4.13,
+      "chars": 956
+    },
+    {
+      "image": "docstructbench_llm-raw-scihub-o.O-j.ergon.2006.10.025.pdf_6.jpg",
+      "latency_s": 65.57,
+      "chars": 14974
+    },
+    {
+      "image": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.jpg",
+      "latency_s": 20.52,
+      "chars": 3883
+    },
+    {
+      "image": "docstructbench_llm-raw-scihub-o.O-s0167-8655%2800%2900107-0.pdf_6.jpg",
+      "latency_s": 26.24,
+      "chars": 2930
+    },
+    {
+      "image": "docstructbench_llm-raw-the-eye-o.O-Character%20Sheet%20-%20Form%20Fillable.pdf_2.jpg",
+      "latency_s": 2.4,
+      "chars": 254
+    },
+    {
+      "image": "eastmoney_0022ae8eddb0de117978289e16ba7fe995dddd3f64aca9e147bb07c848c84aa6.pdf_8.jpg",
+      "latency_s": 18.9,
+      "chars": 1643
+    },
+    {
+      "image": "eastmoney_7f55aa1223310144165074707803522240cf20120b15f5d78fdf61eb4dcefba3.pdf_2.jpg",
+      "latency_s": 64.77,
+      "chars": 4786
+    },
+    {
+      "image": "eastmoney_d2bb183f5254ede5760932ac3118524aa7eddad551935713b435541f1525c1ee.pdf_3.jpg",
+      "latency_s": 14.45,
+      "chars": 1283
+    },
+    {
+      "image": "eastmoney_fdae27854b0cffed1364e2a4457189b2a10ad0b058242ee3c8c9ee8993d7f5c0.pdf_1.jpg",
+      "latency_s": 64.96,
+      "chars": 6380
+    },
+    {
+      "image": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+      "latency_s": 64.38,
+      "chars": 8651
+    },
+    {
+      "image": "exam_paper_en-file-putnam-archive_2002_Solutions_2002s_page_001.png",
+      "latency_s": 65.0,
+      "chars": 13188
+    },
+    {
+      "image": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+      "latency_s": 64.66,
+      "chars": 6910
+    },
+    {
+      "image": "exam_paper_en-file-putnam-archive_2013_Problems_2013_page_002.png",
+      "latency_s": 7.32,
+      "chars": 1402
+    },
+    {
+      "image": "jiaocaineedrop_20608808.pdf_0.jpg",
+      "latency_s": 44.28,
+      "chars": 4631
+    },
+    {
+      "image": "jiaocaineedrop_Chap11.pdf_10.jpg",
+      "latency_s": 8.44,
+      "chars": 2306
+    },
+    {
+      "image": "jiaocaineedrop_chap10.pdf_8.jpg",
+      "latency_s": 64.42,
+      "chars": 8309
+    },
+    {
+      "image": "jiaocaineedrop_jiaocai_needrop_en_1249.jpg",
+      "latency_s": 9.65,
+      "chars": 2902
+    },
+    {
+      "image": "jiaocaineedrop_jiaocai_needrop_en_1276.jpg",
+      "latency_s": 11.82,
+      "chars": 1155
+    },
+    {
+      "image": "jiaocaineedrop_jiaocai_needrop_en_1564.jpg",
+      "latency_s": 27.99,
+      "chars": 2672
+    },
+    {
+      "image": "jiaocaineedrop_jiaocai_needrop_en_1836.jpg",
+      "latency_s": 14.62,
+      "chars": 1257
+    },
+    {
+      "image": "jiaocaineedrop_jiaocai_needrop_en_2374.jpg",
+      "latency_s": 66.34,
+      "chars": 5804
+    },
+    {
+      "image": "jiaocaineedrop_jiaocai_needrop_en_2718.jpg",
+      "latency_s": 7.82,
+      "chars": 673
+    },
+    {
+      "image": "jiaocaineedrop_jiaocai_needrop_en_2884.jpg",
+      "latency_s": 6.19,
+      "chars": 1253
+    },
+    {
+      "image": "jiaocaineedrop_jiaocai_needrop_en_377.jpg",
+      "latency_s": 65.18,
+      "chars": 6019
+    },
+    {
+      "image": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+      "latency_s": 3.88,
+      "chars": 301
+    },
+    {
+      "image": "jiaocaineedrop_jiaocai_needrop_en_669.jpg",
+      "latency_s": 9.89,
+      "chars": 2120
+    },
+    {
+      "image": "magazine_TheEconomist.2023.11.18_page_082.png",
+      "latency_s": 65.52,
+      "chars": 15072
+    },
+    {
+      "image": "magazine_TheEconomist.2023.12.16_page_037.png",
+      "latency_s": 65.27,
+      "chars": 19756
+    },
+    {
+      "image": "magazine_TheEconomist.2024.03.02_page_032.png",
+      "latency_s": 65.2,
+      "chars": 13023
+    },
+    {
+      "image": "newspaper_019d4d5296ba8f1c21277d72fb0cf0db_1.jpg",
+      "latency_s": 64.9,
+      "chars": 7370
+    },
+    {
+      "image": "newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_1.jpg",
+      "latency_s": 65.0,
+      "chars": 9103
+    },
+    {
+      "image": "newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_9.jpg",
+      "latency_s": 65.06,
+      "chars": 14966
+    },
+    {
+      "image": "newspaper_5e266dfd9c498cab274e12a7b4a75755_1.jpg",
+      "latency_s": 64.0,
+      "chars": 21317
+    },
+    {
+      "image": "newspaper_9bb9e05d38b370251a4b0a8d070d1d55_1.jpg",
+      "latency_s": 65.12,
+      "chars": 6838
+    },
+    {
+      "image": "newspaper_The Globe and Mail - 2025-1-8@magazinesclubnew_page_027.png",
+      "latency_s": 9.7,
+      "chars": 2815
+    },
+    {
+      "image": "newspaper_TheGuardianUS-2025-1-8@magazinesclubnew_page_015.png",
+      "latency_s": 65.37,
+      "chars": 18178
+    },
+    {
+      "image": "newspaper_bd75af5f4791aa56ef05ce2443e8a7e0_1.jpg",
+      "latency_s": 64.52,
+      "chars": 8123
+    },
+    {
+      "image": "newspaper_e567840b2e327602422573ccdc1c4275_1.jpg",
+      "latency_s": 65.12,
+      "chars": 6591
+    },
+    {
+      "image": "notes_1ba14cb325bc448f7201b20502ecf2b5_10.jpg",
+      "latency_s": 6.41,
+      "chars": 523
+    },
+    {
+      "image": "notes_1ba14cb325bc448f7201b20502ecf2b5_126.jpg",
+      "latency_s": 64.1,
+      "chars": 7536
+    },
+    {
+      "image": "notes_1ba14cb325bc448f7201b20502ecf2b5_55.jpg",
+      "latency_s": 5.57,
+      "chars": 493
+    },
+    {
+      "image": "notes_1ba14cb325bc448f7201b20502ecf2b5_96.jpg",
+      "latency_s": 63.85,
+      "chars": 6375
+    },
+    {
+      "image": "notes_f7f010b78016aeebd76e56d9283eb67f_115.jpg",
+      "latency_s": 4.64,
+      "chars": 986
+    },
+    {
+      "image": "notes_f7f010b78016aeebd76e56d9283eb67f_45.jpg",
+      "latency_s": 6.72,
+      "chars": 1075
+    },
+    {
+      "image": "notes_f7f010b78016aeebd76e56d9283eb67f_72.jpg",
+      "latency_s": 57.07,
+      "chars": 5882
+    },
+    {
+      "image": "page-07088b2f-f9d6-4c38-9c97-d7f98bc3d556.png",
+      "latency_s": 64.48,
+      "chars": 4355
+    },
+    {
+      "image": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+      "latency_s": 13.45,
+      "chars": 1978
+    },
+    {
+      "image": "page-1f03d0f2-1166-4b9b-9609-94bf8bfd29b2.png",
+      "latency_s": 64.04,
+      "chars": 6098
+    },
+    {
+      "image": "page-39abce32-298b-42ab-8c46-b4fbfbcaa674.png",
+      "latency_s": 5.42,
+      "chars": 589
+    },
+    {
+      "image": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+      "latency_s": 15.48,
+      "chars": 1847
+    },
+    {
+      "image": "page-52875b3d-f4dc-44c2-a9bb-514b0763833d.png",
+      "latency_s": 63.98,
+      "chars": 6542
+    },
+    {
+      "image": "page-573c437e-c309-4483-a038-ef2f440b104a.png",
+      "latency_s": 11.17,
+      "chars": 1669
+    },
+    {
+      "image": "page-66aa2b38-32c0-4222-839a-50df648218df.png",
+      "latency_s": 64.26,
+      "chars": 8782
+    },
+    {
+      "image": "page-8cbbe0d4-a3a8-4533-a620-048bebfa714b.png",
+      "latency_s": 17.21,
+      "chars": 3153
+    },
+    {
+      "image": "page-8d57c3d2-8e50-4161-871f-bfa7b8c0fdb6.png",
+      "latency_s": 6.12,
+      "chars": 1721
+    },
+    {
+      "image": "page-961a543b-d09d-4fd8-944a-1a38d67bb3bc.png",
+      "latency_s": 4.7,
+      "chars": 508
+    },
+    {
+      "image": "page-b13fef06-6ae9-4b2d-a948-0340e03f97ce.png",
+      "latency_s": 7.21,
+      "chars": 638
+    },
+    {
+      "image": "page-b9d507e7-1239-42de-b70a-d7ca65393dc9.png",
+      "latency_s": 18.39,
+      "chars": 1545
+    },
+    {
+      "image": "page-c1c135ad-427e-482b-b01c-05c0ccbc6e76.png",
+      "latency_s": 15.94,
+      "chars": 2730
+    },
+    {
+      "image": "page-d43b98f8-6a96-44f8-a3cf-65de9397f582.png",
+      "latency_s": 64.1,
+      "chars": 9041
+    },
+    {
+      "image": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+      "latency_s": 64.62,
+      "chars": 7560
+    },
+    {
+      "image": "page-f8fad378-8ee9-4bb0-b195-35a4d55f3113.png",
+      "latency_s": 64.42,
+      "chars": 7563
+    },
+    {
+      "image": "scihub_fmicb.2019.01892.pdf_2.jpg",
+      "latency_s": 9.26,
+      "chars": 2126
+    },
+    {
+      "image": "scihub_jee%2Ftoaa103.pdf_2.jpg",
+      "latency_s": 64.78,
+      "chars": 20930
+    },
+    {
+      "image": "yanbaopptmerge_6ffacf656934424ef14b39750f1d93926693dd8b7fa925859f1349d253ba2566.pdf_2.jpg",
+      "latency_s": 64.88,
+      "chars": 7658
+    },
+    {
+      "image": "yanbaopptmerge_9882208cc25205150eeb522e78541631.pdf_501.jpg",
+      "latency_s": 64.64,
+      "chars": 7453
+    },
+    {
+      "image": "yanbaopptmerge_yanbaoPPT_1120.jpg",
+      "latency_s": 1.57,
+      "chars": 256
+    },
+    {
+      "image": "yanbaopptmerge_yanbaoPPT_1745.jpg",
+      "latency_s": 1.61,
+      "chars": 105
+    },
+    {
+      "image": "yanbaopptmerge_yanbaoPPT_3930.jpg",
+      "latency_s": 1.5,
+      "chars": 85
+    },
+    {
+      "image": "yanbaopptmerge_yanbaoPPT_455.jpg",
+      "latency_s": 3.52,
+      "chars": 375
+    },
+    {
+      "image": "yanbaopptmerge_yanbaoPPT_5175.jpg",
+      "latency_s": 1.46,
+      "chars": 108
+    },
+    {
+      "image": "yanbaopptmerge_yanbaoPPT_5940.jpg",
+      "latency_s": 0.91,
+      "chars": 45
+    },
+    {
+      "image": "yanbaopptmerge_yanbaoPPT_840.jpg",
+      "latency_s": 1.38,
+      "chars": 87
+    },
+    {
+      "image": "yanbaor2_0ef01b835238626f3589faa671abdfb832f2b98987eadad53cb2e35699dcc039.pdf_18.jpg",
+      "latency_s": 14.59,
+      "chars": 1531
+    },
+    {
+      "image": "yanbaor2_46d1322f4302f190a3c973320545b892f3a83f0931f1e3ac158069c324049979.pdf_8.jpg",
+      "latency_s": 7.54,
+      "chars": 2109
+    },
+    {
+      "image": "yanbaor2_9be04f6bcbe2c6afc83f0751eb05e361872f9673ccd4bec49cf844c66f34bff0.pdf_19.jpg",
+      "latency_s": 65.15,
+      "chars": 6747
+    },
+    {
+      "image": "yanbaor2_ey-how-can-all-benefit-from-green-leadership-by-the-few.pdf_21.jpg",
+      "latency_s": 9.9,
+      "chars": 3420
+    },
+    {
+      "image": "yanbaor2_ey-icl-barking-and-dagenham-case-study.pdf_10.jpg",
+      "latency_s": 7.52,
+      "chars": 2366
+    }
+  ]
+}

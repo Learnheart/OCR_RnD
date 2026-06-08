@@ -1,0 +1,115 @@
+{
+    "system": {
+        "platform": "Windows-10-10.0.26100-SP0",
+        "python_version": "3.10.20 | packaged by Anaconda, Inc. | (main, Mar 11 2026, 17:42:35) [MSC v.1942 64 bit (AMD64)]",
+        "python_executable": "C:\\Users\\Admin\\.conda\\envs\\omnidocbench\\python.exe",
+        "python_prefix": "C:\\Users\\Admin\\.conda\\envs\\omnidocbench",
+        "conda_env": "",
+        "conda_prefix": "",
+        "libc": "",
+        "uname": "Windows LinhKhanh 10 10.0.26100 AMD64 Intel64 Family 6 Model 191 Stepping 2, GenuineIntel",
+        "os_release": {}
+    },
+    "system_packages": {
+        "package_manager": "unavailable",
+        "tracked_packages": {
+            "ghostscript": "unavailable (no supported package manager found)",
+            "imagemagick": "unavailable (no supported package manager found)",
+            "fontconfig": "unavailable (no supported package manager found)",
+            "python3": "unavailable (no supported package manager found)",
+            "python3-pip": "unavailable (no supported package manager found)",
+            "python3-setuptools": "unavailable (no supported package manager found)",
+            "python3-wheel": "unavailable (no supported package manager found)",
+            "texlive-base": "unavailable (no supported package manager found)",
+            "texlive-binaries": "unavailable (no supported package manager found)",
+            "texlive-lang-chinese": "unavailable (no supported package manager found)",
+            "texlive-lang-cjk": "unavailable (no supported package manager found)",
+            "texlive-latex-base": "unavailable (no supported package manager found)",
+            "texlive-latex-extra": "unavailable (no supported package manager found)",
+            "texlive-fonts-recommended": "unavailable (no supported package manager found)",
+            "texlive-plain-generic": "unavailable (no supported package manager found)",
+            "latexml": "unavailable (no supported package manager found)"
+        }
+    },
+    "python_packages": {
+        "apted": "1.0.3",
+        "beautifulsoup4": "4.11.1",
+        "evaluate": "0.4.3",
+        "func-timeout": "4.3.5",
+        "Levenshtein": "0.25.1",
+        "loguru": "0.7.2",
+        "lxml": "4.9.1",
+        "matplotlib": "3.7.5",
+        "nltk": "3.9.1",
+        "numpy": "1.24.4",
+        "pandas": "2.0.3",
+        "Pillow": "10.4.0",
+        "pylatexenc": "2.10",
+        "PyYAML": "6.0.2",
+        "scipy": "1.10.1",
+        "tabulate": "0.9.0",
+        "tqdm": "4.67.1",
+        "pip": "26.1.1",
+        "setuptools": "82.0.1",
+        "wheel": "0.46.3"
+    },
+    "external_tools": {
+        "pdflatex": {
+            "path": "/share/texlive\\pdflatex",
+            "returncode": null,
+            "output": "unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)"
+        },
+        "kpsewhich": {
+            "path": "/share/texlive\\kpsewhich",
+            "returncode": null,
+            "output": "unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)"
+        },
+        "tlmgr": {
+            "path": "tlmgr",
+            "returncode": null,
+            "output": "unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)"
+        },
+        "ghostscript": {
+            "path": "gs",
+            "returncode": null,
+            "output": "unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)"
+        },
+        "magick": {
+            "path": "magick",
+            "returncode": null,
+            "output": "unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)"
+        },
+        "convert": {
+            "path": "C:\\WINDOWS\\system32\\convert.EXE",
+            "returncode": 4,
+            "output": "Invalid drive specification."
+        },
+        "identify": {
+            "path": "identify",
+            "returncode": null,
+            "output": "unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)"
+        },
+        "latexmlc": {
+            "path": "latexmlc",
+            "returncode": null,
+            "output": "unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)"
+        }
+    },
+    "texlive": {
+        "cjk_font_family": "gkai",
+        "cjk_sty": {
+            "path": "unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)",
+            "version": "unavailable",
+            "date": "",
+            "header": "",
+            "status": "not_found"
+        },
+        "cjk_font_fd": {
+            "path": "unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)",
+            "version": "unavailable",
+            "date": "",
+            "header": "",
+            "status": "not_found"
+        }
+    }
+}

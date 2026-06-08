@@ -1,0 +1,12 @@
+{
+  "stats": {
+    "n_total": 0,
+    "n_done": 0,
+    "n_error": 0,
+    "avg_latency_s": 0.0,
+    "p50_latency_s": 0,
+    "max_latency_s": 0,
+    "elapsed_s": 0.0
+  },
+  "records": []
+}

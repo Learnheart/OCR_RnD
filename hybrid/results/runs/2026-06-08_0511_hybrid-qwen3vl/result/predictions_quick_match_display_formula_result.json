@@ -1,0 +1,4151 @@
+[
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$f\\left( {x}_{2}\\right)  = {P}_{2}\\left( {x}_{2}\\right)  = {a}_{0} + {a}_{1}\\left( {{x}_{2}\\;{x}_{0}}\\right)  + {a}_{2}\\left( {{x}_{2}\\;{x}_{0}}\\right) \\left( {{x}_{2}\\;{x}_{1}}\\right) .\\tag{11}$$",
+        "pred_idx": [
+            11
+        ],
+        "pred": "\\[f(x_2) = P_2(x_2) = a_0 + a_1(x_2 - x_0) + a_2(x_2 - x_0)(x_2 - x_1)\\]",
+        "edit": 0.05555555555555555,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            4
+        ],
+        "pred_position": 276,
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+        "norm_gt": "f(x_2)=p_2(x_2)=a_0+a_1(x_2x_0)+a_2(x_2x_0)(x_2x_1)",
+        "norm_pred": "f(x_2)=p_2(x_2)=a_0+a_1(x_2-x_0)+a_2(x_2-x_0)(x_2-x_1)",
+        "gt_cdm": "f\\left( {x}_{2}\\right)  = {P}_{2}\\left( {x}_{2}\\right)  = {a}_{0} + {a}_{1}\\left( {{x}_{2}\\;{x}_{0}}\\right)  + {a}_{2}\\left( {{x}_{2}\\;{x}_{0}}\\right) \\left( {{x}_{2}\\;{x}_{1}}\\right) .",
+        "image_name": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+        "upper_len": 54,
+        "metric": {
+            "Edit_dist": 0.05555555555555555
+        },
+        "Edit_num": 3
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$a_2 = \\frac{ f(x_2) \\quad a_0 \\quad a_1(x_2 \\quad x_0 )}{(x_2 \\quad x_0)(x_2 \\quad x_1)}$$",
+        "pred_idx": [
+            0
+        ],
+        "pred": "\\[ (11) f(x_2) = P_2(x_2) = a_0 + a_1(x_2 - x_0) + a_2(x_2 - x_0)(x_2 - x_1) . \\]",
+        "edit": 0.39655172413793105,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            6
+        ],
+        "pred_position": 265,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+        "norm_gt": "a_2=\\fracf(x_2)a_0a_1(x_2x_0)(x_2x_0)(x_2x_1)",
+        "norm_pred": "(11)f(x_2)=p_2(x_2)=a_0+a_1(x_2-x_0)+a_2(x_2-x_0)(x_2-x_1)",
+        "gt_cdm": "a_2 = \\frac{ f(x_2) \\quad a_0 \\quad a_1(x_2 \\quad x_0 )}{(x_2 \\quad x_0)(x_2 \\quad x_1)}",
+        "image_name": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+        "upper_len": 58,
+        "metric": {
+            "Edit_dist": 0.39655172413793105
+        },
+        "Edit_num": 23
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "$$= \\left( \\frac{f(x_2)~f(x_0)}{{x_2}~{x_0}} \\qquad \\frac{f(x_1)~f(x_0)}{{x_1}~{x_0}} \\quad \\right) / (x_2 \\quad x_1).$$",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[ (12) a_2 = \\frac{f(x_2) - f(x_1)}{x_2 - x_1} - \\frac{f(x_1) - f(x_0)}{x_1 - x_0} . \\]",
+        "edit": 0.423728813559322,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            7
+        ],
+        "pred_position": 665,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+        "norm_gt": "=(\\fracf(x_2)f(x_0)x_2x_0\\fracf(x_1)f(x_0)x_1x_0)/(x_2x_1)",
+        "norm_pred": "(12)a_2=\\fracf(x_2)-f(x_1)x_2-x_1-\\fracf(x_1)-f(x_0)x_1-x_0",
+        "gt_cdm": "= \\left( \\frac{f(x_2)~f(x_0)}{{x_2}~{x_0}} \\qquad \\frac{f(x_1)~f(x_0)}{{x_1}~{x_0}} \\quad \\right) / (x_2 \\quad x_1).",
+        "image_name": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+        "upper_len": 59,
+        "metric": {
+            "Edit_dist": 0.423728813559322
+        },
+        "Edit_num": 25
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "$$a_2 = \\left( \\frac{f(x_2)f(x_1)}{{x_2}~{x_1}} \\quad \\quad \\frac{f(x_1)f(x_0)}{{x_1}~{x_0}} \\quad \\right) / (x_2 \\quad x_0).\\tag{12}$$",
+        "pred_idx": [
+            12
+        ],
+        "pred": "\\[a_2 = \\frac{f(x_2) - f(x_1)}{x_2 - x_1} - \\frac{f(x_1) - f(x_0)}{x_1 - x_0}\\]",
+        "edit": 0.2459016393442623,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            9
+        ],
+        "pred_position": 684,
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+        "norm_gt": "a_2=(\\fracf(x_2)f(x_1)x_2x_1\\fracf(x_1)f(x_0)x_1x_0)/(x_2x_0)",
+        "norm_pred": "a_2=\\fracf(x_2)-f(x_1)x_2-x_1-\\fracf(x_1)-f(x_0)x_1-x_0",
+        "gt_cdm": "a_2 = \\left( \\frac{f(x_2)f(x_1)}{{x_2}~{x_1}} \\quad \\quad \\frac{f(x_1)f(x_0)}{{x_1}~{x_0}} \\quad \\right) / (x_2 \\quad x_0).",
+        "image_name": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+        "upper_len": 61,
+        "metric": {
+            "Edit_dist": 0.2459016393442623
+        },
+        "Edit_num": 15
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "$$f[x_k] = f(x_k),$$",
+        "pred_idx": [
+            3
+        ],
+        "pred": "\\[ f[x_0] = f(x_0) , \\]",
+        "edit": 0.14285714285714285,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            12
+        ],
+        "pred_position": 1187,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+        "norm_gt": "f[x_k]=f(x_k),",
+        "norm_pred": "f[x_0]=f(x_0),",
+        "gt_cdm": "f[x_k] = f(x_k),",
+        "image_name": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+        "upper_len": 14,
+        "metric": {
+            "Edit_dist": 0.14285714285714285
+        },
+        "Edit_num": 2
+    },
+    {
+        "gt_idx": [
+            5
+        ],
+        "gt": "$$f[x_{k~~1}, x_k] = \\frac{f[x_k]~f[x_{k~~1}]}{{x_k}~ x_{k~1}},$$",
+        "pred_idx": [
+            16
+        ],
+        "pred": "\\[f[x_1, x_0] = \\frac{f(x_1) - f(x_0)}{x_1 - x_0}\\]",
+        "edit": 0.41025641025641024,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            13
+        ],
+        "pred_position": 1232,
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+        "norm_gt": "f[x_k1,x_k]=\\fracf[x_k]f[x_k1]x_kx_k1},",
+        "norm_pred": "f[x_1,x_0]=\\fracf(x_1)-f(x_0)x_1-x_0",
+        "gt_cdm": "f[x_{k~~1}, x_k] = \\frac{f[x_k]~f[x_{k~~1}]}{{x_k}~ x_{k~1}},",
+        "image_name": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+        "upper_len": 39,
+        "metric": {
+            "Edit_dist": 0.41025641025641024
+        },
+        "Edit_num": 16
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "$$f[x_{k\\quad2}, x_{k\\quad1}, x_k] = \\frac{f[x_{k\\quad1},x_k]\\quad f[x_{k\\quad2}, x_{k\\quad1}]}{x_k\\quad x_{k\\quad2}} ,\\tag{13}$$",
+        "pred_idx": [
+            5
+        ],
+        "pred": "\\[ f[x_2, x_1, x_0] = \\frac{f[x_1, x_0] - f[x_0]}{x_1 - x_0} = \\frac{f[x_2, x_1] - f[x_1, x_0]}{x_2 - x_1} , \\]",
+        "edit": 0.4936708860759494,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            14
+        ],
+        "pred_position": 1260,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+        "norm_gt": "f[x_k2,x_k1,x_k]=\\fracf[x_k1,x_k]f[x_k2,x_k1]x_kx_k2,",
+        "norm_pred": "f[x_2,x_1,x_0]=\\fracf[x_1,x_0]-f[x_0]x_1-x_0=\\fracf[x_2,x_1]-f[x_1,x_0]x_2-x_1,",
+        "gt_cdm": "f[x_{k\\quad2}, x_{k\\quad1}, x_k] = \\frac{f[x_{k\\quad1},x_k]\\quad f[x_{k\\quad2}, x_{k\\quad1}]}{x_k\\quad x_{k\\quad2}} ,",
+        "image_name": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+        "upper_len": 79,
+        "metric": {
+            "Edit_dist": 0.4936708860759494
+        },
+        "Edit_num": 39
+    },
+    {
+        "gt_idx": [
+            7
+        ],
+        "gt": "$$f[x_{k\\quad 3}, x_{k\\quad 2}, x_{k\\quad 1}, x_k] = \\frac{f[x_{k\\quad 2}, x_{k\\quad 1}, x_k]\\quad f[x_{k\\quad 3}, x_{k\\quad 2}, x_{k\\quad 1}]}{x_k\\quad  x_{k\\quad 3}} .$$",
+        "pred_idx": [
+            18
+        ],
+        "pred": "\\[f[x_3, x_2, x_1, x_0] = \\frac{f[x_2, x_1, x_0] - f[x_1, x_0]}{x_2 - x_0} = \\frac{f[x_3, x_2, x_1] - f[x_2, x_1, x_0]}{x_3 - x_1}\\]",
+        "edit": 0.5102040816326531,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            15
+        ],
+        "pred_position": 1392,
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+        "norm_gt": "f[x_k3,x_k2,x_k1,x_k]=\\fracf[x_k2,x_k1,x_k]f[x_k3,x_k2,x_k1]x_kx_k3",
+        "norm_pred": "f[x_3,x_2,x_1,x_0]=\\fracf[x_2,x_1,x_0]-f[x_1,x_0]x_2-x_0=\\fracf[x_3,x_2,x_1]-f[x_2,x_1,x_0]x_3-x_1",
+        "gt_cdm": "f[x_{k\\quad 3}, x_{k\\quad 2}, x_{k\\quad 1}, x_k] = \\frac{f[x_{k\\quad 2}, x_{k\\quad 1}, x_k]\\quad f[x_{k\\quad 3}, x_{k\\quad 2}, x_{k\\quad 1}]}{x_k\\quad  x_{k\\quad 3}} .",
+        "image_name": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+        "upper_len": 98,
+        "metric": {
+            "Edit_dist": 0.5102040816326531
+        },
+        "Edit_num": 50
+    },
+    {
+        "gt_idx": [
+            8
+        ],
+        "gt": "$$f\\left\\lbrack  {{x}_{k\\;j},{x}_{k\\;j + 1},\\ldots ,{x}_{k}}\\right\\rbrack   = \\frac{f\\left\\lbrack  {{x}_{k\\;j + 1},\\ldots ,{x}_{k}}\\right\\rbrack \\quad f\\left\\lbrack  {{x}_{k\\;j},\\ldots ,{x}_{k\\;1}}\\right\\rbrack  }{{x}_{k}\\quad{x}_{k\\;j}}\\tag{14}$$",
+        "pred_idx": [
+            19
+        ],
+        "pred": "\\[f[x_{j+1}, x_j, \\dots, x_0] = \\frac{f[x_{j+1}, x_j, \\dots, x_1] - f[x_j, \\dots, x_0]}{x_{j+1} - x_0}\\]",
+        "edit": 0.5663716814159292,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            17
+        ],
+        "pred_position": 1603,
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+        "norm_gt": "f\\lbrackx_kj,x_kj+1,\\ldots,x_k\\rbrack=\\fracf\\lbrackx_kj+1,\\ldots,x_k\\rbrackf\\lbrackx_kj,\\ldots,x_k1\\rbrackx_kx_kj",
+        "norm_pred": "f[x_j+1,x_j,\\dots,x_0]=\\fracf[x_j+1,x_j,\\dots,x_1]-f[x_j,\\dots,x_0]x_j+1-x_0",
+        "gt_cdm": "f\\left\\lbrack  {{x}_{k\\;j},{x}_{k\\;j + 1},\\ldots ,{x}_{k}}\\right\\rbrack   = \\frac{f\\left\\lbrack  {{x}_{k\\;j + 1},\\ldots ,{x}_{k}}\\right\\rbrack \\quad f\\left\\lbrack  {{x}_{k\\;j},\\ldots ,{x}_{k\\;1}}\\right\\rbrack  }{{x}_{k}\\quad{x}_{k\\;j}}",
+        "image_name": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+        "upper_len": 113,
+        "metric": {
+            "Edit_dist": 0.5663716814159292
+        },
+        "Edit_num": 64
+    },
+    {
+        "gt_idx": [
+            9
+        ],
+        "gt": "$${a}_{k} = f\\left\\lbrack  {{x}_{0},{x}_{1},\\ldots ,{x}_{k}}\\right\\rbrack  .\\tag{15}$$",
+        "pred_idx": [
+            23
+        ],
+        "pred": "\\[a_k = f[x_0, x_1, \\dots, x_k]\\]",
+        "edit": 0.40540540540540543,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            21
+        ],
+        "pred_position": 1945,
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+        "norm_gt": "a_k=f\\lbrackx_0,x_1,\\ldots,x_k\\rbrack",
+        "norm_pred": "a_k=f[x_0,x_1,\\dots,x_k]",
+        "gt_cdm": "{a}_{k} = f\\left\\lbrack  {{x}_{0},{x}_{1},\\ldots ,{x}_{k}}\\right\\rbrack  .",
+        "image_name": "page-0a262e27-b24d-4429-9b21-90563d4fada7.png",
+        "upper_len": 37,
+        "metric": {
+            "Edit_dist": 0.40540540540540543
+        },
+        "Edit_num": 15
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\\left\\lbrack  \\begin{array}{ccccccc} {b}_{1} & {c}_{1} & & & & & & \\\\  {a}_{1} & {b}_{2} & {c}_{2} & & & & & \\\\   & &  \\ddots  & & & & & \\\\   & & & {a}_{N\\quad3} & {b}_{N\\quad 2}  & {c}_{N\\quad 2} \\\\   & & & & {a}_{N\\quad2} & {b}_{N\\quad1} \\end{array}\\right\\rbrack  \\left\\lbrack  \\begin{array}{c} {m}_{1} \\\\  {m}_{2} \\\\  \\vdots \\\\  {m}_{N\\quad2} \\\\  {m}_{N\\quad1} \\\\  \\end{array}\\right\\rbrack   = \\left\\lbrack  \\begin{array}{cc} {v}_{1} \\\\  {v}_{2} \\\\  \\vdots \\\\  {v}_{N\\quad2} \\\\  {v}_{N\\quad1}  \\\\  \\end{array}\\right\\rbrack  .\\tag{15}$$",
+        "pred_idx": [
+            4
+        ],
+        "pred": "\\[ \\begin{bmatrix} b_1 & c_1 & & & \\\\ & b_2 & c_2 & & \\\\ & & \\ddots & \\ddots & \\\\ & & & b_{N-1} & c_{N-1} \\\\ & & & & b_N \\end{bmatrix} \\begin{bmatrix} m_1 \\\\ m_2 \\\\ \\vdots \\\\ m_{N-1} \\\\ m_N \\end{bmatrix} = \\begin{bmatrix} v_1 \\\\ v_2 \\\\ \\vdots \\\\ v_{N-1} \\\\ v_N \\end{bmatrix} \\]",
+        "edit": 0.47651006711409394,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            6
+        ],
+        "pred_position": 1214,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "page-573c437e-c309-4483-a038-ef2f440b104a.png",
+        "norm_gt": "\\lbrackb_1_1\\\\a_1b_2_2\\\\\\ddots\\\\a_n3b_n2_n2\\\\a_n2b_n1\\rbrack\\lbrackm_1\\\\m_2\\\\\\vdots\\\\m_n2\\\\m_n1\\\\\\rbrack=\\lbrackv_1\\\\v_2\\\\\\vdots\\\\v_n2\\\\v_n1\\\\\\rbrack",
+        "norm_pred": "b_1c_1\\\\b_2c_2\\\\\\ddots\\ddots\\\\b_n-1c_n-1\\\\b_nm_1\\\\m_2\\\\\\vdots\\\\m_n-1\\\\m_n=v_1\\\\v_2\\\\\\vdots\\\\v_n-1\\\\v_n",
+        "gt_cdm": "\\left\\lbrack  \\begin{array}{ccccccc} {b}_{1} & {c}_{1} & & & & & & \\\\  {a}_{1} & {b}_{2} & {c}_{2} & & & & & \\\\   & &  \\ddots  & & & & & \\\\   & & & {a}_{N\\quad3} & {b}_{N\\quad 2}  & {c}_{N\\quad 2} \\\\   & & & & {a}_{N\\quad2} & {b}_{N\\quad1} \\end{array}\\right\\rbrack  \\left\\lbrack  \\begin{array}{c} {m}_{1} \\\\  {m}_{2} \\\\  \\vdots \\\\  {m}_{N\\quad2} \\\\  {m}_{N\\quad1} \\\\  \\end{array}\\right\\rbrack   = \\left\\lbrack  \\begin{array}{cc} {v}_{1} \\\\  {v}_{2} \\\\  \\vdots \\\\  {v}_{N\\quad2} \\\\  {v}_{N\\quad1}  \\\\  \\end{array}\\right\\rbrack  .",
+        "pred_cdm_alt": "\\begin{bmatrix}b_1&c_1&\\\\&b_2&c_2\\\\&&\\ddots&\\ddots\\\\&&&b_{N-1}&c_{N-1}\\\\&&&&b_N\\end{bmatrix} \\begin{bmatrix}m_1\\\\m_2\\\\\\vdots\\\\m_{N-1}\\\\m_N\\end{bmatrix} = \\begin{bmatrix}v_1\\\\v_2\\\\\\vdots\\\\v_{N-1}\\\\v_N\\end{bmatrix}",
+        "image_name": "page-573c437e-c309-4483-a038-ef2f440b104a.png",
+        "upper_len": 149,
+        "metric": {
+            "Edit_dist": 0.47651006711409394
+        },
+        "Edit_num": 71
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$( a _ { 1 } ^ { 2 } + { a _ { 2 } } ^ { 2 } + { a _ { 3 } } ^ { 2 } + . . . . . . + a _ { n } ^ { 2 } ) ( b _ { 1 } ^ { 2 } + b _ { 2 } ^ { 2 } + b _ { 3 } ^ { 2 } + . . . . . . + b _ { n } ^ { 2 } ) \\geq ( a _ { 1 } b _ { 1 } + a _ { 2 } b _ { 2 } + a _ { 3 } b _ { 3 } + . . . . . . + a _ { n } b _ { n } ) ^ { 2 }\\text{ 字母均为}R,$$",
+        "pred_idx": [
+            1
+        ],
+        "pred": "\\[(a^2 + b^2)(c^2 + d^2) \\ge (ac + bd)^2\\]",
+        "gt_position": [
+            9
+        ],
+        "pred_position": 134,
+        "norm_gt": "(a_1^2+a_2^2+a_3^2+......+a_n^2)(b_1^2+b_2^2+b_3^2+......+b_n^2)\\geq(a_1b_1+a_2b_2+a_3b_3+......+a_nb_n)^2{字母均为}r,",
+        "norm_pred": "(a^2+b^2)(c^2+d^2)\\ge(ac+bd)^2",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7807017543859649,
+        "img_id": "page-d43b98f8-6a96-44f8-a3cf-65de9397f582.png",
+        "gt_cdm": "( a _ { 1 } ^ { 2 } + { a _ { 2 } } ^ { 2 } + { a _ { 3 } } ^ { 2 } + . . . . . . + a _ { n } ^ { 2 } ) ( b _ { 1 } ^ { 2 } + b _ { 2 } ^ { 2 } + b _ { 3 } ^ { 2 } + . . . . . . + b _ { n } ^ { 2 } ) \\geq ( a _ { 1 } b _ { 1 } + a _ { 2 } b _ { 2 } + a _ { 3 } b _ { 3 } + . . . . . . + a _ { n } b _ { n } ) ^ { 2 }\\text{ 字母均为}R,",
+        "image_name": "page-d43b98f8-6a96-44f8-a3cf-65de9397f582.png",
+        "upper_len": 114,
+        "metric": {
+            "Edit_dist": 0.7807017543859649
+        },
+        "Edit_num": 89
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$\\Rightarrow\n\\left\\{\\begin{array}{l}\na=\\sqrt{m},b=\\sqrt{n},c=\\sqrt{x+p},d=\\sqrt{-x+q} \\\\\n \\\\\n\\sqrt{m\\left(x+p\\right)}+\\sqrt{n\\left(-x+q\\right)}\\leq\\sqrt{\\left(\\sqrt{m}^{2}+\\sqrt{n}^{2}\\right)}\\sqrt{\\left(\\sqrt{x+p}^{2}+\\sqrt{-x+q}^{2}\\right)}=\\sqrt{m+n}\\sqrt{q+q} \\\\\n \\\\\n\\text{当且仅当}\\frac{\\sqrt{m}}{\\sqrt{x+p}}=\\frac{\\sqrt{n}}{\\sqrt{-x+q}}\\text{时取等}; & \n\\end{array}\\right.$$",
+        "pred_idx": [
+            0
+        ],
+        "pred": "\\[f(x) = \\sqrt{a^2 + b^2} + \\sqrt{c^2 + d^2}\\]",
+        "gt_position": [
+            12
+        ],
+        "pred_position": 45,
+        "norm_gt": "\\rightarrowa=\\sqrtm,b=\\sqrtn,c=\\sqrtx+p,d=\\sqrt-x+q\\\\\\\\\\sqrtm(x+p)+\\sqrtn(-x+q)\\leq\\sqrt(\\sqrtm^2+\\sqrtn^2)\\sqrt(\\sqrtx+p^2+\\sqrt-x+q^2)=\\sqrtm+n\\sqrtq+q\\\\\\\\{当且仅当}\\frac{\\sqrtm}\\sqrtx+p=\\frac{\\sqrtn}\\sqrt-x+q{时取等};",
+        "norm_pred": "f(x)=\\sqrta^2+b^2+\\sqrtc^2+d^2",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.892018779342723,
+        "img_id": "page-d43b98f8-6a96-44f8-a3cf-65de9397f582.png",
+        "gt_cdm": "\\Rightarrow\n\\left\\{\\begin{array}{l}\na=\\sqrt{m},b=\\sqrt{n},c=\\sqrt{x+p},d=\\sqrt{-x+q} \\\\\n \\\\\n\\sqrt{m\\left(x+p\\right)}+\\sqrt{n\\left(-x+q\\right)}\\leq\\sqrt{\\left(\\sqrt{m}^{2}+\\sqrt{n}^{2}\\right)}\\sqrt{\\left(\\sqrt{x+p}^{2}+\\sqrt{-x+q}^{2}\\right)}=\\sqrt{m+n}\\sqrt{q+q} \\\\\n \\\\\n\\text{当且仅当}\\frac{\\sqrt{m}}{\\sqrt{x+p}}=\\frac{\\sqrt{n}}{\\sqrt{-x+q}}\\text{时取等}; & \n\\end{array}\\right.",
+        "image_name": "page-d43b98f8-6a96-44f8-a3cf-65de9397f582.png",
+        "upper_len": 213,
+        "metric": {
+            "Edit_dist": 0.892018779342723
+        },
+        "Edit_num": 190
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\\hat{W} = \\frac{1}{2}\\left( {\\hat{R} +  *  \\circ  \\hat{R} \\circ   * }\\right)  + \\frac{{\\operatorname{scal}}_{g}}{12}I,\\quad \\tag{10}$$",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[ \\hat{W} = \\frac{1}{2} \\left( \\hat{B} + \\hat{B}^* \\right) = \\frac{\\text{tr}(\\hat{B})}{2} I. \\]",
+        "gt_position": [
+            2
+        ],
+        "pred_position": 92,
+        "norm_gt": "\\hatw=\\frac12(\\hatr+*\\circ\\hatr\\circ*)+\\fracscal_g}12i,",
+        "norm_pred": "\\hatw=\\frac12(\\hatb+\\hatb^*)=\\fractr(\\hatb)2i",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.43636363636363634,
+        "img_id": "page-c1c135ad-427e-482b-b01c-05c0ccbc6e76.png",
+        "gt_cdm": "\\hat{W} = \\frac{1}{2}\\left( {\\hat{R} +  *  \\circ  \\hat{R} \\circ   * }\\right)  + \\frac{{\\operatorname{scal}}_{g}}{12}I,\\quad ",
+        "image_name": "page-c1c135ad-427e-482b-b01c-05c0ccbc6e76.png",
+        "upper_len": 55,
+        "metric": {
+            "Edit_dist": 0.43636363636363634
+        },
+        "Edit_num": 24
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$P \\mapsto  \\langle \\hat{W}P,P{\\rangle }_{g}\\;,\\;P \\in  {G}_{p}. \\tag{11}$$",
+        "pred_idx": [
+            22
+        ],
+        "pred": "\\[ T \\mapsto (W, P_{+k})_k, \\quad P \\in G_{+k}. \\]",
+        "gt_position": [
+            4
+        ],
+        "pred_position": 1318,
+        "norm_gt": "p\\mapsto\\langle\\hatwp,p{\\rangle}_g,p\\ing_p.",
+        "norm_pred": "t\\mapsto(w,p_+k)_k,p\\ing_+k",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.5813953488372093,
+        "img_id": "page-c1c135ad-427e-482b-b01c-05c0ccbc6e76.png",
+        "gt_cdm": "P \\mapsto  \\langle \\hat{W}P,P{\\rangle }_{g}\\;,\\;P \\in  {G}_{p}. ",
+        "image_name": "page-c1c135ad-427e-482b-b01c-05c0ccbc6e76.png",
+        "upper_len": 43,
+        "metric": {
+            "Edit_dist": 0.5813953488372093
+        },
+        "Edit_num": 25
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "$$W\\left( {T,\\cdot ,\\cdot ,T}\\right)  = 0\\;,\\;\\text{ some unit }T \\in  {T}_{p}M. \\tag{12}$$",
+        "pred_idx": [
+            28
+        ],
+        "pred": "\\[ W(T, \\cdot) = 0, \\quad \\text{some unit } T \\in T_xM. \\]",
+        "gt_position": [
+            8
+        ],
+        "pred_position": 1801,
+        "norm_gt": "w({t,\\cdot,\\cdot,t})=0,someunitt\\int_pm.",
+        "norm_pred": "w(t,\\cdot)=0,someunitt\\int_xm",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.3,
+        "img_id": "page-c1c135ad-427e-482b-b01c-05c0ccbc6e76.png",
+        "gt_cdm": "W\\left( {T,\\cdot ,\\cdot ,T}\\right)  = 0\\;,\\;\\text{ some unit }T \\in  {T}_{p}M. ",
+        "image_name": "page-c1c135ad-427e-482b-b01c-05c0ccbc6e76.png",
+        "upper_len": 40,
+        "metric": {
+            "Edit_dist": 0.3
+        },
+        "Edit_num": 12
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "$$g \\mathrel{\\text{:=}} {\\left( 2x\\right) }^{3}{\\left( dr\\right) }^{2} + {\\left( dx\\right) }^{2} + {\\left( 2x\\right) }^{-3}{\\left( dy\\right) }^{2} + {\\left( dz\\right) }^{2}.$$",
+        "pred_idx": [
+            30
+        ],
+        "pred": "\\[g = (dx^1)^2 + (dx^2)^2 + (dx^3)^2 + (dx^4)^2\\]",
+        "gt_position": [
+            10
+        ],
+        "pred_position": 2013,
+        "norm_gt": "g\\mathrel:=(2x)^3(dr)^2+(dx)^2+(2x)^-3(dy)^2+(dz)^2",
+        "norm_pred": "g=(dx^1)^2+(dx^2)^2+(dx^3)^2+(dx^4)^2",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.5098039215686274,
+        "img_id": "page-c1c135ad-427e-482b-b01c-05c0ccbc6e76.png",
+        "gt_cdm": "g \\mathrel{\\text{:=}} {\\left( 2x\\right) }^{3}{\\left( dr\\right) }^{2} + {\\left( dx\\right) }^{2} + {\\left( 2x\\right) }^{-3}{\\left( dy\\right) }^{2} + {\\left( dz\\right) }^{2}.",
+        "image_name": "page-c1c135ad-427e-482b-b01c-05c0ccbc6e76.png",
+        "upper_len": 51,
+        "metric": {
+            "Edit_dist": 0.5098039215686274
+        },
+        "Edit_num": 26
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "$$\\hat{W}=\\left\\lbrack\\begin{array}{ccccccccc}{W}_{1212} & {W}_{1312} & {W}_{1412} & {W}_{3412} & {W}_{2412} & {W}_{2312}\\\\ {W}_{1213} & {W}_{1313} & {W}_{1413} & {W}_{3413} & {W}_{4213} & {W}_{2313}\\\\ {W}_{1214} & {W}_{1314} & {W}_{1414} & {W}_{3414} & {W}_{4214} & {W}_{2314}\\\\ {W}_{1234} & {W}_{1334} & {W}_{1434} & {W}_{3434} & {W}_{4234} & {W}_{2334}\\\\ {W}_{1242} & {W}_{1342} & {W}_{1442} & {W}_{3442} & {W}_{4242} & {W}_{2342}\\\\ {W}_{1223} & {W}_{1323} & {W}_{1423} & {W}_{3423} & {W}_{4223} & {W}_{2323}\\end{array}\\right\\rbrack=\\frac{3}{2{x}^{2}}\\left\\lbrack\\begin{array}{ccccccc}0 & 0 & 0 & 0 & 0 & 0\\\\ 0 & -1 & 0 & 0 & 0 & 0\\\\ 0 & 0 & 1 & 0 & 0 & 0\\\\ 0 & 0 & 0 & 0 & 0 & 0\\\\ 0 & 0 & 0 & 0 & -1 & 0\\\\ 0 & 0 & 0 & 0 & 0 & 1\\end{array}\\right\\rbrack.\\tag{13}$$",
+        "pred_idx": [
+            33
+        ],
+        "pred": "\\[ \\begin{array}{c|cccc}  & e_1 & e_2 & e_3 & e_4 \\\\ \\hline e_1 & 0 & 0 & 0 & 0 \\\\ e_2 & 0 & 0 & 0 & 0 \\\\ e_3 & 0 & 0 & 0 & 0 \\\\ e_4 & 0 & 0 & 0 & 0 \\\\ \\end{array} \\]",
+        "gt_position": [
+            12
+        ],
+        "pred_position": 2346,
+        "norm_gt": "\\hatw=\\lbrackw_1212w_1312w_1412w_3412w_2412w_2312\\\\w_1213w_1313w_1413w_3413w_4213w_2313\\\\w_1214w_1314w_1414w_3414w_4214w_2314\\\\w_1234w_1334w_1434w_3434w_4234w_2334\\\\w_1242w_1342w_1442w_3442w_4242w_2342\\\\w_1223w_1323w_1423w_3423w_4223w_2323\\rbrack=\\frac32x^2\\lbrack000000\\\\0-10000\\\\001000\\\\000000\\\\0000-10\\\\000001\\rbrack",
+        "norm_pred": "e_1e_2e_3e_4\\\\\\hlinee_10000\\\\e_20000\\\\e_30000\\\\e_40000\\\\",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.8871473354231975,
+        "img_id": "page-c1c135ad-427e-482b-b01c-05c0ccbc6e76.png",
+        "gt_cdm": "\\hat{W}=\\left\\lbrack\\begin{array}{ccccccccc}{W}_{1212} & {W}_{1312} & {W}_{1412} & {W}_{3412} & {W}_{2412} & {W}_{2312}\\\\ {W}_{1213} & {W}_{1313} & {W}_{1413} & {W}_{3413} & {W}_{4213} & {W}_{2313}\\\\ {W}_{1214} & {W}_{1314} & {W}_{1414} & {W}_{3414} & {W}_{4214} & {W}_{2314}\\\\ {W}_{1234} & {W}_{1334} & {W}_{1434} & {W}_{3434} & {W}_{4234} & {W}_{2334}\\\\ {W}_{1242} & {W}_{1342} & {W}_{1442} & {W}_{3442} & {W}_{4242} & {W}_{2342}\\\\ {W}_{1223} & {W}_{1323} & {W}_{1423} & {W}_{3423} & {W}_{4223} & {W}_{2323}\\end{array}\\right\\rbrack=\\frac{3}{2{x}^{2}}\\left\\lbrack\\begin{array}{ccccccc}0 & 0 & 0 & 0 & 0 & 0\\\\ 0 & -1 & 0 & 0 & 0 & 0\\\\ 0 & 0 & 1 & 0 & 0 & 0\\\\ 0 & 0 & 0 & 0 & 0 & 0\\\\ 0 & 0 & 0 & 0 & -1 & 0\\\\ 0 & 0 & 0 & 0 & 0 & 1\\end{array}\\right\\rbrack.",
+        "pred_cdm_alt": "\\begin{array}{c|cccc}&e_1&e_2&e_3&e_4\\\\\\hline e_1&0&0&0&0\\\\e_2&0&0&0&0\\\\e_3&0&0&0&0\\\\e_4&0&0&0&0\\end{array}",
+        "image_name": "page-c1c135ad-427e-482b-b01c-05c0ccbc6e76.png",
+        "upper_len": 319,
+        "metric": {
+            "Edit_dist": 0.8871473354231975
+        },
+        "Edit_num": 283
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$D^{2}\\varphi_{\\tau,j}(x)=\\mathbb{E}\\Big[\\sum_{j_{i}=1}^{d}\\Big(D\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{1}x_{j_{i}}}^{2}X_{\\tau}(t_{k},x;t_{k+j})+D^{2}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))$$",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[ \\mathcal{D}^{\\alpha}_{x} \\varphi_{i}(x) = \\sum_{j=1}^{d} \\left( \\partial_{x_j}(\\mathcal{D}_{x}^{\\alpha} \\varphi_{i}(x, t_{i}, t_{i+1})) + \\mathcal{D}^{\\alpha}_{x} \\varphi_{i}(x, t_{i}, t_{i+1}) \\right) \\]",
+        "gt_position": [
+            1
+        ],
+        "pred_position": 303,
+        "norm_gt": "d^2\\varphi_{\\tau,j}(x)=e\\big[\\sum_j_i=1^d\\big(d\\varphi_{\\tau}(x_{\\tau}(t_k,x;t_k+j))d_{x_1x_j_i^2x_{\\tau}(t_k,x;t_k+j)+d^2\\varphi_{\\tau}(x_{\\tau}(t_k,x;t_k+j))",
+        "norm_pred": "d^{\\alpha}_x\\varphi_i(x)=\\sum_j=1^d(\\partial_x_j(d_x^{\\alpha}\\varphi_i(x,t_i,t_i+1))+d^{\\alpha}_x\\varphi_i(x,t_i,t_i+1))",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.6352201257861635,
+        "img_id": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "gt_cdm": "D^{2}\\varphi_{\\tau,j}(x)=\\mathbb{E}\\Big[\\sum_{j_{i}=1}^{d}\\Big(D\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{1}x_{j_{i}}}^{2}X_{\\tau}(t_{k},x;t_{k+j})+D^{2}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))",
+        "image_name": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "upper_len": 159,
+        "metric": {
+            "Edit_dist": 0.6352201257861635
+        },
+        "Edit_num": 101
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$D_{x_{1}}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{i}}}X_{\\tau}(t_{k},x;t_{k+j}),\\cdots,D\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{d}x_{j_{i}}}^{2}X_{\\tau}(t_{k},x;t_{k+j})$$",
+        "pred_idx": [
+            3
+        ],
+        "pred": "\\[ D_{x}^{\\alpha} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| \\cdots D_{x}^{\\alpha} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| \\]",
+        "gt_position": [
+            2
+        ],
+        "pred_position": 511,
+        "norm_gt": "d_x_1x_{\\tau}(t_k,x;t_k+j)d_{x_j_ix_{\\tau}(t_k,x;t_k+j),\\cdots,d\\varphi_{\\tau}(x_{\\tau}(t_k,x;t_k+j))d_{x_dx_j_i^2x_{\\tau}(t_k,x;t_k+j)",
+        "norm_pred": "d_x^{\\alpha}\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|\\cdotsd_x^{\\alpha}\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.6962962962962963,
+        "img_id": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "gt_cdm": "D_{x_{1}}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{i}}}X_{\\tau}(t_{k},x;t_{k+j}),\\cdots,D\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{d}x_{j_{i}}}^{2}X_{\\tau}(t_{k},x;t_{k+j})",
+        "image_name": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "upper_len": 135,
+        "metric": {
+            "Edit_dist": 0.6962962962962963
+        },
+        "Edit_num": 94
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "$$+D^{2}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{d}}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{i}}}X_{\\tau}(t_{k},x;t_{k+j})\\Big)\\Big]$$",
+        "pred_idx": [
+            19
+        ],
+        "pred": "\\[ + \\mathcal{D}^{\\alpha}_{x} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| + \\mathcal{D}^{\\alpha}_{x} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| \\]",
+        "gt_position": [
+            3
+        ],
+        "pred_position": 2867,
+        "norm_gt": "+d^2\\varphi_{\\tau}(x_{\\tau}(t_k,x;t_k+j))d_x_dx_{\\tau}(t_k,x;t_k+j)d_{x_j_ix_{\\tau}(t_k,x;t_k+j)\\big)\\big]",
+        "norm_pred": "+d^{\\alpha}_x\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|+d^{\\alpha}_x\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7909090909090909,
+        "img_id": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "gt_cdm": "+D^{2}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{d}}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{i}}}X_{\\tau}(t_{k},x;t_{k+j})\\Big)\\Big]",
+        "image_name": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "upper_len": 110,
+        "metric": {
+            "Edit_dist": 0.7909090909090909
+        },
+        "Edit_num": 87
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "$$\\mathbb{E}\\left\\lbrack  {\\left| {D}_{{x}_{i}{x}_{j}}^{2}{X}_{\\tau }\\left( {t}_{k},x;{t}_{k + j}\\right) \\right| }^{2p}\\right\\rbrack   \\leq  C{\\left| {\\mu }^{-1}\\left( \\hat{Y}{\\tau }^{-\\varepsilon }\\right) \\right| }^{{2p}\\left( {w + 1}\\right) },\\;p \\geq  1,i,j \\in  \\{ 1,2,\\cdots ,d\\} .$$",
+        "pred_idx": [
+            6
+        ],
+        "pred": "\\[ \\mathbb{E}\\left[ |D_{x}^{\\alpha} \\chi_{i}(x, t_{i})|^{p} \\right] \\leq C p^{\\alpha} \\left( 1 + r^{-\\alpha} \\right) \\text{ for } p > 1, i = 1, 2, \\ldots, d. \\]",
+        "gt_position": [
+            5
+        ],
+        "pred_position": 859,
+        "norm_gt": "e\\lbrack{|d_x_ix_j^2x_{\\tau}(t_k,x;t_k+j)|}^2p\\rbrack\\leqc{|{\\mu}^-1(\\haty{\\tau}^-\\varepsilon)|}^2p(w+1),p\\geq1,i,j\\in1,2,\\cdots,d",
+        "norm_pred": "e[|d_x^{\\alpha}\\chi_i(x,t_i)|^p]\\leqcp^{\\alpha}(1+r^-\\alpha)forp>1,i=1,2,\\ldots,d",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.6615384615384615,
+        "img_id": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "gt_cdm": "\\mathbb{E}\\left\\lbrack  {\\left| {D}_{{x}_{i}{x}_{j}}^{2}{X}_{\\tau }\\left( {t}_{k},x;{t}_{k + j}\\right) \\right| }^{2p}\\right\\rbrack   \\leq  C{\\left| {\\mu }^{-1}\\left( \\hat{Y}{\\tau }^{-\\varepsilon }\\right) \\right| }^{{2p}\\left( {w + 1}\\right) },\\;p \\geq  1,i,j \\in  \\{ 1,2,\\cdots ,d\\} .",
+        "image_name": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "upper_len": 130,
+        "metric": {
+            "Edit_dist": 0.6615384615384615
+        },
+        "Edit_num": 86
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "$$D^{3}\\varphi_{\\tau,j}(x)=\\mathbb{E}\\left[\\sum_{j_{m}=1}^{d}\\sum_{j_{i}=1}^{d}\\left(D\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{1}x_{j_{i}}x_{j_{m}}}^{3}X_{\\tau}(t_{k},x;t_{k+j})+D^{2}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))\\right.\\right.$$",
+        "pred_idx": [
+            7
+        ],
+        "pred": "\\[ \\mathcal{D}^{\\alpha}_{x} \\varphi_{i}(x) = \\sum_{j=1}^{d} \\left[ \\sum_{k=1}^{d} \\left( \\partial_{x_j}(\\mathcal{D}_{x}^{\\alpha} \\varphi_{i}(x, t_{i}, t_{i+1})) + \\mathcal{D}^{\\alpha}_{x} \\varphi_{i}(x, t_{i}, t_{i+1}) \\right) \\right. \\]",
+        "gt_position": [
+            7
+        ],
+        "pred_position": 1020,
+        "norm_gt": "d^3\\varphi_{\\tau,j}(x)=e[\\sum_j_m=1^d\\sum_j_i=1^d(d\\varphi_{\\tau}(x_{\\tau}(t_k,x;t_k+j))d_{x_1x_j_ix_j_m^3x_{\\tau}(t_k,x;t_k+j)+d^2\\varphi_{\\tau}(x_{\\tau}(t_k,x;t_k+j)).",
+        "norm_pred": "d^{\\alpha}_x\\varphi_i(x)=\\sum_j=1^d[\\sum_k=1^d(\\partial_x_j(d_x^{\\alpha}\\varphi_i(x,t_i,t_i+1))+d^{\\alpha}_x\\varphi_i(x,t_i,t_i+1))",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.6094674556213018,
+        "img_id": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "gt_cdm": "D^{3}\\varphi_{\\tau,j}(x)=\\mathbb{E}\\left[\\sum_{j_{m}=1}^{d}\\sum_{j_{i}=1}^{d}\\left(D\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{1}x_{j_{i}}x_{j_{m}}}^{3}X_{\\tau}(t_{k},x;t_{k+j})+D^{2}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))\\right.\\right.",
+        "image_name": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "upper_len": 169,
+        "metric": {
+            "Edit_dist": 0.6094674556213018
+        },
+        "Edit_num": 103
+    },
+    {
+        "gt_idx": [
+            5
+        ],
+        "gt": "$$D_{x_{1}x_{j_{i}}}^{2}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{jm}}X_{\\tau}(t_{k},x;t_{k+j})+D^{3}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{1}}X_{\\tau}(t_{k},x;t_{k+j})$$",
+        "pred_idx": [
+            8
+        ],
+        "pred": "\\[ D_{x}^{\\alpha} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| + \\mathcal{D}^{\\alpha}_{x} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| \\]",
+        "gt_position": [
+            8
+        ],
+        "pred_position": 1258,
+        "norm_gt": "d_{x_1x_j_i^2x_{\\tau}(t_k,x;t_k+j)d_x_jmx_{\\tau}(t_k,x;t_k+j)+d^3\\varphi_{\\tau}(x_{\\tau}(t_k,x;t_k+j))d_x_1x_{\\tau}(t_k,x;t_k+j)",
+        "norm_pred": "d_x^{\\alpha}\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|+d^{\\alpha}_x\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.6875,
+        "img_id": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "gt_cdm": "D_{x_{1}x_{j_{i}}}^{2}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{jm}}X_{\\tau}(t_{k},x;t_{k+j})+D^{3}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{1}}X_{\\tau}(t_{k},x;t_{k+j})",
+        "image_name": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "upper_len": 128,
+        "metric": {
+            "Edit_dist": 0.6875
+        },
+        "Edit_num": 88
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "$$D_{j_{i}}X_{\\tau}(t_{k},x;t_{k+j})D_{j_{m}}X_{\\tau}(t_{k},x;t_{k+j})+D^{2}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{1}x_{jm}}^{2}X_{\\tau}(t_{k},x;t_{k+j})$$",
+        "pred_idx": [
+            9
+        ],
+        "pred": "\\[ D_{x}^{\\alpha} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| + \\mathcal{D}^{\\alpha}_{x} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| \\]",
+        "gt_position": [
+            9
+        ],
+        "pred_position": 1420,
+        "norm_gt": "d_j_ix_{\\tau}(t_k,x;t_k+j)d_j_mx_{\\tau}(t_k,x;t_k+j)+d^2\\varphi_{\\tau}(x_{\\tau}(t_k,x;t_k+j))d_x_1x_jm^2x_{\\tau}(t_k,x;t_k+j)",
+        "norm_pred": "d_x^{\\alpha}\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|+d^{\\alpha}_x\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.696,
+        "img_id": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "gt_cdm": "D_{j_{i}}X_{\\tau}(t_{k},x;t_{k+j})D_{j_{m}}X_{\\tau}(t_{k},x;t_{k+j})+D^{2}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{1}x_{jm}}^{2}X_{\\tau}(t_{k},x;t_{k+j})",
+        "image_name": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "upper_len": 125,
+        "metric": {
+            "Edit_dist": 0.696
+        },
+        "Edit_num": 87
+    },
+    {
+        "gt_idx": [
+            7
+        ],
+        "gt": "$$D_{x_{j_{i}}}X_{\\tau}(t_{k},x;t_{k+j})+D^{2}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{1}}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{i}}x_{jm}}^{2}X_{\\tau}(t_{k},x;t_{k+j}),$$",
+        "pred_idx": [
+            11
+        ],
+        "pred": "\\[ D_{x}^{\\alpha} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| + \\mathcal{D}^{\\alpha}_{x} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| \\]",
+        "gt_position": [
+            10
+        ],
+        "pred_position": 1751,
+        "norm_gt": "d_{x_j_ix_{\\tau}(t_k,x;t_k+j)+d^2\\varphi_{\\tau}(x_{\\tau}(t_k,x;t_k+j))d_x_1x_{\\tau}(t_k,x;t_k+j)d_x_j_ix_jm^2x_{\\tau}(t_k,x;t_k+j),",
+        "norm_pred": "d_x^{\\alpha}\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|+d^{\\alpha}_x\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7404580152671756,
+        "img_id": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "gt_cdm": "D_{x_{j_{i}}}X_{\\tau}(t_{k},x;t_{k+j})+D^{2}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{1}}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{i}}x_{jm}}^{2}X_{\\tau}(t_{k},x;t_{k+j}),",
+        "image_name": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "upper_len": 131,
+        "metric": {
+            "Edit_dist": 0.7404580152671756
+        },
+        "Edit_num": 97
+    },
+    {
+        "gt_idx": [
+            8
+        ],
+        "gt": "$$\\cdots,D\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{d}x_{j_{i}}x_{j_{m}}}^{3}X_{\\tau}(t_{k},x;t_{k+j})+D^{2}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))$$",
+        "pred_idx": [
+            26
+        ],
+        "pred": "\\[ \\mathcal{D}^{\\alpha}_{x} \\varphi_{i}(x) = \\sum_{j=1}^{d} \\sum_{k=1}^{d} \\left[ \\sum_{l=1}^{d} \\left( \\partial_{x_j}(\\mathcal{D}_{x}^{\\alpha} \\varphi_{i}(x, t_{i}, t_{i+1})) + \\mathcal{D}^{\\alpha}_{x} \\varphi_{i}(x, t_{i}, t_{i+1}) \\right) \\right. \\]",
+        "gt_position": [
+            11
+        ],
+        "pred_position": 3766,
+        "norm_gt": "\\cdots,d\\varphi_{\\tau}(x_{\\tau}(t_k,x;t_k+j))d_{x_dx_j_ix_j_m^3x_{\\tau}(t_k,x;t_k+j)+d^2\\varphi_{\\tau}(x_{\\tau}(t_k,x;t_k+j))",
+        "norm_pred": "d^{\\alpha}_x\\varphi_i(x)=\\sum_j=1^d\\sum_k=1^d[\\sum_l=1^d(\\partial_x_j(d_x^{\\alpha}\\varphi_i(x,t_i,t_i+1))+d^{\\alpha}_x\\varphi_i(x,t_i,t_i+1))",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.723404255319149,
+        "img_id": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "gt_cdm": "\\cdots,D\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{d}x_{j_{i}}x_{j_{m}}}^{3}X_{\\tau}(t_{k},x;t_{k+j})+D^{2}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))",
+        "image_name": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "upper_len": 141,
+        "metric": {
+            "Edit_dist": 0.723404255319149
+        },
+        "Edit_num": 102
+    },
+    {
+        "gt_idx": [
+            9
+        ],
+        "gt": "$$D_{x_{d}x_{ji}}^{2}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{jm}}X_{\\tau}(t_{k},x;t_{k+j})+D^{3}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{d}}X_{\\tau}(t_{k},x;t_{k+j})$$",
+        "pred_idx": [
+            12
+        ],
+        "pred": "\\[ D_{x}^{\\alpha} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| + \\mathcal{D}^{\\alpha}_{x} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| \\]",
+        "gt_position": [
+            12
+        ],
+        "pred_position": 1913,
+        "norm_gt": "d_x_dx_ji^2x_{\\tau}(t_k,x;t_k+j)d_x_jmx_{\\tau}(t_k,x;t_k+j)+d^3\\varphi_{\\tau}(x_{\\tau}(t_k,x;t_k+j))d_x_dx_{\\tau}(t_k,x;t_k+j)",
+        "norm_pred": "d_x^{\\alpha}\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|+d^{\\alpha}_x\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.6825396825396826,
+        "img_id": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "gt_cdm": "D_{x_{d}x_{ji}}^{2}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{jm}}X_{\\tau}(t_{k},x;t_{k+j})+D^{3}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{d}}X_{\\tau}(t_{k},x;t_{k+j})",
+        "image_name": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "upper_len": 126,
+        "metric": {
+            "Edit_dist": 0.6825396825396826
+        },
+        "Edit_num": 86
+    },
+    {
+        "gt_idx": [
+            10
+        ],
+        "gt": "$$D_{x_{j_i}}X_\\tau(t_k,x;t_{k+j})D_{x_{j_m}}X_\\tau(t_k,x;t_{k+j})+D^2\\varphi_\\tau(X_\\tau(t_k,x;t_{k+j}))D_{x_dx_{j_m}}^2X_\\tau(t_k,x;t_{k+j})$$",
+        "pred_idx": [
+            18
+        ],
+        "pred": "\\[ D_{x}^{\\alpha} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| + \\mathcal{D}^{\\alpha}_{x} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| \\]",
+        "gt_position": [
+            13
+        ],
+        "pred_position": 2705,
+        "norm_gt": "d_{x_j_ix_\\tau(t_k,x;t_k+j)d_{x_j_mx_\\tau(t_k,x;t_k+j)+d^2\\varphi_\\tau(x_\\tau(t_k,x;t_k+j))d_{x_dx_j_m^2x_\\tau(t_k,x;t_k+j)",
+        "norm_pred": "d_x^{\\alpha}\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|+d^{\\alpha}_x\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.6991869918699187,
+        "img_id": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "gt_cdm": "D_{x_{j_i}}X_\\tau(t_k,x;t_{k+j})D_{x_{j_m}}X_\\tau(t_k,x;t_{k+j})+D^2\\varphi_\\tau(X_\\tau(t_k,x;t_{k+j}))D_{x_dx_{j_m}}^2X_\\tau(t_k,x;t_{k+j})",
+        "image_name": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "upper_len": 123,
+        "metric": {
+            "Edit_dist": 0.6991869918699187
+        },
+        "Edit_num": 86
+    },
+    {
+        "gt_idx": [
+            11
+        ],
+        "gt": "$$\\left.\\left.D_{x_{j_{i}}}X_{\\tau}(t_{k},x;t_{k+j})+D^{2}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{d}}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{i}}x_{j_{m}}}^{2}X_{\\tau}(t_{k},x;t_{k+j})\\right)\\right]$$",
+        "pred_idx": [
+            13
+        ],
+        "pred": "\\[ \\left. D_{x}^{\\alpha} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| + \\mathcal{D}^{\\alpha}_{x} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| \\right] \\]",
+        "gt_position": [
+            14
+        ],
+        "pred_position": 2075,
+        "norm_gt": "..d_{x_j_ix_{\\tau}(t_k,x;t_k+j)+d^2\\varphi_{\\tau}(x_{\\tau}(t_k,x;t_k+j))d_x_dx_{\\tau}(t_k,x;t_k+j)d_{x_j_ix_j_m^2x_{\\tau}(t_k,x;t_k+j))]",
+        "norm_pred": ".d_x^{\\alpha}\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|+d^{\\alpha}_x\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|]",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7132352941176471,
+        "img_id": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "gt_cdm": "\\left.\\left.D_{x_{j_{i}}}X_{\\tau}(t_{k},x;t_{k+j})+D^{2}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{d}}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{i}}x_{j_{m}}}^{2}X_{\\tau}(t_{k},x;t_{k+j})\\right)\\right]",
+        "image_name": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "upper_len": 136,
+        "metric": {
+            "Edit_dist": 0.7132352941176471
+        },
+        "Edit_num": 97
+    },
+    {
+        "gt_idx": [
+            12
+        ],
+        "gt": "$$\\mathbb{E}\\left\\lbrack  {\\left| {D}_{{x}_{i}{x}_{j}{x}_{k}}^{3}{X}_{\\tau }\\left( {t}_{k},x;{t}_{k + j}\\right) \\right| }^{2p}\\right\\rbrack   \\leq  C{\\left| {\\mu }^{-1}\\left( \\hat{Y}{\\tau }^{-\\varepsilon }\\right) \\right| }^{{4p}\\left( {w + 1}\\right) },\\;p \\geq  1,i,j,k \\in  \\{ 1,2,\\cdots ,d\\} .$$",
+        "pred_idx": [
+            15
+        ],
+        "pred": "\\[ \\mathbb{E}\\left[ |D_{x}^{\\alpha} \\chi_{i}(x, t_{i})|^{p} \\right] \\leq C p^{\\alpha} \\left( 1 + r^{-\\alpha} \\right) \\text{ for } p > 1, i = 1, 2, \\ldots, d. \\]",
+        "gt_position": [
+            16
+        ],
+        "pred_position": 2269,
+        "norm_gt": "e\\lbrack{|d_x_ix_jx_k^3x_{\\tau}(t_k,x;t_k+j)|}^2p\\rbrack\\leqc{|{\\mu}^-1(\\haty{\\tau}^-\\varepsilon)|}^4p(w+1),p\\geq1,i,j,k\\in1,2,\\cdots,d",
+        "norm_pred": "e[|d_x^{\\alpha}\\chi_i(x,t_i)|^p]\\leqcp^{\\alpha}(1+r^-\\alpha)forp>1,i=1,2,\\ldots,d",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.674074074074074,
+        "img_id": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "gt_cdm": "\\mathbb{E}\\left\\lbrack  {\\left| {D}_{{x}_{i}{x}_{j}{x}_{k}}^{3}{X}_{\\tau }\\left( {t}_{k},x;{t}_{k + j}\\right) \\right| }^{2p}\\right\\rbrack   \\leq  C{\\left| {\\mu }^{-1}\\left( \\hat{Y}{\\tau }^{-\\varepsilon }\\right) \\right| }^{{4p}\\left( {w + 1}\\right) },\\;p \\geq  1,i,j,k \\in  \\{ 1,2,\\cdots ,d\\} .",
+        "image_name": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "upper_len": 135,
+        "metric": {
+            "Edit_dist": 0.674074074074074
+        },
+        "Edit_num": 91
+    },
+    {
+        "gt_idx": [
+            13
+        ],
+        "gt": "$$D^{4}\\varphi_{\\tau,j}(x)=\\mathbb{E}\\left[\\sum_{j_{n}=1}^{d}\\sum_{j_{m}=1}^{d}\\sum_{j_{i}=1}^{d}\\left(D^{2}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{1}x_{j_{i}}x_{j_{m}}}^{3}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{n}}}X_{\\tau}(t_{k},x;t_{k+j})\\right.\\right.$$",
+        "pred_idx": [
+            35
+        ],
+        "pred": "\\[ \\mathcal{D}^{\\alpha}_{x} \\varphi_{i}(x) = \\sum_{j=1}^{d} \\sum_{k=1}^{d} \\left[ \\sum_{l=1}^{d} \\left( \\partial_{x_j}(\\mathcal{D}_{x}^{\\alpha} \\varphi_{i}(x, t_{i}, t_{i+1})) + \\mathcal{D}^{\\alpha}_{x} \\varphi_{i}(x, t_{i}, t_{i+1}) \\right) \\right. \\]",
+        "gt_position": [
+            18
+        ],
+        "pred_position": 5080,
+        "norm_gt": "d^4\\varphi_{\\tau,j}(x)=e[\\sum_j_n=1^d\\sum_j_m=1^d\\sum_j_i=1^d(d^2\\varphi_{\\tau}(x_{\\tau}(t_k,x;t_k+j))d_{x_1x_j_ix_j_m^3x_{\\tau}(t_k,x;t_k+j)d_{x_j_nx_{\\tau}(t_k,x;t_k+j).",
+        "norm_pred": "d^{\\alpha}_x\\varphi_i(x)=\\sum_j=1^d\\sum_k=1^d[\\sum_l=1^d(\\partial_x_j(d_x^{\\alpha}\\varphi_i(x,t_i,t_i+1))+d^{\\alpha}_x\\varphi_i(x,t_i,t_i+1))",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.6374269005847953,
+        "img_id": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "gt_cdm": "D^{4}\\varphi_{\\tau,j}(x)=\\mathbb{E}\\left[\\sum_{j_{n}=1}^{d}\\sum_{j_{m}=1}^{d}\\sum_{j_{i}=1}^{d}\\left(D^{2}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{1}x_{j_{i}}x_{j_{m}}}^{3}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{n}}}X_{\\tau}(t_{k},x;t_{k+j})\\right.\\right.",
+        "image_name": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "upper_len": 171,
+        "metric": {
+            "Edit_dist": 0.6374269005847953
+        },
+        "Edit_num": 109
+    },
+    {
+        "gt_idx": [
+            14
+        ],
+        "gt": "$$+D^{3}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{1}x_{j_{i}}}^{2}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{m}}}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{n}}}X_{\\tau}(t_{k},x;t_{k+j})$$",
+        "pred_idx": [
+            4
+        ],
+        "pred": "\\[ + \\mathcal{D}^{\\alpha}_{x} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| + \\mathcal{D}^{\\alpha}_{x} \\chi_{i}(x, t_{i+1}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i})| \\]",
+        "gt_position": [
+            19
+        ],
+        "pred_position": 668,
+        "norm_gt": "+d^3\\varphi_{\\tau}(x_{\\tau}(t_k,x;t_k+j))d_{x_1x_j_i^2x_{\\tau}(t_k,x;t_k+j)d_{x_j_mx_{\\tau}(t_k,x;t_k+j)d_{x_j_nx_{\\tau}(t_k,x;t_k+j)",
+        "norm_pred": "+d^{\\alpha}_x\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|+d^{\\alpha}_x\\chi_i(x,t_i+1)|d_x^{\\alpha}\\chi_i(x,t_i)|",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.706766917293233,
+        "img_id": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "gt_cdm": "+D^{3}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{1}x_{j_{i}}}^{2}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{m}}}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{n}}}X_{\\tau}(t_{k},x;t_{k+j})",
+        "image_name": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "upper_len": 133,
+        "metric": {
+            "Edit_dist": 0.706766917293233
+        },
+        "Edit_num": 94
+    },
+    {
+        "gt_idx": [
+            15
+        ],
+        "gt": "$$+D^{2}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{1}x_{j_{i}}x_{j_{n}}}^{3}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{m}}}X_{\\tau}(t_{k},x;t_{k+j})$$",
+        "pred_idx": [
+            44
+        ],
+        "pred": "\\[ \\mathcal{D}^{\\alpha}_{x} \\varphi_{i}(x) = \\sum_{j=1}^{d} \\sum_{k=1}^{d} \\left[ \\sum_{l=1}^{d} \\left( \\partial_{x_j}(\\mathcal{D}_{x}^{\\alpha} \\varphi_{i}(x, t_{i}, t_{i+1})) + \\mathcal{D}^{\\alpha}_{x} \\varphi_{i}(x, t_{i}, t_{i+1}) \\right) \\right. \\]",
+        "gt_position": [
+            20
+        ],
+        "pred_position": 6394,
+        "norm_gt": "+d^2\\varphi_{\\tau}(x_{\\tau}(t_k,x;t_k+j))d_{x_1x_j_ix_j_n^3x_{\\tau}(t_k,x;t_k+j)d_{x_j_mx_{\\tau}(t_k,x;t_k+j)",
+        "norm_pred": "d^{\\alpha}_x\\varphi_i(x)=\\sum_j=1^d\\sum_k=1^d[\\sum_l=1^d(\\partial_x_j(d_x^{\\alpha}\\varphi_i(x,t_i,t_i+1))+d^{\\alpha}_x\\varphi_i(x,t_i,t_i+1))",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.723404255319149,
+        "img_id": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "gt_cdm": "+D^{2}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{1}x_{j_{i}}x_{j_{n}}}^{3}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{m}}}X_{\\tau}(t_{k},x;t_{k+j})",
+        "image_name": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "upper_len": 141,
+        "metric": {
+            "Edit_dist": 0.723404255319149
+        },
+        "Edit_num": 102
+    },
+    {
+        "gt_idx": [
+            16
+        ],
+        "gt": "$$+D^{2}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{1}x_{j_{i}}}^{2}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{m}}x_{j_{n}}}^{2}X_{\\tau}(t_{k},x;t_{k+j})$$",
+        "pred_idx": [
+            20
+        ],
+        "pred": "\\[ + \\mathcal{D}^{\\alpha}_{x} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| + \\mathcal{D}^{\\alpha}_{x} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| \\]",
+        "gt_position": [
+            21
+        ],
+        "pred_position": 3041,
+        "norm_gt": "+d^2\\varphi_{\\tau}(x_{\\tau}(t_k,x;t_k+j))d_{x_1x_j_i^2x_{\\tau}(t_k,x;t_k+j)d_{x_j_mx_j_n^2x_{\\tau}(t_k,x;t_k+j)",
+        "norm_pred": "+d^{\\alpha}_x\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|+d^{\\alpha}_x\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7837837837837838,
+        "img_id": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "gt_cdm": "+D^{2}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{1}x_{j_{i}}}^{2}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{m}}x_{j_{n}}}^{2}X_{\\tau}(t_{k},x;t_{k+j})",
+        "image_name": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "upper_len": 111,
+        "metric": {
+            "Edit_dist": 0.7837837837837838
+        },
+        "Edit_num": 87
+    },
+    {
+        "gt_idx": [
+            17
+        ],
+        "gt": "$$+D\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{1}x_{j_i}x_{j_{m}}x_{j_{n}}}^{4}X_{\\tau}(t_{k},x;t_{k+j})+D^{4}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))$$",
+        "pred_idx": [
+            17
+        ],
+        "pred": "\\[ \\mathcal{D}^{\\alpha}_{x} \\varphi_{i}(x) = \\sum_{j=1}^{d} \\sum_{k=1}^{d} \\left[ \\sum_{l=1}^{d} \\left( \\partial_{x_j}(\\mathcal{D}_{x}^{\\alpha} \\varphi_{i}(x, t_{i}, t_{i+1})) + \\mathcal{D}^{\\alpha}_{x} \\varphi_{i}(x, t_{i}, t_{i+1}) \\right) \\right. \\]",
+        "gt_position": [
+            22
+        ],
+        "pred_position": 2452,
+        "norm_gt": "+d\\varphi_{\\tau}(x_{\\tau}(t_k,x;t_k+j))d_{x_1x_j_ix_j_mx_j_n^4x_{\\tau}(t_k,x;t_k+j)+d^4\\varphi_{\\tau}(x_{\\tau}(t_k,x;t_k+j))",
+        "norm_pred": "d^{\\alpha}_x\\varphi_i(x)=\\sum_j=1^d\\sum_k=1^d[\\sum_l=1^d(\\partial_x_j(d_x^{\\alpha}\\varphi_i(x,t_i,t_i+1))+d^{\\alpha}_x\\varphi_i(x,t_i,t_i+1))",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.723404255319149,
+        "img_id": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "gt_cdm": "+D\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))D_{x_{1}x_{j_i}x_{j_{m}}x_{j_{n}}}^{4}X_{\\tau}(t_{k},x;t_{k+j})+D^{4}\\varphi_{\\tau}(X_{\\tau}(t_{k},x;t_{k+j}))",
+        "image_name": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "upper_len": 141,
+        "metric": {
+            "Edit_dist": 0.723404255319149
+        },
+        "Edit_num": 102
+    },
+    {
+        "gt_idx": [
+            18
+        ],
+        "gt": "$$D_{x_{1}}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_i}}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{m}}}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{n}}}X_{\\tau}(t_{k},x;t_{k+j}),$$",
+        "pred_idx": [
+            27
+        ],
+        "pred": "\\[ D_{x}^{\\alpha} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| + \\mathcal{D}^{\\alpha}_{x} \\chi_{i}(x, t_{i}) |D_{x}^{\\alpha} \\chi_{i}(x, t_{i+1})| \\]",
+        "gt_position": [
+            23
+        ],
+        "pred_position": 4019,
+        "norm_gt": "d_x_1x_{\\tau}(t_k,x;t_k+j)d_{x_j_ix_{\\tau}(t_k,x;t_k+j)d_{x_j_mx_{\\tau}(t_k,x;t_k+j)d_{x_j_nx_{\\tau}(t_k,x;t_k+j),",
+        "norm_pred": "d_x^{\\alpha}\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|+d^{\\alpha}_x\\chi_i(x,t_i)|d_x^{\\alpha}\\chi_i(x,t_i+1)|",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7368421052631579,
+        "img_id": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "gt_cdm": "D_{x_{1}}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_i}}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{m}}}X_{\\tau}(t_{k},x;t_{k+j})D_{x_{j_{n}}}X_{\\tau}(t_{k},x;t_{k+j}),",
+        "image_name": "page-e4053f20-e6e6-430e-83ef-db298a3199aa.png",
+        "upper_len": 114,
+        "metric": {
+            "Edit_dist": 0.7368421052631579
+        },
+        "Edit_num": 84
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\\lesssim\\left\\|b_{1}\\right\\|_{\\mathrm{BMO}}\\left({\\int\\hspace{-1.05em}-}_{Q^{\\prime}}\\left(\\sum_{Q\\in\\mathcal{S}}\\mu(Q)^{\\eta\\cdot\\frac{1}{r}}|b_{2}(x)-b_{2,Q}|\\langle f_{1}\\rangle_{Q,r}\\langle f_{2}\\rangle_{Q,r}\\left\\|f_{3}^{r}\\right\\|_{L(\\log L)^{r},Q^{\\prime}}^{1/r}\\chi_{Q}(x)\\right)^{\\delta s_{1}^{\\prime}}d\\mu\\right)^{\\frac{1}{\\delta s_{1}^{\\prime}}}$$",
+        "pred_idx": [
+            0
+        ],
+        "pred": "\\[\\lesssim \\|b\\|_{\\mathrm{BMO}} \\Big( \\sum_{Q \\in \\mathcal{Q}} \\mu(Q)^{1+} \\|b_Q - b_Q\\|_{L^{\\infty}(Q)} \\|f\\|_{L^{p_1}(Q)} \\|f\\|_{L^{p_2}(Q)}^{\\frac{1}{p_2}} \\Big)^{\\frac{1}{p_2}}\\]",
+        "gt_position": [
+            2
+        ],
+        "pred_position": 0,
+        "norm_gt": "\\lesssim\\|b_1\\|_bmo(\\int-_{q^{\\prime}(\\sum_{q\\ins}\\mu(q)^{\\eta\\cdot\\frac1}|b_2(x)-b_{2,q}|\\langlef_1\\rangle_{q,r}\\langlef_2\\rangle_{q,r}\\|f_3^\\|_{l(\\logl)^,q^{\\prime}^{1/r}\\chi_q(x))^{\\deltas_1^{\\prime}d\\mu)^{\\frac1{\\deltas_1^{\\prime}",
+        "norm_pred": "\\lesssim\\|b\\|_bmo\\big(\\sum_{q\\inq}\\mu(q)^1+\\|b_q-b_q\\|_{l^{\\infty}(q)}\\|f\\|_l^p_1(q)\\|f\\|_l^p_2(q)^{\\frac1p_2\\big)^{\\frac1p_2",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.6410256410256411,
+        "img_id": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "gt_cdm": "\\lesssim\\left\\|b_{1}\\right\\|_{\\mathrm{BMO}}\\left({\\int\\hspace{-1.05em}-}_{Q^{\\prime}}\\left(\\sum_{Q\\in\\mathcal{S}}\\mu(Q)^{\\eta\\cdot\\frac{1}{r}}|b_{2}(x)-b_{2,Q}|\\langle f_{1}\\rangle_{Q,r}\\langle f_{2}\\rangle_{Q,r}\\left\\|f_{3}^{r}\\right\\|_{L(\\log L)^{r},Q^{\\prime}}^{1/r}\\chi_{Q}(x)\\right)^{\\delta s_{1}^{\\prime}}d\\mu\\right)^{\\frac{1}{\\delta s_{1}^{\\prime}}}",
+        "image_name": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "upper_len": 234,
+        "metric": {
+            "Edit_dist": 0.6410256410256411
+        },
+        "Edit_num": 150
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$+\\left\\|b_{1}\\right\\|_{\\mathrm{BMO}}\\left({\\int\\hspace{-1.05em}-}_{Q^{\\prime}}\\left(\\left|b_{2}(x)-b_{2,Q^{\\prime}}\\right|\\sum_{Q\\in\\mathcal{S}}\\mu(Q)^{\\eta\\cdot\\frac{1}{r}}\\left\\langle f_{1}\\right\\rangle_{Q,r}\\left\\langle f_{2}\\right\\rangle_{Q,r}\\left\\|f_{3}^{r}\\right\\|_{L(\\log L)^{r},Q}^{1/r}\\chi_{Q}(x)\\right)^{\\delta s_{1}^{\\prime}}d\\mu\\right)^{\\frac{1}{\\delta s_{1}^{\\prime}}}$$",
+        "pred_idx": [
+            1
+        ],
+        "pred": "\\[+ \\|b\\|_{\\mathrm{BMO}} \\Big( \\int_{Q} \\big( |b(x) - b_Q| \\sum_{Q' \\in \\mathcal{Q}} \\mu(Q')^{1+} \\|f\\|_{L^{p_1}(Q')} \\|f\\|_{L^{p_2}(Q')}^{\\frac{1}{p_2}} \\big)^{p_2} dx \\Big)^{\\frac{1}{p_2}}\\]",
+        "gt_position": [
+            3
+        ],
+        "pred_position": 184,
+        "norm_gt": "+\\|b_1\\|_bmo(\\int-_{q^{\\prime}(|b_2(x)-b_{2,q^{\\prime}|\\sum_{q\\ins}\\mu(q)^{\\eta\\cdot\\frac1}\\langlef_1\\rangle_{q,r}\\langlef_2\\rangle_{q,r}\\|f_3^\\|_l(\\logl)^,q^{1/r}\\chi_q(x))^{\\deltas_1^{\\prime}d\\mu)^{\\frac1{\\deltas_1^{\\prime}",
+        "norm_pred": "+\\|b\\|_bmo\\big(\\int_q\\big(|b(x)-b_q|\\sum_{q'\\inq}\\mu(q')^1+\\|f\\|_l^p_1(q')\\|f\\|_l^p_2(q')^{\\frac1p_2\\big)^p_2dx\\big)^{\\frac1p_2",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.6577777777777778,
+        "img_id": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "gt_cdm": "+\\left\\|b_{1}\\right\\|_{\\mathrm{BMO}}\\left({\\int\\hspace{-1.05em}-}_{Q^{\\prime}}\\left(\\left|b_{2}(x)-b_{2,Q^{\\prime}}\\right|\\sum_{Q\\in\\mathcal{S}}\\mu(Q)^{\\eta\\cdot\\frac{1}{r}}\\left\\langle f_{1}\\right\\rangle_{Q,r}\\left\\langle f_{2}\\right\\rangle_{Q,r}\\left\\|f_{3}^{r}\\right\\|_{L(\\log L)^{r},Q}^{1/r}\\chi_{Q}(x)\\right)^{\\delta s_{1}^{\\prime}}d\\mu\\right)^{\\frac{1}{\\delta s_{1}^{\\prime}}}",
+        "image_name": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "upper_len": 225,
+        "metric": {
+            "Edit_dist": 0.6577777777777778
+        },
+        "Edit_num": 148
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "$$\\lesssim\\left\\|b_{1}\\right\\|_{\\mathrm{BMO}}M_{\\delta s_{1}^{\\prime}}\\left(\\Delta_{\\eta,\\mathcal{S},\\tau}^{b,\\{2\\}}(\\vec{f})\\right)(x)+\\left\\|b_{1}\\right\\|_{\\mathrm{BMO}}\\left({\\int\\hspace{-1.05em}-}_{Q^{\\prime}}\\left|b_{2}(x)-b_{2,Q^{\\prime}}\\right|^{\\delta s_{2}}d\\mu\\right)^{\\frac{1}{\\delta s_{2}}}$$",
+        "pred_idx": [
+            3
+        ],
+        "pred": "\\[\\lesssim \\Big( \\int_{Q} \\mu(Q)^{1+} (A_{\\alpha}^{(1)}(f))(x) \\|f\\|_{L^{p_1}(Q)} \\|f\\|_{L^{p_2}(Q)}^{\\frac{1}{p_2}} \\Big)^{\\frac{1}{p_2}}\\]",
+        "gt_position": [
+            4
+        ],
+        "pred_position": 528,
+        "norm_gt": "\\lesssim\\|b_1\\|_bmom_{\\deltas_1^{\\prime}(\\delta_{\\eta,s,\\tau}^{b,2}(\\vecf))(x)+\\|b_1\\|_bmo(\\int-_{q^{\\prime}|b_2(x)-b_{2,q^{\\prime}|^\\deltas_2d\\mu)^{\\frac1\\deltas_2",
+        "norm_pred": "\\lesssim\\big(\\int_q\\mu(q)^1+(a_{\\alpha}^(1)(f))(x)\\|f\\|_l^p_1(q)\\|f\\|_l^p_2(q)^{\\frac1p_2\\big)^{\\frac1p_2",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.6463414634146342,
+        "img_id": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "gt_cdm": "\\lesssim\\left\\|b_{1}\\right\\|_{\\mathrm{BMO}}M_{\\delta s_{1}^{\\prime}}\\left(\\Delta_{\\eta,\\mathcal{S},\\tau}^{b,\\{2\\}}(\\vec{f})\\right)(x)+\\left\\|b_{1}\\right\\|_{\\mathrm{BMO}}\\left({\\int\\hspace{-1.05em}-}_{Q^{\\prime}}\\left|b_{2}(x)-b_{2,Q^{\\prime}}\\right|^{\\delta s_{2}}d\\mu\\right)^{\\frac{1}{\\delta s_{2}}}",
+        "image_name": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "upper_len": 164,
+        "metric": {
+            "Edit_dist": 0.6463414634146342
+        },
+        "Edit_num": 106
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "$$\\times\\left({\\int\\hspace{-1.05em}-}_{Q^{\\prime}}\\left(\\sum_{Q\\in S}\\mu(Q)^{\\eta\\cdot\\frac{1}{r}}\\left\\langle f_{1}\\right\\rangle_{Q,r}\\left\\langle f_{2}\\right\\rangle_{Q,r}\\left\\|f_{3}^{r}\\right\\|_{L(\\log L)^{r},Q}^{1/r}\\chi_{Q}(x)\\right)^{\\delta s_{3}}d\\mu\\right)^{\\frac{1}{\\delta s_{3}}}$$",
+        "pred_idx": [
+            10
+        ],
+        "pred": "\\[\\times \\sum_{Q' \\in \\mathcal{Q}} \\mu(Q')^{1+} \\|f\\|_{L^{p_1}(Q')} \\|f\\|_{L^{p_2}(Q')}^{\\frac{1}{p_2}} dx,\\]",
+        "gt_position": [
+            5
+        ],
+        "pred_position": 1522,
+        "norm_gt": "\\times(\\int-_{q^{\\prime}(\\sum_{q\\ins}\\mu(q)^{\\eta\\cdot\\frac1}\\langlef_1\\rangle_{q,r}\\langlef_2\\rangle_{q,r}\\|f_3^\\|_l(\\logl)^,q^{1/r}\\chi_q(x))^\\deltas_3d\\mu)^{\\frac1\\deltas_3",
+        "norm_pred": "\\times\\sum_{q'\\inq}\\mu(q')^1+\\|f\\|_l^p_1(q')\\|f\\|_l^p_2(q')^{\\frac1p_2dx,",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.72,
+        "img_id": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "gt_cdm": "\\times\\left({\\int\\hspace{-1.05em}-}_{Q^{\\prime}}\\left(\\sum_{Q\\in S}\\mu(Q)^{\\eta\\cdot\\frac{1}{r}}\\left\\langle f_{1}\\right\\rangle_{Q,r}\\left\\langle f_{2}\\right\\rangle_{Q,r}\\left\\|f_{3}^{r}\\right\\|_{L(\\log L)^{r},Q}^{1/r}\\chi_{Q}(x)\\right)^{\\delta s_{3}}d\\mu\\right)^{\\frac{1}{\\delta s_{3}}}",
+        "image_name": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "upper_len": 175,
+        "metric": {
+            "Edit_dist": 0.72
+        },
+        "Edit_num": 126
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "$$\\lesssim\\left\\|b_{1}\\right\\|_{\\mathrm{BMO}}M_{\\delta s_{1}^{\\prime}}\\left(\\Delta_{\\eta,\\mathcal{S},\\tau}^{b,\\{2\\}}(\\vec{f})\\right)(x)+\\prod_{i=1}^{2}\\|b_{i}\\|_{\\mathrm{BMO}}M_{\\delta s_{3}}\\left(\\mathcal{A}_{\\eta,\\mathcal{S},L(\\log L)^{r}}^{\\{3\\}}(\\vec{f})\\right)(x)$$",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[\\lesssim \\|b\\|_{\\mathrm{BMO}} M_{\\alpha} \\Big( A_{\\alpha}^{(1)}(f) \\Big)(x) + \\|b\\|_{\\mathrm{BMO}} M_{\\alpha} \\Big( A_{\\alpha}^{(2)}(f) \\Big)(x)\\]",
+        "gt_position": [
+            6
+        ],
+        "pred_position": 378,
+        "norm_gt": "\\lesssim\\|b_1\\|_bmom_{\\deltas_1^{\\prime}(\\delta_{\\eta,s,\\tau}^{b,2}(\\vecf))(x)+\\prod_i=1^2\\|b_i\\|_bmom_\\deltas_3(a_\\eta,s,l(\\logl)^^3(\\vecf))(x)",
+        "norm_pred": "\\lesssim\\|b\\|_bmom_{\\alpha}\\big(a_{\\alpha}^(1)(f)\\big)(x)+\\|b\\|_bmom_{\\alpha}\\big(a_{\\alpha}^(2)(f)\\big)(x)",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.5902777777777778,
+        "img_id": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "gt_cdm": "\\lesssim\\left\\|b_{1}\\right\\|_{\\mathrm{BMO}}M_{\\delta s_{1}^{\\prime}}\\left(\\Delta_{\\eta,\\mathcal{S},\\tau}^{b,\\{2\\}}(\\vec{f})\\right)(x)+\\prod_{i=1}^{2}\\|b_{i}\\|_{\\mathrm{BMO}}M_{\\delta s_{3}}\\left(\\mathcal{A}_{\\eta,\\mathcal{S},L(\\log L)^{r}}^{\\{3\\}}(\\vec{f})\\right)(x)",
+        "image_name": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "upper_len": 144,
+        "metric": {
+            "Edit_dist": 0.5902777777777778
+        },
+        "Edit_num": 85
+    },
+    {
+        "gt_idx": [
+            5
+        ],
+        "gt": "$$\\leq\\left\\|b_{1}\\right\\|_{\\mathrm{BMO}}M_{\\epsilon}\\left(\\Delta_{\\eta,\\mathcal{S},\\tau}^{b,\\{2\\}}(\\vec{f})\\right)(x)+\\prod_{i=1}^{2}\\|b_{i}\\|_{\\mathrm{BMO}}M_{\\epsilon}\\left(\\mathcal{A}_{\\eta,\\mathcal{S},L(\\log L)^{r}}^{\\{3\\}}(\\vec{f})\\right)(x).$$",
+        "pred_idx": [
+            4
+        ],
+        "pred": "\\[+ \\|b\\|_{\\mathrm{BMO}} M_{\\alpha} \\Big( A_{\\alpha}^{(2)}(f) \\Big)(x) + \\sum_{i=1}^{2} \\|b\\|_{\\mathrm{BMO}} M_{\\alpha} \\Big( A_{\\alpha}^{(i)}(f) \\Big)(x).\\]",
+        "gt_position": [
+            7
+        ],
+        "pred_position": 670,
+        "norm_gt": "\\leq\\|b_1\\|_bmom_{\\epsilon}(\\delta_{\\eta,s,\\tau}^{b,2}(\\vecf))(x)+\\prod_i=1^2\\|b_i\\|_bmom_{\\epsilon}(a_\\eta,s,l(\\logl)^^3(\\vecf))(x)",
+        "norm_pred": "+\\|b\\|_bmom_{\\alpha}\\big(a_{\\alpha}^(2)(f)\\big)(x)+\\sum_i=1^2\\|b\\|_bmom_{\\alpha}\\big(a_{\\alpha}^(i)(f)\\big)(x)",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.553030303030303,
+        "img_id": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "gt_cdm": "\\leq\\left\\|b_{1}\\right\\|_{\\mathrm{BMO}}M_{\\epsilon}\\left(\\Delta_{\\eta,\\mathcal{S},\\tau}^{b,\\{2\\}}(\\vec{f})\\right)(x)+\\prod_{i=1}^{2}\\|b_{i}\\|_{\\mathrm{BMO}}M_{\\epsilon}\\left(\\mathcal{A}_{\\eta,\\mathcal{S},L(\\log L)^{r}}^{\\{3\\}}(\\vec{f})\\right)(x).",
+        "image_name": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "upper_len": 132,
+        "metric": {
+            "Edit_dist": 0.553030303030303
+        },
+        "Edit_num": 73
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "$$\\mathcal{N}_{3}\\lesssim\\left\\|b_{2}\\right\\|_{\\mathrm{BMO}}M_{\\epsilon}\\left(\\Delta_{\\eta,\\mathcal{S},\\tau}^{b,\\{1\\}}(\\vec{f})\\right)(x)+\\prod_{i=1}^{2}\\left\\|b_{i}\\right\\|_{\\mathrm{BMO}}M_{\\epsilon}\\left(\\mathcal{A}_{\\eta,\\mathcal{S},L(\\log L)^{r}}^{\\{3\\}}r(\\vec{f})\\right)(x).$$",
+        "pred_idx": [
+            5
+        ],
+        "pred": "\\[N_1 \\lesssim \\|b\\|_{\\mathrm{BMO}} M_{\\alpha} \\Big( A_{\\alpha}^{(1)}(f) \\Big)(x) + \\sum_{i=1}^{2} \\|b\\|_{\\mathrm{BMO}} M_{\\alpha} \\Big( A_{\\alpha}^{(i)}(f) \\Big)(x).\\]",
+        "gt_position": [
+            9
+        ],
+        "pred_position": 860,
+        "norm_gt": "n_3\\lesssim\\|b_2\\|_bmom_{\\epsilon}(\\delta_{\\eta,s,\\tau}^{b,1}(\\vecf))(x)+\\prod_i=1^2\\|b_i\\|_bmom_{\\epsilon}(a_\\eta,s,l(\\logl)^^3r(\\vecf))(x)",
+        "norm_pred": "n_1\\lesssim\\|b\\|_bmom_{\\alpha}\\big(a_{\\alpha}^(1)(f)\\big)(x)+\\sum_i=1^2\\|b\\|_bmom_{\\alpha}\\big(a_{\\alpha}^(i)(f)\\big)(x)",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.5,
+        "img_id": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "gt_cdm": "\\mathcal{N}_{3}\\lesssim\\left\\|b_{2}\\right\\|_{\\mathrm{BMO}}M_{\\epsilon}\\left(\\Delta_{\\eta,\\mathcal{S},\\tau}^{b,\\{1\\}}(\\vec{f})\\right)(x)+\\prod_{i=1}^{2}\\left\\|b_{i}\\right\\|_{\\mathrm{BMO}}M_{\\epsilon}\\left(\\mathcal{A}_{\\eta,\\mathcal{S},L(\\log L)^{r}}^{\\{3\\}}r(\\vec{f})\\right)(x).",
+        "image_name": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "upper_len": 140,
+        "metric": {
+            "Edit_dist": 0.5
+        },
+        "Edit_num": 70
+    },
+    {
+        "gt_idx": [
+            7
+        ],
+        "gt": "$$\\mathcal{N}_{1}\\lesssim\\prod_{i=1}^{2}\\left\\|b_{i}\\right\\|_{\\mathrm{BMO}}M_{\\epsilon}\\left(\\mathcal{A}_{\\eta,\\mathcal{S},L(\\log L)^{r}}^{\\tau^{c}}(\\vec{f})\\right)(x).$$",
+        "pred_idx": [
+            6
+        ],
+        "pred": "\\[N_1 \\lesssim \\sum_{i=1}^{2} \\|b\\|_{\\mathrm{BMO}} M_{\\alpha} \\Big( A_{\\alpha}^{(i)}(f) \\Big)(x).\\]",
+        "gt_position": [
+            11
+        ],
+        "pred_position": 1105,
+        "norm_gt": "n_1\\lesssim\\prod_i=1^2\\|b_i\\|_bmom_{\\epsilon}(a_\\eta,s,l(\\logl)^^\\tau^(\\vecf))(x)",
+        "norm_pred": "n_1\\lesssim\\sum_i=1^2\\|b\\|_bmom_{\\alpha}\\big(a_{\\alpha}^(i)(f)\\big)(x)",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.49382716049382713,
+        "img_id": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "gt_cdm": "\\mathcal{N}_{1}\\lesssim\\prod_{i=1}^{2}\\left\\|b_{i}\\right\\|_{\\mathrm{BMO}}M_{\\epsilon}\\left(\\mathcal{A}_{\\eta,\\mathcal{S},L(\\log L)^{r}}^{\\tau^{c}}(\\vec{f})\\right)(x).",
+        "image_name": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "upper_len": 81,
+        "metric": {
+            "Edit_dist": 0.49382716049382713
+        },
+        "Edit_num": 40
+    },
+    {
+        "gt_idx": [
+            8
+        ],
+        "gt": "$$\\mathcal{N}_{4}=\\left({\\int\\hspace{-1.05em}-}_{Q^{\\prime}}\\left(\\sum_{Q\\subseteq Q^{\\prime}}\\mu(Q)^{\\eta\\cdot\\frac{1}{r}}\\prod_{i=1}^{2}|b_{i,Q^{\\prime}}-b_{i,Q}|\\left\\langle f_{i}\\right\\rangle_{Q,r}\\left\\|f_{3}^{r}\\right\\|_{L(\\log L)^{r},Q}^{1/r}\\chi_{Q}(x)\\right)^{\\delta}d\\mu\\right)^{\\frac{1}{\\delta}}$$",
+        "pred_idx": [
+            7
+        ],
+        "pred": "\\[N_2 = \\int_{Q} \\sum_{Q' \\in \\mathcal{Q}} \\mu(Q')^{1+} \\|b_{Q'} - b_{Q'}\\|_{L^{\\infty}(Q')} \\|f\\|_{L^{p_1}(Q')}^{\\frac{1}{p_1}} \\|f\\|_{L^{p_2}(Q')}^{\\frac{1}{p_2}} dx\\]",
+        "gt_position": [
+            13
+        ],
+        "pred_position": 1256,
+        "norm_gt": "n_4=(\\int-_{q^{\\prime}(\\sum_{q\\subseteqq^{\\prime}\\mu(q)^{\\eta\\cdot\\frac1}\\prod_i=1^2|b_{i,q^{\\prime}-b_{i,q}|\\langlef_i\\rangle_{q,r}\\|f_3^\\|_l(\\logl)^,q^{1/r}\\chi_q(x))^{\\delta}d\\mu)^{\\frac1{\\delta}",
+        "norm_pred": "n_2=\\int_q\\sum_{q'\\inq}\\mu(q')^1+\\|b_{q'}-b_{q'}\\|_{l^{\\infty}(q')}\\|f\\|_l^p_1(q')^{\\frac1p_1\\|f\\|_l^p_2(q')^{\\frac1p_2dx",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.6616161616161617,
+        "img_id": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "gt_cdm": "\\mathcal{N}_{4}=\\left({\\int\\hspace{-1.05em}-}_{Q^{\\prime}}\\left(\\sum_{Q\\subseteq Q^{\\prime}}\\mu(Q)^{\\eta\\cdot\\frac{1}{r}}\\prod_{i=1}^{2}|b_{i,Q^{\\prime}}-b_{i,Q}|\\left\\langle f_{i}\\right\\rangle_{Q,r}\\left\\|f_{3}^{r}\\right\\|_{L(\\log L)^{r},Q}^{1/r}\\chi_{Q}(x)\\right)^{\\delta}d\\mu\\right)^{\\frac{1}{\\delta}}",
+        "image_name": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "upper_len": 198,
+        "metric": {
+            "Edit_dist": 0.6616161616161617
+        },
+        "Edit_num": 131
+    },
+    {
+        "gt_idx": [
+            9
+        ],
+        "gt": "$$\\leq\\mathcal{N}_{41}+\\mathcal{N}_{42}+\\mathcal{N}_{43}+\\mathcal{N}_{44}.$$",
+        "pred_idx": [
+            8
+        ],
+        "pred": "\\[\\leq N_{21} + N_{22} + N_{23},\\]",
+        "gt_position": [
+            14
+        ],
+        "pred_position": 1427,
+        "norm_gt": "\\leqn_41+n_42+n_43+n_44",
+        "norm_pred": "\\leqn_21+n_22+n_23,",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.34782608695652173,
+        "img_id": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "gt_cdm": "\\leq\\mathcal{N}_{41}+\\mathcal{N}_{42}+\\mathcal{N}_{43}+\\mathcal{N}_{44}.",
+        "image_name": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "upper_len": 23,
+        "metric": {
+            "Edit_dist": 0.34782608695652173
+        },
+        "Edit_num": 8
+    },
+    {
+        "gt_idx": [
+            10
+        ],
+        "gt": "$$\\mathcal{N}_{41}=\\left({\\int\\hspace{-1.05em}-}_{{Q}^{\\prime}}(\\prod_{i=1}^{2}\\left|b_{i}(x)-b_{i,Q^{\\prime}}\\right|\\right.$$",
+        "pred_idx": [
+            9
+        ],
+        "pred": "\\[N_{21} = \\int_{Q} \\prod_{i=1}^{n} |b(x) - b_Q|\\]",
+        "gt_position": [
+            16
+        ],
+        "pred_position": 1470,
+        "norm_gt": "n_41=(\\int-_{q^{\\prime}(\\prod_i=1^2|b_i(x)-b_{i,q^{\\prime}|",
+        "norm_pred": "n_21=\\int_q\\prod_i=1^n|b(x)-b_q|",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.4915254237288136,
+        "img_id": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "gt_cdm": "\\mathcal{N}_{41}=\\left({\\int\\hspace{-1.05em}-}_{{Q}^{\\prime}}(\\prod_{i=1}^{2}\\left|b_{i}(x)-b_{i,Q^{\\prime}}\\right|\\right.",
+        "image_name": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "upper_len": 59,
+        "metric": {
+            "Edit_dist": 0.4915254237288136
+        },
+        "Edit_num": 29
+    },
+    {
+        "gt_idx": [
+            11
+        ],
+        "gt": "$$\\times\\sum_{Q\\subseteq Q^{\\prime}}\\mu(Q)^{\\eta\\cdot\\frac{1}{r}}\\left\\langle f_{1}\\right\\rangle_{Q,r}\\left\\langle f_{2}\\right\\rangle_{Q,r}\\left\\|f_{3}^{r}\\right\\|_{L(\\log L)^{r},Q}^{1/r}\\chi_{Q}(x)\\Big)^{\\delta}d\\mu\\Bigg)^{1/\\delta},$$",
+        "pred_idx": [
+            ""
+        ],
+        "pred": "",
+        "gt_position": [
+            17
+        ],
+        "pred_position": "",
+        "norm_gt": "\\times\\sum_{q\\subseteqq^{\\prime}\\mu(q)^{\\eta\\cdot\\frac1}\\langlef_1\\rangle_{q,r}\\langlef_2\\rangle_{q,r}\\|f_3^\\|_l(\\logl)^,q^{1/r}\\chi_q(x)\\big)^{\\delta}d\\mu\\bigg)^{1/\\delta},",
+        "norm_pred": "",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 1,
+        "img_id": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "gt_cdm": "\\times\\sum_{Q\\subseteq Q^{\\prime}}\\mu(Q)^{\\eta\\cdot\\frac{1}{r}}\\left\\langle f_{1}\\right\\rangle_{Q,r}\\left\\langle f_{2}\\right\\rangle_{Q,r}\\left\\|f_{3}^{r}\\right\\|_{L(\\log L)^{r},Q}^{1/r}\\chi_{Q}(x)\\Big)^{\\delta}d\\mu\\Bigg)^{1/\\delta},",
+        "image_name": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "upper_len": 173,
+        "metric": {
+            "Edit_dist": 1.0
+        },
+        "Edit_num": 173
+    },
+    {
+        "gt_idx": [
+            12
+        ],
+        "gt": "$$\\mathcal{N}_{42}=\\left({\\int\\hspace{-1.05em}-}_{Q^{\\prime}}\\left(\\left|b_{1}(x)-b_{1,Q^{\\prime}}\\right|\\right.\\right.$$",
+        "pred_idx": [
+            11
+        ],
+        "pred": "\\[N_{22} = \\int_{Q} \\big( |b(x) - b_Q|\\]",
+        "gt_position": [
+            18
+        ],
+        "pred_position": 1633,
+        "norm_gt": "n_42=(\\int-_{q^{\\prime}(|b_1(x)-b_{1,q^{\\prime}|.",
+        "norm_pred": "n_22=\\int_q\\big(|b(x)-b_q|",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.5306122448979592,
+        "img_id": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "gt_cdm": "\\mathcal{N}_{42}=\\left({\\int\\hspace{-1.05em}-}_{Q^{\\prime}}\\left(\\left|b_{1}(x)-b_{1,Q^{\\prime}}\\right|\\right.\\right.",
+        "image_name": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "upper_len": 49,
+        "metric": {
+            "Edit_dist": 0.5306122448979592
+        },
+        "Edit_num": 26
+    },
+    {
+        "gt_idx": [
+            13
+        ],
+        "gt": "$$\\times\\sum_{Q\\subseteq Q^{\\prime}}\\mu(Q)^{\\eta\\cdot\\frac{1}{r}}\\Big|b_{2,Q^{\\prime}}-b_{2,Q}\\Big|\\langle f_{1}\\rangle_{Q,r}\\langle f_{2}\\rangle_{Q,r}\\Big\\|f_{3}^{r}\\Big\\|_{L(\\log L)^{r},Q}^{1/r}\\chi_{Q}(x)\\Big)^{\\delta} d\\mu\\Bigg)^{1/\\delta},$$",
+        "pred_idx": [
+            12
+        ],
+        "pred": "\\[\\times \\sum_{Q' \\in \\mathcal{Q}} \\mu(Q')^{1+} \\|b_{Q'} - b_Q\\|_{L^{\\infty}(Q')} \\|f\\|_{L^{p_1}(Q')}^{\\frac{1}{p_1}} \\|f\\|_{L^{p_2}(Q')}^{\\frac{1}{p_2}} \\big)^{p_2} dx.\\]",
+        "gt_position": [
+            19
+        ],
+        "pred_position": 1675,
+        "norm_gt": "\\times\\sum_{q\\subseteqq^{\\prime}\\mu(q)^{\\eta\\cdot\\frac1}\\big|b_{2,q^{\\prime}-b_{2,q}\\big|\\langlef_1\\rangle_{q,r}\\langlef_2\\rangle_{q,r}\\big\\|f_3^\\big\\|_l(\\logl)^,q^{1/r}\\chi_q(x)\\big)^{\\delta}d\\mu\\bigg)^{1/\\delta},",
+        "norm_pred": "\\times\\sum_{q'\\inq}\\mu(q')^1+\\|b_{q'}-b_q\\|_{l^{\\infty}(q')}\\|f\\|_l^p_1(q')^{\\frac1p_1\\|f\\|_l^p_2(q')^{\\frac1p_2\\big)^p_2dx",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.6915887850467289,
+        "img_id": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "gt_cdm": "\\times\\sum_{Q\\subseteq Q^{\\prime}}\\mu(Q)^{\\eta\\cdot\\frac{1}{r}}\\Big|b_{2,Q^{\\prime}}-b_{2,Q}\\Big|\\langle f_{1}\\rangle_{Q,r}\\langle f_{2}\\rangle_{Q,r}\\Big\\|f_{3}^{r}\\Big\\|_{L(\\log L)^{r},Q}^{1/r}\\chi_{Q}(x)\\Big)^{\\delta} d\\mu\\Bigg)^{1/\\delta},",
+        "image_name": "page-47977c29-59ca-4534-9a00-becad3bfdaa4.png",
+        "upper_len": 214,
+        "metric": {
+            "Edit_dist": 0.6915887850467289
+        },
+        "Edit_num": 148
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$${H}_{ * }\\left( {T}^{n - 1}\\right)  \\hookrightarrow  {H}_{ * }\\left( {\\operatorname{conf}\\left( {n,w}\\right) }\\right) ,$$",
+        "pred_idx": [
+            1
+        ],
+        "pred": "\\[ H_*(T^n) \\to H_*(\\text{conf}(n, w)). \\]",
+        "gt_position": [
+            4
+        ],
+        "pred_position": 598,
+        "norm_gt": "h_{*}(t^n-1)\\hookrightarrowh_{*}({conf({n,w})}),",
+        "norm_pred": "h_*(t^n)\\toh_*(conf(n,w))",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.4791666666666667,
+        "img_id": "page-8cbbe0d4-a3a8-4533-a620-048bebfa714b.png",
+        "gt_cdm": "{H}_{ * }\\left( {T}^{n - 1}\\right)  \\hookrightarrow  {H}_{ * }\\left( {\\operatorname{conf}\\left( {n,w}\\right) }\\right) ,",
+        "image_name": "page-8cbbe0d4-a3a8-4533-a620-048bebfa714b.png",
+        "upper_len": 48,
+        "metric": {
+            "Edit_dist": 0.4791666666666667
+        },
+        "Edit_num": 23
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$W\\left( {{i}_{1},{i}_{2}}\\right)  \\oplus  \\left( {W\\left( {{i}_{1},{i}_{3}}\\right)  + W\\left( {{i}_{2},{i}_{3}}\\right) }\\right)  \\oplus  \\cdots  \\oplus  \\left( {W\\left( {{i}_{1},{i}_{n}}\\right)  + \\cdots  + W\\left( {{i}_{n - 1},{i}_{n}}\\right) }\\right) .$$",
+        "pred_idx": [
+            12
+        ],
+        "pred": "\\[ W_{i_1} \\otimes \\cdots \\otimes W_{i_k} \\otimes W_{i_1} \\otimes \\cdots \\otimes W_{i_k} \\otimes \\cdots \\]",
+        "gt_position": [
+            7
+        ],
+        "pred_position": 1739,
+        "norm_gt": "w(i_1,i_2)\\oplus(w(i_1,i_3)+w(i_2,i_3))\\oplus\\cdots\\oplus(w(i_1,i_n)+\\cdots+w(i_n-1,i_n))",
+        "norm_pred": "w_i_1\\otimes\\cdots\\otimesw_i_k\\otimesw_i_1\\otimes\\cdots\\otimesw_i_k\\otimes\\cdots",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7078651685393258,
+        "img_id": "page-8cbbe0d4-a3a8-4533-a620-048bebfa714b.png",
+        "gt_cdm": "W\\left( {{i}_{1},{i}_{2}}\\right)  \\oplus  \\left( {W\\left( {{i}_{1},{i}_{3}}\\right)  + W\\left( {{i}_{2},{i}_{3}}\\right) }\\right)  \\oplus  \\cdots  \\oplus  \\left( {W\\left( {{i}_{1},{i}_{n}}\\right)  + \\cdots  + W\\left( {{i}_{n - 1},{i}_{n}}\\right) }\\right) .",
+        "image_name": "page-8cbbe0d4-a3a8-4533-a620-048bebfa714b.png",
+        "upper_len": 89,
+        "metric": {
+            "Edit_dist": 0.7078651685393258
+        },
+        "Edit_num": 63
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "$$W\\left( {{i}_{1},{i}_{k}}\\right)  + \\cdots  + W\\left( {{i}_{k - 1},{i}_{k}}\\right) .$$",
+        "pred_idx": [
+            3
+        ],
+        "pred": "\\[W_{i_1}, \\ldots, W_{i_k}\\]",
+        "gt_position": [
+            10
+        ],
+        "pred_position": 725,
+        "norm_gt": "w(i_1,i_k)+\\cdots+w(i_k-1,i_k)",
+        "norm_pred": "w_i_1,\\ldots,w_i_k",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.5,
+        "img_id": "page-8cbbe0d4-a3a8-4533-a620-048bebfa714b.png",
+        "gt_cdm": "W\\left( {{i}_{1},{i}_{k}}\\right)  + \\cdots  + W\\left( {{i}_{k - 1},{i}_{k}}\\right) .",
+        "image_name": "page-8cbbe0d4-a3a8-4533-a620-048bebfa714b.png",
+        "upper_len": 30,
+        "metric": {
+            "Edit_dist": 0.5
+        },
+        "Edit_num": 15
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "$$W(i_{1,1}, i_{1,n_1}) W(i_{2,1}) W(i_{2,n_2}) \\cdots W(i_{m,n_m}) \\oplus \\cdots$$",
+        "pred_idx": [
+            17
+        ],
+        "pred": "\\[ W_{i_1} \\otimes \\cdots \\otimes W_{i_k} \\otimes W_{i_1} \\otimes \\cdots \\otimes W_{i_k} \\otimes \\cdots \\]",
+        "gt_position": [
+            14
+        ],
+        "pred_position": 2150,
+        "norm_gt": "w(i_{1,1},i_1,n_1)w(i_{2,1})w(i_2,n_2)\\cdotsw(i_m,n_m)\\oplus\\cdots",
+        "norm_pred": "w_i_1\\otimes\\cdots\\otimesw_i_k\\otimesw_i_1\\otimes\\cdots\\otimesw_i_k\\otimes\\cdots",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.675,
+        "img_id": "page-8cbbe0d4-a3a8-4533-a620-048bebfa714b.png",
+        "gt_cdm": "W(i_{1,1}, i_{1,n_1}) W(i_{2,1}) W(i_{2,n_2}) \\cdots W(i_{m,n_m}) \\oplus \\cdots",
+        "image_name": "page-8cbbe0d4-a3a8-4533-a620-048bebfa714b.png",
+        "upper_len": 80,
+        "metric": {
+            "Edit_dist": 0.675
+        },
+        "Edit_num": 54
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "$$\\oplus W(i_{1,1}) W(i_{1,n_1}) \\cdots W(i_{m-1,1}) W(i_{m-1,n_{m-1}}) \\cdots W(i_{m,1}, i_{m,n_m}),$$",
+        "pred_idx": [
+            6
+        ],
+        "pred": "\\[ \\bigoplus_{\\sigma \\in S_k} \\left( W_{i_{\\sigma(1)}} \\otimes W_{i_{\\sigma(2)}} \\otimes \\cdots \\otimes W_{i_{\\sigma(k)}} \\right), \\]",
+        "gt_position": [
+            15
+        ],
+        "pred_position": 864,
+        "norm_gt": "\\oplusw(i_{1,1})w(i_1,n_1)\\cdotsw(i_m-1,1)w(i_m-1,n_m-1)\\cdotsw(i_{m,1},i_m,n_m),",
+        "norm_pred": "\\bigoplus_\\sigma\\ins_k(w_{i_\\sigma(1)\\otimesw_{i_\\sigma(2)\\otimes\\cdots\\otimesw_{i_\\sigma(k)),",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7127659574468085,
+        "img_id": "page-8cbbe0d4-a3a8-4533-a620-048bebfa714b.png",
+        "gt_cdm": "\\oplus W(i_{1,1}) W(i_{1,n_1}) \\cdots W(i_{m-1,1}) W(i_{m-1,n_{m-1}}) \\cdots W(i_{m,1}, i_{m,n_m}),",
+        "image_name": "page-8cbbe0d4-a3a8-4533-a620-048bebfa714b.png",
+        "upper_len": 94,
+        "metric": {
+            "Edit_dist": 0.7127659574468085
+        },
+        "Edit_num": 67
+    },
+    {
+        "gt_idx": [
+            5
+        ],
+        "gt": "$$W(i_{1,1}, i_{1,2}) \\oplus \\left( W(i_{1,1}, i_{1,3}) + W(i_{1,2}, i_{1,3}) \\right) \\oplus \\cdots \\oplus \\left( W(i_{1,1}, i_{1,n_1}) + \\cdots + W(i_{1,n_1-1}, i_{1,n_1}) \\right) \\oplus \\cdots$$",
+        "pred_idx": [
+            13
+        ],
+        "pred": "\\[ \\otimes W_{i_1} \\otimes \\cdots \\otimes W_{i_k} \\otimes W_{i_1} \\otimes \\cdots \\otimes W_{i_k} \\otimes \\cdots \\]",
+        "gt_position": [
+            17
+        ],
+        "pred_position": 1847,
+        "norm_gt": "w(i_{1,1},i_{1,2})\\oplus(w(i_{1,1},i_{1,3})+w(i_{1,2},i_{1,3}))\\oplus\\cdots\\oplus(w(i_{1,1},i_1,n_1)+\\cdots+w(i_1,n_1-1,i_1,n_1))\\oplus\\cdots",
+        "norm_pred": "\\otimesw_i_1\\otimes\\cdots\\otimesw_i_k\\otimesw_i_1\\otimes\\cdots\\otimesw_i_k\\otimes\\cdots",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7375886524822695,
+        "img_id": "page-8cbbe0d4-a3a8-4533-a620-048bebfa714b.png",
+        "gt_cdm": "W(i_{1,1}, i_{1,2}) \\oplus \\left( W(i_{1,1}, i_{1,3}) + W(i_{1,2}, i_{1,3}) \\right) \\oplus \\cdots \\oplus \\left( W(i_{1,1}, i_{1,n_1}) + \\cdots + W(i_{1,n_1-1}, i_{1,n_1}) \\right) \\oplus \\cdots",
+        "image_name": "page-8cbbe0d4-a3a8-4533-a620-048bebfa714b.png",
+        "upper_len": 141,
+        "metric": {
+            "Edit_dist": 0.7375886524822695
+        },
+        "Edit_num": 104
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "$$\\oplus  W\\left( {{i}_{m,1},{i}_{m,2}}\\right)  \\oplus  \\left( {W\\left( {{i}_{m,1},{i}_{m,3}}\\right)  + W\\left( {{i}_{m,2},{i}_{m,3}}\\right) }\\right)  \\oplus  \\cdots  \\oplus  \\left( {W\\left( {{i}_{m,1},{i}_{m,{n}_{m}}}\\right)  + \\cdots  + W\\left( {{i}_{m,{n}_{m} - 1},{i}_{m,{n}_{m}}}\\right) }\\right) ,$$",
+        "pred_idx": [
+            14
+        ],
+        "pred": "\\[ \\otimes W_{i_1} \\otimes \\cdots \\otimes W_{i_k} \\otimes W_{i_1} \\otimes \\cdots \\otimes W_{i_k} \\otimes \\cdots \\]",
+        "gt_position": [
+            18
+        ],
+        "pred_position": 1963,
+        "norm_gt": "\\oplusw({i_{m,1},i_{m,2})\\oplus({w({i_{m,1},i_{m,3})+w({i_{m,2},i_{m,3})})\\oplus\\cdots\\oplus({w({i_{m,1},i_m,n_m)+\\cdots+w(i_m,n_m-1,i_m,n_m)),",
+        "norm_pred": "\\otimesw_i_1\\otimes\\cdots\\otimesw_i_k\\otimesw_i_1\\otimes\\cdots\\otimesw_i_k\\otimes\\cdots",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7342657342657343,
+        "img_id": "page-8cbbe0d4-a3a8-4533-a620-048bebfa714b.png",
+        "gt_cdm": "\\oplus  W\\left( {{i}_{m,1},{i}_{m,2}}\\right)  \\oplus  \\left( {W\\left( {{i}_{m,1},{i}_{m,3}}\\right)  + W\\left( {{i}_{m,2},{i}_{m,3}}\\right) }\\right)  \\oplus  \\cdots  \\oplus  \\left( {W\\left( {{i}_{m,1},{i}_{m,{n}_{m}}}\\right)  + \\cdots  + W\\left( {{i}_{m,{n}_{m} - 1},{i}_{m,{n}_{m}}}\\right) }\\right) ,",
+        "image_name": "page-8cbbe0d4-a3a8-4533-a620-048bebfa714b.png",
+        "upper_len": 143,
+        "metric": {
+            "Edit_dist": 0.7342657342657343
+        },
+        "Edit_num": 105
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$B = \\frac{{\\mu }_{0}}{2\\pi }\\frac{m}{{x}^{3}} = \\frac{{\\mu }_{0}}{2\\pi }\\frac{m}{{x}^{3}}{e}_{\\mathrm{n}}$$",
+        "pred_idx": [
+            1
+        ],
+        "pred": "\\[ B = \\int dB = \\frac{\\mu_0 I}{2\\pi} \\int_{a}^{c} \\frac{da}{r^2 \\sqrt{1 + (r^2/a^2)}} \\]",
+        "edit": 0.6774193548387096,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            2
+        ],
+        "pred_position": 548,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "page-b13fef06-6ae9-4b2d-a948-0340e03f97ce.png",
+        "norm_gt": "b=\\frac{\\mu}_0}{2\\pi}\\fracmx^3=\\frac{\\mu}_0}{2\\pi}\\fracmx^3e_n",
+        "norm_pred": "b=\\intdb=\\frac\\mu_0i{2\\pi}\\int_a^\\fracda{r^2\\sqrt1+(r^2/a^2)",
+        "gt_cdm": "B = \\frac{{\\mu }_{0}}{2\\pi }\\frac{m}{{x}^{3}} = \\frac{{\\mu }_{0}}{2\\pi }\\frac{m}{{x}^{3}}{e}_{\\mathrm{n}}",
+        "image_name": "page-b13fef06-6ae9-4b2d-a948-0340e03f97ce.png",
+        "upper_len": 62,
+        "metric": {
+            "Edit_dist": 0.6774193548387096
+        },
+        "Edit_num": 42
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$\\mathrm{d}B={\\frac{\\mu_{0}}{2}}{\\frac{R^{2}In\\mathrm{d}x}{\\left(R^{2}+x^{2}\\right)^{3/2}}}\\tag{1}$$",
+        "pred_idx": [
+            0
+        ],
+        "pred": "\\[ dB = \\frac{\\mu_0 I \\cdot da}{2\\pi r^2} \\cdot \\frac{1}{\\sqrt{1 + (r^2/a^2)}} \\]",
+        "edit": 0.6071428571428571,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            12
+        ],
+        "pred_position": 368,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "page-b13fef06-6ae9-4b2d-a948-0340e03f97ce.png",
+        "norm_gt": "db=\\frac\\mu_02{\\fracr^2indx{(r^2+x^2)^{3/2}",
+        "norm_pred": "db=\\frac\\mu_0i\\cdotda2\\pir^2\\cdot\\frac1{\\sqrt1+(r^2/a^2)",
+        "gt_cdm": "\\mathrm{d}B={\\frac{\\mu_{0}}{2}}{\\frac{R^{2}In\\mathrm{d}x}{\\left(R^{2}+x^{2}\\right)^{3/2}}}",
+        "image_name": "page-b13fef06-6ae9-4b2d-a948-0340e03f97ce.png",
+        "upper_len": 56,
+        "metric": {
+            "Edit_dist": 0.6071428571428571
+        },
+        "Edit_num": 34
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$F(s)=L[f(t)]\\Rightarrow L[\\int_{0}^{t}f(t)dt]=\\frac{F(s)}{s}+\\frac{1}{s}f^{(-1)}(0)$$",
+        "pred_idx": [
+            3
+        ],
+        "pred": "\\[F(s) = L[f(t)] \\Rightarrow L[\\int_{0}^{t} f(t)dt] = \\frac{F(s)}{s} + \\frac{1}{s}f^{(-1)}(0)\\]",
+        "edit": 0.0,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            5
+        ],
+        "pred_position": 11,
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "page-961a543b-d09d-4fd8-944a-1a38d67bb3bc.png",
+        "norm_gt": "f(s)=l[f(t)]\\rightarrowl[\\int_0^tf(t)dt]=\\fracf(s)s+\\frac1sf^(-1)(0)",
+        "norm_pred": "f(s)=l[f(t)]\\rightarrowl[\\int_0^tf(t)dt]=\\fracf(s)s+\\frac1sf^(-1)(0)",
+        "gt_cdm": "F(s)=L[f(t)]\\Rightarrow L[\\int_{0}^{t}f(t)dt]=\\frac{F(s)}{s}+\\frac{1}{s}f^{(-1)}(0)",
+        "image_name": "page-961a543b-d09d-4fd8-944a-1a38d67bb3bc.png",
+        "upper_len": 68,
+        "metric": {
+            "Edit_dist": 0.0
+        },
+        "Edit_num": 0
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$L\\left\\lbrack  \\underset{n}{\\underbrace{{\\int }_{0}^{t}\\ldots {\\int }_{0}^{t}f\\left( t\\right) {dt}\\ldots {dt}}}\\right\\rbrack   = \\frac{F\\left( s\\right) }{{s}^{n}} + \\frac{1}{{s}^{n}}{f}^{\\left( -1\\right) }\\left( 0\\right)  + \\ldots  + \\frac{1}{s}{f}^{\\left( -n\\right) }\\left( 0\\right)$$",
+        "pred_idx": [
+            4,
+            5
+        ],
+        "pred": "\\begin{array}{l} {f^{(-1)}(0) = \\int_{0}^{t} f(t)dt} \\\\ {L[\\int_{0}^{t} \\cdots \\int_{0}^{t} f(t)dt \\cdots dt] = \\frac{F(s)}{s^n} + \\frac{1}{s}f^{(-1)}(0) + \\cdots + \\frac{1}{s}f^{(-n)}(0)} \\end{array}",
+        "edit": 0.3358208955223881,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            7
+        ],
+        "pred_position": 109,
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "page-961a543b-d09d-4fd8-944a-1a38d67bb3bc.png",
+        "norm_gt": "l\\lbrack\\undersetn{\\underbrace{\\int}_0^t\\ldots{\\int}_0^tf(t)dt\\ldotsdt}\\rbrack=\\fracf(s)s^n+\\frac1s^nf^(-1)(0)+\\ldots+\\frac1sf^(-n)(0)",
+        "norm_pred": "f^(-1)(0)=\\int_0^tf(t)dtl[\\int_0^t\\cdots\\int_0^tf(t)dt\\cdotsdt]=\\fracf(s)s^n+\\frac1sf^(-1)(0)+\\cdots+\\frac1sf^(-n)(0)",
+        "gt_cdm": "L\\left\\lbrack  \\underset{n}{\\underbrace{{\\int }_{0}^{t}\\ldots {\\int }_{0}^{t}f\\left( t\\right) {dt}\\ldots {dt}}}\\right\\rbrack   = \\frac{F\\left( s\\right) }{{s}^{n}} + \\frac{1}{{s}^{n}}{f}^{\\left( -1\\right) }\\left( 0\\right)  + \\ldots  + \\frac{1}{s}{f}^{\\left( -n\\right) }\\left( 0\\right)",
+        "image_name": "page-961a543b-d09d-4fd8-944a-1a38d67bb3bc.png",
+        "upper_len": 134,
+        "metric": {
+            "Edit_dist": 0.3358208955223881
+        },
+        "Edit_num": 45
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "$$\\Rightarrow \\operatorname* { l i m } _ { t \\rightarrow0 } f ( t ) = \\operatorname* { l i m } _ { s\\rightarrow \\infty } s F ( s )$$",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[ \\Rightarrow \\lim_{t \\to 0} f(t) = \\lim_{s \\to \\infty} sF(s) \\]",
+        "edit": 0.23076923076923078,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            11
+        ],
+        "pred_position": 412,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "page-961a543b-d09d-4fd8-944a-1a38d67bb3bc.png",
+        "norm_gt": "\\rightarrow*lim_tarrow0f(t)=*lim_{sarrow\\infty}sf(s)",
+        "norm_pred": "\\rightarrow\\lim_{t\\to0}f(t)=\\lim_{s\\to\\infty}sf(s)",
+        "gt_cdm": "\\Rightarrow \\operatorname* { l i m } _ { t \\rightarrow0 } f ( t ) = \\operatorname* { l i m } _ { s\\rightarrow \\infty } s F ( s )",
+        "image_name": "page-961a543b-d09d-4fd8-944a-1a38d67bb3bc.png",
+        "upper_len": 52,
+        "metric": {
+            "Edit_dist": 0.23076923076923078
+        },
+        "Edit_num": 12
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\n\\mathrm{Hazard~Quotient}=\\frac{\\mathrm{Exposure~ Dose}} {RfD}\n$$",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[\\text { Hazard Index method }\\]",
+        "gt_position": [
+            7
+        ],
+        "pred_position": 143,
+        "norm_gt": "hazardquotient=\\fracexposuredoserfd",
+        "norm_pred": "hazardindexmethod",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.6571428571428571,
+        "img_id": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.jpg",
+        "gt_cdm": "\\mathrm{Hazard~Quotient}=\\frac{\\mathrm{Exposure~ Dose}} {RfD}",
+        "image_name": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.jpg",
+        "upper_len": 35,
+        "metric": {
+            "Edit_dist": 0.6571428571428571
+        },
+        "Edit_num": 23
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$\n\\mathrm{Exposure ~ Dose}=\\frac{Ci \\times\\mathrm{D} v \\times\\mathrm{E} d} {Bw \\times At}\n$$",
+        "pred_idx": [
+            1
+        ],
+        "pred": "\\[\\text { fectious diseases patients in Taiwan }\\]",
+        "gt_position": [
+            9
+        ],
+        "pred_position": 92,
+        "norm_gt": "exposuredose=\\frac{ci\\timesdv\\timesed}{bw\\timesat}",
+        "norm_pred": "fectiousdiseasespatientsintaiwan",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.76,
+        "img_id": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.jpg",
+        "gt_cdm": "\\mathrm{Exposure ~ Dose}=\\frac{Ci \\times\\mathrm{D} v \\times\\mathrm{E} d} {Bw \\times At}",
+        "image_name": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.jpg",
+        "upper_len": 50,
+        "metric": {
+            "Edit_dist": 0.76
+        },
+        "Edit_num": 38
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "$$\n\\mathrm{Hazard ~ Index}=\\sum_{n=1}^{n=k} \\mathrm{Hazard ~ Quotient}\n$$",
+        "pred_idx": [
+            3
+        ],
+        "pred": "\\[ \\text{Hazard Index} = \\sum_{i=1}^{n} \\frac{C_i}{R_i} \\]",
+        "gt_position": [
+            11
+        ],
+        "pred_position": 1381,
+        "norm_gt": "hazardindex=\\sum_n=1^n=khazardquotient",
+        "norm_pred": "hazardindex=\\sum_i=1^n\\fracc_ir_i",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.39473684210526316,
+        "img_id": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.jpg",
+        "gt_cdm": "\\mathrm{Hazard ~ Index}=\\sum_{n=1}^{n=k} \\mathrm{Hazard ~ Quotient}",
+        "image_name": "docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.jpg",
+        "upper_len": 38,
+        "metric": {
+            "Edit_dist": 0.39473684210526316
+        },
+        "Edit_num": 15
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\n\\iint_{\\Sigma}Pdydz+Qdzdx=\\iint_{\\Sigma}\\left(\\frac{x}{z}P+\\frac{y}{z}Q\\right)dxdy\n$$",
+        "pred_idx": [
+            3
+        ],
+        "pred": "\\[\\int_a^b f(x) \\, dx > 0\\]",
+        "gt_position": [
+            22
+        ],
+        "pred_position": 199,
+        "norm_gt": "\\iint_{\\sigma}pdydz+qdzdx=\\iint_{\\sigma}(\\fracxzp+\\fracyzq)dxdy",
+        "norm_pred": "\\int_a^bf(x)dx>0",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.8253968253968254,
+        "img_id": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "gt_cdm": "\\iint_{\\Sigma}Pdydz+Qdzdx=\\iint_{\\Sigma}\\left(\\frac{x}{z}P+\\frac{y}{z}Q\\right)dxdy",
+        "image_name": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "upper_len": 63,
+        "metric": {
+            "Edit_dist": 0.8253968253968254
+        },
+        "Edit_num": 52
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$\n=\\ln2+\\sum_{n=1}^{\\infty}(-1)^{n-1}{\\frac{\\left({\\frac{1}{2}}x\\right)^{n}}{n}}\n$$",
+        "pred_idx": [
+            19
+        ],
+        "pred": "\\[\\int_0^1 f(x) \\, dx = 1\\]",
+        "gt_position": [
+            28
+        ],
+        "pred_position": 522,
+        "norm_gt": "=\\ln2+\\sum_n=1^{\\infty}(-1)^n-1{\\frac{({\\frac12}x)^n}n}",
+        "norm_pred": "\\int_0^1f(x)dx=1",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.8181818181818182,
+        "img_id": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "gt_cdm": "=\\ln2+\\sum_{n=1}^{\\infty}(-1)^{n-1}{\\frac{\\left({\\frac{1}{2}}x\\right)^{n}}{n}}",
+        "image_name": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "upper_len": 55,
+        "metric": {
+            "Edit_dist": 0.8181818181818182
+        },
+        "Edit_num": 45
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "$$\n\\begin{aligned}[\\ln(2+x)]'=\\frac{1}{2+x}=\\frac{1}{2\\left(1+\\frac{x}{2}\\right)}=\\frac{1}{2}\\sum_{n=0}^{\\infty}(-1)^n\\left(\\frac{x}{2}\\right)^n\\end{aligned}\n$$",
+        "pred_idx": [
+            110
+        ],
+        "pred": "\\[ 6. 设 f(x) 为连续函数，且 \\int_0^1 f(x) \\, dx = 20 ，求 \\int_0^1 f(x) \\, dx 的值。 \\]",
+        "gt_position": [
+            31
+        ],
+        "pred_position": 2896,
+        "norm_gt": "[\\ln(2+x)]'=\\frac12+x=\\frac12(1+\\fracx2)=\\frac12\\sum_n=0^{\\infty}(-1)^n(\\fracx2)^n",
+        "norm_pred": "6.设f(x)为连续函数，且\\int_0^1f(x)dx=20，求\\int_0^1f(x)dx的值。",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7926829268292683,
+        "img_id": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "gt_cdm": "\\begin{aligned}[\\ln(2+x)]'=\\frac{1}{2+x}=\\frac{1}{2\\left(1+\\frac{x}{2}\\right)}=\\frac{1}{2}\\sum_{n=0}^{\\infty}(-1)^n\\left(\\frac{x}{2}\\right)^n\\end{aligned}",
+        "image_name": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "upper_len": 82,
+        "metric": {
+            "Edit_dist": 0.7926829268292683
+        },
+        "Edit_num": 65
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "$$\n\\ln(2+x)=\\sum_{n=0}^{\\infty}(-1)^{n}\\frac{\\left(\\frac{1}{2}x\\right)^{n+1}}{n+1}+C=\\sum_{n=1}^{\\infty}(-1)^{n-1}\\frac{\\left(\\frac{1}{2}x\\right)^{n}}{n}+C\n$$",
+        "pred_idx": [
+            74
+        ],
+        "pred": "\\[ 3. 设 f(x) 为连续函数，且 \\int_0^1 f(x) \\, dx = 11 ，则 \\int_0^1 f(x) \\, dx = ____。 \\]",
+        "gt_position": [
+            32
+        ],
+        "pred_position": 2183,
+        "norm_gt": "\\ln(2+x)=\\sum_n=0^{\\infty}(-1)^n\\frac(\\frac12x)^n+1n+1+c=\\sum_n=1^{\\infty}(-1)^n-1\\frac(\\frac12x)^nn+c",
+        "norm_pred": "3.设f(x)为连续函数，且\\int_0^1f(x)dx=11，则\\int_0^1f(x)dx=____。",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7843137254901961,
+        "img_id": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "gt_cdm": "\\ln(2+x)=\\sum_{n=0}^{\\infty}(-1)^{n}\\frac{\\left(\\frac{1}{2}x\\right)^{n+1}}{n+1}+C=\\sum_{n=1}^{\\infty}(-1)^{n-1}\\frac{\\left(\\frac{1}{2}x\\right)^{n}}{n}+C",
+        "image_name": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "upper_len": 102,
+        "metric": {
+            "Edit_dist": 0.7843137254901961
+        },
+        "Edit_num": 80
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "$$\nS(0)=C=\\ln(2+0)=\\ln2\n$$",
+        "pred_idx": [
+            78
+        ],
+        "pred": "\\[ 4. 设 f(x) 为连续函数，且 \\int_0^1 f(x) \\, dx = 12 ，则 \\int_0^1 f(x) \\, dx = ____。 \\]",
+        "gt_position": [
+            33
+        ],
+        "pred_position": 2262,
+        "norm_gt": "s(0)=c=\\ln(2+0)=\\ln2",
+        "norm_pred": "4.设f(x)为连续函数，且\\int_0^1f(x)dx=12，则\\int_0^1f(x)dx=____。",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.8301886792452831,
+        "img_id": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "gt_cdm": "S(0)=C=\\ln(2+0)=\\ln2",
+        "image_name": "jiaocaineedrop_20608808.pdf_0.jpg",
+        "upper_len": 53,
+        "metric": {
+            "Edit_dist": 0.8301886792452831
+        },
+        "Edit_num": 44
+    },
+    {
+        "gt_idx": [
+            7
+        ],
+        "gt": "$$Z\\left(3,2\\right)\\xrightarrow{逆时针旋转90^{\\circ} }{Z}^\\prime\\left(-2,3\\right)$$",
+        "pred_idx": [
+            7
+        ],
+        "pred": "\\[ Z(3,2) \\quad \\text{逆时针旋转 } 90^\\circ \\rightarrow Z'(-2,3) \\]",
+        "edit": 0.4791666666666667,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            6
+        ],
+        "pred_position": 315,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_1276.jpg",
+        "norm_gt": "z(3,2)\\xrightarrow{逆时针旋转90^{\\circ}z^\\prime(-2,3)",
+        "norm_pred": "z(3,2){逆时针旋转}90^\\circarrowz'(-2,3)",
+        "gt_cdm": "Z\\left(3,2\\right)\\xrightarrow{逆时针旋转90^{\\circ} }{Z}^\\prime\\left(-2,3\\right)",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_1276.jpg",
+        "upper_len": 48,
+        "metric": {
+            "Edit_dist": 0.4791666666666667
+        },
+        "Edit_num": 23
+    },
+    {
+        "gt_idx": [
+            9
+        ],
+        "gt": "$$Z\\left(3,2\\right)\\xrightarrow{顺时针旋转90^{\\circ} }{Z}^\\prime\\left(2,-3\\right)$$",
+        "pred_idx": [
+            8
+        ],
+        "pred": "\\[ Z(3,2) \\quad \\text{顺时针旋转 } 90^\\circ \\rightarrow Z''(2,-3) \\]",
+        "edit": 0.4791666666666667,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            9
+        ],
+        "pred_position": 379,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_1276.jpg",
+        "norm_gt": "z(3,2)\\xrightarrow{顺时针旋转90^{\\circ}z^\\prime(2,-3)",
+        "norm_pred": "z(3,2){顺时针旋转}90^\\circarrowz''(2,-3)",
+        "gt_cdm": "Z\\left(3,2\\right)\\xrightarrow{顺时针旋转90^{\\circ} }{Z}^\\prime\\left(2,-3\\right)",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_1276.jpg",
+        "upper_len": 48,
+        "metric": {
+            "Edit_dist": 0.4791666666666667
+        },
+        "Edit_num": 23
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\n\\lambda=T v=8. 5 \\; \\mathrm{m}.\n$$",
+        "pred_idx": [
+            0
+        ],
+        "pred": "\\[\\lambda = \\pi = 8.5 \\, \\text{m}\\]",
+        "edit": 0.1875,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            1
+        ],
+        "pred_position": 0,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_2718.jpg",
+        "norm_gt": "\\lambda=tv=8.5m",
+        "norm_pred": "\\lambda=\\pi=8.5m",
+        "gt_cdm": "\\lambda=T v=8. 5 \\; \\mathrm{m}.",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_2718.jpg",
+        "upper_len": 16,
+        "metric": {
+            "Edit_dist": 0.1875
+        },
+        "Edit_num": 3
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$\nT=\\frac{6 0} {3 0} \\mathrm{~ s}=2 \\mathrm{~ s}.\n$$",
+        "pred_idx": [
+            4
+        ],
+        "pred": "\\[T = \\frac{60}{30} = 2 \\, \\text{s}\\]",
+        "edit": 0.06666666666666667,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            10
+        ],
+        "pred_position": 305,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_2718.jpg",
+        "norm_gt": "t=\\frac6030s=2s",
+        "norm_pred": "t=\\frac6030=2s",
+        "gt_cdm": "T=\\frac{6 0} {3 0} \\mathrm{~ s}=2 \\mathrm{~ s}.",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_2718.jpg",
+        "upper_len": 15,
+        "metric": {
+            "Edit_dist": 0.06666666666666667
+        },
+        "Edit_num": 1
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "$$\n\\lambda=\\frac{2 0} {2. 5} \\mathrm{~ m}=8 \\mathrm{~ m}.\n$$",
+        "pred_idx": [
+            5
+        ],
+        "pred": "\\[\\lambda = \\frac{v}{f} = \\frac{20}{2.5} = 8 \\, \\text{m}\\]",
+        "edit": 0.3103448275862069,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            12
+        ],
+        "pred_position": 372,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_2718.jpg",
+        "norm_gt": "\\lambda=\\frac202.5m=8m",
+        "norm_pred": "\\lambda=\\fracvf=\\frac202.5=8m",
+        "gt_cdm": "\\lambda=\\frac{2 0} {2. 5} \\mathrm{~ m}=8 \\mathrm{~ m}.",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_2718.jpg",
+        "upper_len": 29,
+        "metric": {
+            "Edit_dist": 0.3103448275862069
+        },
+        "Edit_num": 9
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "$$\nv=\\frac{\\lambda} {T}=4 \\; \\mathrm{~ m / s}.\n$$",
+        "pred_idx": [
+            6
+        ],
+        "pred": "\\[v = \\frac{\\lambda}{T} = \\frac{8}{2} = 4 \\, \\text{m/s}\\]",
+        "edit": 0.25,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            14
+        ],
+        "pred_position": 439,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_2718.jpg",
+        "norm_gt": "v=\\frac{\\lambda}t=4{m/s}",
+        "norm_pred": "v=\\frac{\\lambda}t=\\frac82=4{m/s}",
+        "gt_cdm": "v=\\frac{\\lambda} {T}=4 \\; \\mathrm{~ m / s}.",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_2718.jpg",
+        "upper_len": 32,
+        "metric": {
+            "Edit_dist": 0.25
+        },
+        "Edit_num": 8
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\n4\\frac{3}{5}\\!-\\!1\\frac{1}{2}\\!=\\!3\\frac{1}{10}\n$$",
+        "pred_idx": [
+            7,
+            8,
+            9
+        ],
+        "pred": "\\begin{array}{l} {\\frac{3}{5}} \\\\ {\\frac{1}{2}} \\\\ {\\frac{1}{10}} \\end{array}",
+        "edit": 0.18518518518518517,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            1
+        ],
+        "pred_position": 6,
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "norm_gt": "4\\frac35-1\\frac12=3\\frac110",
+        "norm_pred": "\\frac35\\frac12\\frac110",
+        "gt_cdm": "4\\frac{3}{5}\\!-\\!1\\frac{1}{2}\\!=\\!3\\frac{1}{10}",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "upper_len": 27,
+        "metric": {
+            "Edit_dist": 0.18518518518518517
+        },
+        "Edit_num": 5
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$\n6. 6 \\times3 0 0=1 9 8 0\n$$",
+        "pred_idx": [
+            0
+        ],
+        "pred": "\\[ 4 \\frac{3}{5} -1 \\frac{1}{2} =3 \\frac{1}{10} 6.6 \\times 300=1980 \\]",
+        "edit": 0.6136363636363636,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            2
+        ],
+        "pred_position": 3,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "norm_gt": "6.6\\times300=1980",
+        "norm_pred": "4\\frac35-1\\frac12=3\\frac1106.6\\times300=1980",
+        "gt_cdm": "6. 6 \\times3 0 0=1 9 8 0",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "upper_len": 44,
+        "metric": {
+            "Edit_dist": 0.6136363636363636
+        },
+        "Edit_num": 27
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "$$\n5\\frac{1}{2}\\!-\\!2\\frac{4}{9}\\!=\\!3\\,\\frac{1}{18}\n$$",
+        "pred_idx": [
+            10,
+            11,
+            12
+        ],
+        "pred": "\\begin{array}{l} {\\frac{1}{2}} \\\\ {\\frac{4}{9}} \\\\ {\\frac{1}{18}} \\end{array}",
+        "edit": 0.18518518518518517,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            3
+        ],
+        "pred_position": 66,
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "norm_gt": "5\\frac12-2\\frac49=3\\frac118",
+        "norm_pred": "\\frac12\\frac49\\frac118",
+        "gt_cdm": "5\\frac{1}{2}\\!-\\!2\\frac{4}{9}\\!=\\!3\\,\\frac{1}{18}",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "upper_len": 27,
+        "metric": {
+            "Edit_dist": 0.18518518518518517
+        },
+        "Edit_num": 5
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "$$\n2 4 \\div1. 2=2 0\n$$",
+        "pred_idx": [
+            1
+        ],
+        "pred": "\\[ 5 \\frac{1}{2} -2 \\frac{4}{9} =3 \\frac{1}{18} 24 \\div 1.2=20 \\]",
+        "edit": 0.6923076923076923,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            4
+        ],
+        "pred_position": 61,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "norm_gt": "24\\div1.2=20",
+        "norm_pred": "5\\frac12-2\\frac49=3\\frac11824\\div1.2=20",
+        "gt_cdm": "2 4 \\div1. 2=2 0",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "upper_len": 39,
+        "metric": {
+            "Edit_dist": 0.6923076923076923
+        },
+        "Edit_num": 27
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "$$\n0. 3 \\times0. 8=0. 2 4\n$$",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[ 47.95+22.95-37.35=33.55 0.3 \\times 0.8=0.24 \\]",
+        "edit": 0.575,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            6
+        ],
+        "pred_position": 116,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "norm_gt": "0.3\\times0.8=0.24",
+        "norm_pred": "47.95+22.95-37.35=33.550.3\\times0.8=0.24",
+        "gt_cdm": "0. 3 \\times0. 8=0. 2 4",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "upper_len": 40,
+        "metric": {
+            "Edit_dist": 0.575
+        },
+        "Edit_num": 23
+    },
+    {
+        "gt_idx": [
+            5
+        ],
+        "gt": "$$\n4. 2 \\times2 0=8 4\n$$",
+        "pred_idx": [
+            3
+        ],
+        "pred": "\\[ 4.2 \\times 20=84 20.35+3.18-18.92=4.61 \\]",
+        "edit": 0.6,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            7
+        ],
+        "pred_position": 152,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "norm_gt": "4.2\\times20=84",
+        "norm_pred": "4.2\\times20=8420.35+3.18-18.92=4.61",
+        "gt_cdm": "4. 2 \\times2 0=8 4",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "upper_len": 35,
+        "metric": {
+            "Edit_dist": 0.6
+        },
+        "Edit_num": 21
+    },
+    {
+        "gt_idx": [
+            7
+        ],
+        "gt": "$$\n1. 6 \\times0. 3=0. 4 8\n$$",
+        "pred_idx": [
+            4
+        ],
+        "pred": "\\[ 8.01 \\div 0.9=8.9 1.6 \\times 0.3=0.48 \\]",
+        "edit": 0.46875,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            10
+        ],
+        "pred_position": 183,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "norm_gt": "1.6\\times0.3=0.48",
+        "norm_pred": "8.01\\div0.9=8.91.6\\times0.3=0.48",
+        "gt_cdm": "1. 6 \\times0. 3=0. 4 8",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "upper_len": 32,
+        "metric": {
+            "Edit_dist": 0.46875
+        },
+        "Edit_num": 15
+    },
+    {
+        "gt_idx": [
+            8
+        ],
+        "gt": "$$\n9. 3 \\times6 0=5 5 8\n$$",
+        "pred_idx": [
+            5
+        ],
+        "pred": "\\[ 5+2.7-0.3=7.4 9.3 \\times 60=558 \\]",
+        "edit": 0.4642857142857143,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            12
+        ],
+        "pred_position": 208,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "norm_gt": "9.3\\times60=558",
+        "norm_pred": "5+2.7-0.3=7.49.3\\times60=558",
+        "gt_cdm": "9. 3 \\times6 0=5 5 8",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "upper_len": 28,
+        "metric": {
+            "Edit_dist": 0.4642857142857143
+        },
+        "Edit_num": 13
+    },
+    {
+        "gt_idx": [
+            9
+        ],
+        "gt": "$$\n{\\frac{1}{6}}+{\\frac{3}{5}}={\\frac{23}{30}}\n$$",
+        "pred_idx": [
+            13,
+            14,
+            15
+        ],
+        "pred": "\\begin{array}{l} {\\frac{1}{6}} \\\\ {\\frac{3}{5}} \\\\ {\\frac{23}{30}} \\end{array}",
+        "edit": 0.25806451612903225,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            13
+        ],
+        "pred_position": 246,
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "norm_gt": "{\\frac16}+{\\frac35}={\\frac2330}",
+        "norm_pred": "\\frac16\\frac35\\frac2330",
+        "gt_cdm": "{\\frac{1}{6}}+{\\frac{3}{5}}={\\frac{23}{30}}",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "upper_len": 31,
+        "metric": {
+            "Edit_dist": 0.25806451612903225
+        },
+        "Edit_num": 8
+    },
+    {
+        "gt_idx": [
+            10
+        ],
+        "gt": "$$\n2. 3 \\times5=1 1. 5\n$$",
+        "pred_idx": [
+            6
+        ],
+        "pred": "\\[ \\frac{1}{6} + \\frac{3}{5} = \\frac{23}{30} 2.3 \\times 5=11.5 \\]",
+        "edit": 0.625,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            14
+        ],
+        "pred_position": 232,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "norm_gt": "2.3\\times5=11.5",
+        "norm_pred": "\\frac16+\\frac35=\\frac23302.3\\times5=11.5",
+        "gt_cdm": "2. 3 \\times5=1 1. 5",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "upper_len": 40,
+        "metric": {
+            "Edit_dist": 0.625
+        },
+        "Edit_num": 25
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "$$\n8. 0 1 \\div0. 9=8. 9\n$$",
+        "pred_idx": [
+            ""
+        ],
+        "pred": "",
+        "edit": 1,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            9
+        ],
+        "pred_position": "",
+        "pred_category_type": "",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "norm_gt": "8.01\\div0.9=8.9",
+        "norm_pred": "",
+        "gt_cdm": "8. 0 1 \\div0. 9=8. 9",
+        "image_name": "jiaocaineedrop_jiaocai_needrop_en_541.jpg",
+        "upper_len": 15,
+        "metric": {
+            "Edit_dist": 1.0
+        },
+        "Edit_num": 15
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "\\[\\|\\mathbf{a}\\| = \\mathbf{a}^{\\text{T}}\\mathbf{a} = 1\\]",
+        "pred_idx": [
+            0
+        ],
+        "pred": "\\[ p = a (aᵀx) ||a|| = aᵀa = 1 \\]",
+        "edit": 0.631578947368421,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            4.002
+        ],
+        "pred_position": 119,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "PPT_linear-algebra primer_page_007.png",
+        "norm_gt": "\\|a\\|=a^ta=1",
+        "norm_pred": "p=a(aᵀx)||a||=aᵀa=1",
+        "gt_cdm": "\\|\\mathbf{a}\\| = \\mathbf{a}^{\\text{T}}\\mathbf{a} = 1",
+        "image_name": "PPT_linear-algebra primer_page_007.png",
+        "upper_len": 19,
+        "metric": {
+            "Edit_dist": 0.631578947368421
+        },
+        "Edit_num": 12
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "\\[\\mathbf{p} = \\mathbf{a}(\\mathbf{a}^{\\text{T}}\\mathbf{x})\\]",
+        "pred_idx": [
+            ""
+        ],
+        "pred": "",
+        "edit": 1,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            4.001
+        ],
+        "pred_position": "",
+        "pred_category_type": "",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "PPT_linear-algebra primer_page_007.png",
+        "norm_gt": "p=a(a^tx)",
+        "norm_pred": "",
+        "gt_cdm": "\\mathbf{p} = \\mathbf{a}(\\mathbf{a}^{\\text{T}}\\mathbf{x})",
+        "image_name": "PPT_linear-algebra primer_page_007.png",
+        "upper_len": 9,
+        "metric": {
+            "Edit_dist": 1.0
+        },
+        "Edit_num": 9
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\nf : = ( f _ { R } , f _ { G } , f _ { B } ) : \\Omega \\to \\mathbb { R } ^ { 3 }\n$$",
+        "pred_idx": [
+            0
+        ],
+        "pred": "\\[     f := (f_R, f_G, f_B) : \\Omega \\to \\mathbb{R}^3     \\]",
+        "gt_position": [
+            3
+        ],
+        "pred_position": 175,
+        "norm_gt": "f:=(f_r,f_g,f_b):\\omega\\tor^3",
+        "norm_pred": "f:=(f_r,f_g,f_b):\\omega\\tor^3",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.0,
+        "img_id": "PPT_MMAT5390Lecture1_page_024.png",
+        "gt_cdm": "f : = ( f _ { R } , f _ { G } , f _ { B } ) : \\Omega \\to \\mathbb { R } ^ { 3 }",
+        "image_name": "PPT_MMAT5390Lecture1_page_024.png",
+        "upper_len": 29,
+        "metric": {
+            "Edit_dist": 0.0
+        },
+        "Edit_num": 0
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\n盐酸可溶物( \\% ) = \\frac { W _ { 1 } - W _ { 0 } } { m \\times \\frac { V _ { 1 } } { V _ { 2 } } } \\times 1 0 0 \\\n$$",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[\\frac{W_1 - W_2}{W} \\times 100\\]",
+        "edit": 0.6078431372549019,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            5
+        ],
+        "pred_position": 193,
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "book_zh_GB149361994_extracted_page_7.png",
+        "norm_gt": "盐酸可溶物(\\%)=\\fracw_1-w_0{m\\times\\fracv_1v_2\\times100\\",
+        "norm_pred": "\\fracw_1-w_2w\\times100",
+        "gt_cdm": "盐酸可溶物( \\% ) = \\frac { W _ { 1 } - W _ { 0 } } { m \\times \\frac { V _ { 1 } } { V _ { 2 } } } \\times 1 0 0 \\",
+        "image_name": "book_zh_GB149361994_extracted_page_7.png",
+        "upper_len": 51,
+        "metric": {
+            "Edit_dist": 0.6078431372549019
+        },
+        "Edit_num": 31
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$\n灼烧失重( \\% ) = \\frac { W _ { 1 } - W _ { 2 } } { W _ { 1 } - W _ { 0 } } \\times 1 0 0\n$$",
+        "pred_idx": [
+            3
+        ],
+        "pred": "\\[\\frac{W_1 - W_2}{W} \\times 100\\]",
+        "edit": 0.40540540540540543,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            16
+        ],
+        "pred_position": 418,
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "book_zh_GB149361994_extracted_page_7.png",
+        "norm_gt": "灼烧失重(\\%)=\\fracw_1-w_2w_1-w_0\\times100",
+        "norm_pred": "\\fracw_1-w_2w\\times100",
+        "gt_cdm": "灼烧失重( \\% ) = \\frac { W _ { 1 } - W _ { 2 } } { W _ { 1 } - W _ { 0 } } \\times 1 0 0",
+        "image_name": "book_zh_GB149361994_extracted_page_7.png",
+        "upper_len": 37,
+        "metric": {
+            "Edit_dist": 0.40540540540540543
+        },
+        "Edit_num": 15
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\n\\frac{1 - 2x + 2x^2}{(1 - x)^2(1 - 2x)} = \\frac{A}{(1 - x)^2} + \\frac{B}{1 - x} + \\frac{C}{1 - 2x}.\n$$",
+        "pred_idx": [
+            0
+        ],
+        "pred": "\\[ \\frac{1 - 2x + 2x^2}{(1 - x)^3(1 - 2x)} = \\frac{A}{1 - x} + \\frac{B}{(1 - x)^2} + \\frac{C}{1 - 2x} \\]",
+        "gt_position": [
+            1
+        ],
+        "pred_position": 0,
+        "norm_gt": "\\frac1-2x+2x^2(1-x)^2(1-2x)=\\fraca(1-x)^2+\\fracb1-x+\\fracc1-2x",
+        "norm_pred": "\\frac1-2x+2x^2(1-x)^3(1-2x)=\\fraca1-x+\\fracb(1-x)^2+\\fracc1-2x",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.14516129032258066,
+        "img_id": "book_en_国外数学教材-An Excursion through Elementary Mathematics（初等数学漫游）-An excursion through elementary mathematics, Vol.3 (Caminha Muniz Neto A)_0100.png",
+        "gt_cdm": "\\frac{1 - 2x + 2x^2}{(1 - x)^2(1 - 2x)} = \\frac{A}{(1 - x)^2} + \\frac{B}{1 - x} + \\frac{C}{1 - 2x}.",
+        "image_name": "book_en_国外数学教材-An Excursion through Elementary Mathematics（初等数学漫游）-An excursion through elementary mathematics, Vol.3 (Caminha Muniz Neto A)_0100.png",
+        "upper_len": 62,
+        "metric": {
+            "Edit_dist": 0.14516129032258066
+        },
+        "Edit_num": 9
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$ \\sum_{n \\geq 1} a_{n} x^{n} = \\frac{1}{(1 - x)(1 - x^{2})(1 - x^{3})}. $$",
+        "pred_idx": [
+            26
+        ],
+        "pred": "\\[ \\sum_{n=0}^{\\infty} a_n x^n = \\frac{1}{(1 - x)(1 - x^2)(1 - x^3)} = \\frac{a}{1 - x} + \\frac{b}{1 - x^2} + \\frac{c}{1 - x^3} \\]",
+        "gt_position": [
+            10
+        ],
+        "pred_position": 1986,
+        "norm_gt": "\\sum_{n\\geq1}a_nx^n=\\frac1(1-x)(1-x^2)(1-x^3)",
+        "norm_pred": "\\sum_n=0^{\\infty}a_nx^n=\\frac1(1-x)(1-x^2)(1-x^3)=\\fraca1-x+\\fracb1-x^2+\\frac1-x^3",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.524390243902439,
+        "img_id": "book_en_国外数学教材-An Excursion through Elementary Mathematics（初等数学漫游）-An excursion through elementary mathematics, Vol.3 (Caminha Muniz Neto A)_0100.png",
+        "gt_cdm": "\\sum_{n \\geq 1} a_{n} x^{n} = \\frac{1}{(1 - x)(1 - x^{2})(1 - x^{3})}.",
+        "image_name": "book_en_国外数学教材-An Excursion through Elementary Mathematics（初等数学漫游）-An excursion through elementary mathematics, Vol.3 (Caminha Muniz Neto A)_0100.png",
+        "upper_len": 82,
+        "metric": {
+            "Edit_dist": 0.524390243902439
+        },
+        "Edit_num": 43
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "$$ \\frac{1}{(1-x)(1-x^2)(1-x^3)} = \\frac{a}{(1-x)^3} + \\frac{b}{(1-x)^2} + \\frac{c}{1-x^2} + \\frac{d}{1-x^3}. $$",
+        "pred_idx": [
+            28
+        ],
+        "pred": "\\[ \\frac{1}{(1 - x)(1 - x^2)(1 - x^3)} = \\frac{a}{1 - x} + \\frac{b}{1 - x^2} + \\frac{c}{1 - x^3} \\]",
+        "gt_position": [
+            12
+        ],
+        "pred_position": 2164,
+        "norm_gt": "\\frac1(1-x)(1-x^2)(1-x^3)=\\fraca(1-x)^3+\\fracb(1-x)^2+\\frac1-x^2+\\fracd1-x^3",
+        "norm_pred": "\\frac1(1-x)(1-x^2)(1-x^3)=\\fraca1-x+\\fracb1-x^2+\\frac1-x^3",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.23684210526315788,
+        "img_id": "book_en_国外数学教材-An Excursion through Elementary Mathematics（初等数学漫游）-An excursion through elementary mathematics, Vol.3 (Caminha Muniz Neto A)_0100.png",
+        "gt_cdm": "\\frac{1}{(1-x)(1-x^2)(1-x^3)} = \\frac{a}{(1-x)^3} + \\frac{b}{(1-x)^2} + \\frac{c}{1-x^2} + \\frac{d}{1-x^3}.",
+        "image_name": "book_en_国外数学教材-An Excursion through Elementary Mathematics（初等数学漫游）-An excursion through elementary mathematics, Vol.3 (Caminha Muniz Neto A)_0100.png",
+        "upper_len": 76,
+        "metric": {
+            "Edit_dist": 0.23684210526315788
+        },
+        "Edit_num": 18
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "$$\na_{n}=\\left\\{\\begin{array}{ll}\n\\frac{1}{6}\\left(\\begin{array}{c}\nn+2 \\\\\n2\n\\end{array}\\right)+\\frac{1}{4}(n+1)+\\frac{7}{12}, & \\text { if } 6 \\mid n \\\\\n\\frac{1}{6}\\left(\\begin{array}{c}\nn+2 \\\\\n2\n\\end{array}\\right)+\\frac{1}{4}(n+1)+\\frac{1}{4}, & \\text { if } 2 \\mid n \\text { but } 3 \\nmid n \\\\\n\\frac{1}{6}\\left(\\begin{array}{c}\nn+2 \\\\\n2\n\\end{array}\\right)+\\frac{1}{4}(n+1)+\\frac{1}{3}, & \\text { if } 2 \\nmid n \\text { but } 3 \\mid n \\\\\n\\frac{1}{6}\\left(\\begin{array}{c}\nn+2 \\\\\n2\n\\end{array}\\right)+\\frac{1}{4}(n+1), & \\text { if } 2,3 \\nmid n\n\\end{array}\\right.\n$$",
+        "pred_idx": [
+            29
+        ],
+        "pred": "\\[ a_n = \\begin{cases} \\left\\lfloor \\frac{n^2}{12} \\right\\rfloor + 1 & \\text{if } n \\equiv 0 \\pmod{6} \\\\ \\left\\lfloor \\frac{n^2}{12} \\right\\rfloor + 1 & \\text{if } n \\equiv 1 \\pmod{6} \\\\ \\left\\lfloor \\frac{n^2}{12} \\right\\rfloor + 1 & \\text{if } n \\equiv 2 \\pmod{6} \\\\ \\left\\lfloor \\frac{n^2}{12} \\right\\rfloor + 1 & \\text{if } n \\equiv 3 \\pmod{6} \\\\ \\left\\lfloor \\frac{n^2}{12} \\right\\rfloor + 1 & \\text{if } n \\equiv 4 \\pmod{6} \\\\ \\left\\lfloor \\frac{n^2}{12} \\right\\rfloor + 1 & \\text{if } n \\equiv 5 \\pmod{6} \\end{cases} \\]",
+        "gt_position": [
+            14
+        ],
+        "pred_position": 2284,
+        "norm_gt": "a_n=\\frac16(n+2\\\\2)+\\frac14(n+1)+\\frac712,if6|n\\\\\\frac16(n+2\\\\2)+\\frac14(n+1)+\\frac14,if2|nbut3\\nmidn\\\\\\frac16(n+2\\\\2)+\\frac14(n+1)+\\frac13,if2\\nmidnbut3|n\\\\\\frac16(n+2\\\\2)+\\frac14(n+1),if2,3\\nmidn",
+        "norm_pred": "a_n=\\lfloor\\fracn^212\\rfloor+1ifn\\equiv0\\pmod6\\\\\\lfloor\\fracn^212\\rfloor+1ifn\\equiv1\\pmod6\\\\\\lfloor\\fracn^212\\rfloor+1ifn\\equiv2\\pmod6\\\\\\lfloor\\fracn^212\\rfloor+1ifn\\equiv3\\pmod6\\\\\\lfloor\\fracn^212\\rfloor+1ifn\\equiv4\\pmod6\\\\\\lfloor\\fracn^212\\rfloor+1ifn\\equiv5\\pmod6",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7406015037593985,
+        "img_id": "book_en_国外数学教材-An Excursion through Elementary Mathematics（初等数学漫游）-An excursion through elementary mathematics, Vol.3 (Caminha Muniz Neto A)_0100.png",
+        "gt_cdm": "a_{n}=\\left\\{\\begin{array}{ll}\n\\frac{1}{6}\\left(\\begin{array}{c}\nn+2 \\\\\n2\n\\end{array}\\right)+\\frac{1}{4}(n+1)+\\frac{7}{12}, & \\text { if } 6 \\mid n \\\\\n\\frac{1}{6}\\left(\\begin{array}{c}\nn+2 \\\\\n2\n\\end{array}\\right)+\\frac{1}{4}(n+1)+\\frac{1}{4}, & \\text { if } 2 \\mid n \\text { but } 3 \\nmid n \\\\\n\\frac{1}{6}\\left(\\begin{array}{c}\nn+2 \\\\\n2\n\\end{array}\\right)+\\frac{1}{4}(n+1)+\\frac{1}{3}, & \\text { if } 2 \\nmid n \\text { but } 3 \\mid n \\\\\n\\frac{1}{6}\\left(\\begin{array}{c}\nn+2 \\\\\n2\n\\end{array}\\right)+\\frac{1}{4}(n+1), & \\text { if } 2,3 \\nmid n\n\\end{array}\\right.",
+        "image_name": "book_en_国外数学教材-An Excursion through Elementary Mathematics（初等数学漫游）-An excursion through elementary mathematics, Vol.3 (Caminha Muniz Neto A)_0100.png",
+        "upper_len": 266,
+        "metric": {
+            "Edit_dist": 0.7406015037593985
+        },
+        "Edit_num": 197
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$\n\\begin{array}{rcrcrcl}\nu &+& v &+& w &=& 2 \\\\\n2u & & &+& 3w &=& 5 \\\\\n3u &+& v &+& 4w &=& 6.\n\\end{array}\n$$",
+        "pred_idx": [
+            0
+        ],
+        "pred": "\\[ \\begin{aligned} u + v + w &= 2 \\\\ 2u + 3v &= 5 \\\\ 3u + v + 4w &= 6 \\end{aligned} \\]",
+        "gt_position": [
+            9
+        ],
+        "pred_position": 1410,
+        "norm_gt": "u+v+w=2\\\\2u+3w=5\\\\3u+v+4w=6.",
+        "norm_pred": "u+v+w=2\\\\2u+3v=5\\\\3u+v+4w=6",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.07142857142857142,
+        "img_id": "book_en_国外数学教材-非数学专业教材-线性代数-Gilbert Strang—Linear Algebra and Its Applications 4e_0017.png",
+        "gt_cdm": "\\begin{array}{rcrcrcl}\nu &+& v &+& w &=& 2 \\\\\n2u & & &+& 3w &=& 5 \\\\\n3u &+& v &+& 4w &=& 6.\n\\end{array}",
+        "image_name": "book_en_国外数学教材-非数学专业教材-线性代数-Gilbert Strang—Linear Algebra and Its Applications 4e_0017.png",
+        "upper_len": 28,
+        "metric": {
+            "Edit_dist": 0.07142857142857142
+        },
+        "Edit_num": 2
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "\\[(a_i, z, a_{i+1}), (a_{i+1}, a_j, a_i) \\in S \\Rightarrow (a_j, a_i, z) \\in S\\]",
+        "pred_idx": [
+            0
+        ],
+        "pred": "\\[ \\text { Therefore } \\quad \\left(a_{j}, a_{j+1}, \\ldots, a_{j+k}\\right) \\in \\mathscr{A} \\text { for all } j, k \\text { such that } 0 \\leqslant j+k \\leqslant n-1, \\text { and } \\left(a_{j}, a_{j+1}, \\ldots, a_{j+k}\\right) \\in \\mathscr{A} \\text { for all } j, k \\text { such that } 0 \\leqslant j+k \\leqslant n-1 . \\]",
+        "gt_position": [
+            2.001
+        ],
+        "pred_position": 0,
+        "norm_gt": "(a_i,z,a_i+1),(a_i+1,a_j,a_i)\\ins\\rightarrow(a_j,a_i,z)\\ins",
+        "norm_pred": "therefore(a_j,a_j+1,\\ldots,a_j+k)\\inaforallj,ksuchthat0\\leqslantj+k\\leqslantn-1,and(a_j,a_j+1,\\ldots,a_j+k)\\inaforallj,ksuchthat0\\leqslantj+k\\leqslantn-1",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7973856209150327,
+        "img_id": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "gt_cdm": "(a_i, z, a_{i+1}), (a_{i+1}, a_j, a_i) \\in S \\Rightarrow (a_j, a_i, z) \\in S",
+        "image_name": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "upper_len": 153,
+        "metric": {
+            "Edit_dist": 0.7973856209150327
+        },
+        "Edit_num": 122
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "\\[(a_i, z, a_j), (a_j, a_{j+1}, a_i) \\in S \\Rightarrow (z, a_j, a_{j+1}),\\]",
+        "pred_idx": [
+            1
+        ],
+        "pred": "\\[ \\text { If } \\left(a_{j}, a_{j+1}, \\ldots, a_{j+k}\\right) \\in \\mathscr{A} \\text { for all } j, k \\text { such that } 0 \\leqslant j+k \\leqslant n-1, \\text { then } \\left(a_{j}, a_{j+1}, \\ldots, a_{j+k}\\right) \\in \\mathscr{A} \\text { for all } j, k \\text { such that } 0 \\leqslant j+k \\leqslant n-1 . \\]",
+        "gt_position": [
+            2.002
+        ],
+        "pred_position": 318,
+        "norm_gt": "(a_i,z,a_j),(a_j,a_j+1,a_i)\\ins\\rightarrow(z,a_j,a_j+1),",
+        "norm_pred": "if(a_j,a_j+1,\\ldots,a_j+k)\\inaforallj,ksuchthat0\\leqslantj+k\\leqslantn-1,then(a_j,a_j+1,\\ldots,a_j+k)\\inaforallj,ksuchthat0\\leqslantj+k\\leqslantn-1",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7755102040816326,
+        "img_id": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "gt_cdm": "(a_i, z, a_j), (a_j, a_{j+1}, a_i) \\in S \\Rightarrow (z, a_j, a_{j+1}),",
+        "image_name": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "upper_len": 147,
+        "metric": {
+            "Edit_dist": 0.7755102040816326
+        },
+        "Edit_num": 114
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "$$\n(a_{i}, z, a_{i+1}), (a_{i+1}, a_{i+2}, a_{i}) \\in S \\Rightarrow (z, a_{i+1}, a_{i+2}) \\in S\n$$",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[ \\text { If } f_{1}(x) = f_{2}(x) \\text { for all } x, \\text { then } f_{1}(x) = f_{2}(x) \\text { for all } x . \\]",
+        "gt_position": [
+            4
+        ],
+        "pred_position": 624,
+        "norm_gt": "(a_i,z,a_i+1),(a_i+1,a_i+2,a_i)\\ins\\rightarrow(z,a_i+1,a_i+2)\\ins",
+        "norm_pred": "iff_1(x)=f_2(x)forallx,thenf_1(x)=f_2(x)forallx",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.8769230769230769,
+        "img_id": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "gt_cdm": "(a_{i}, z, a_{i+1}), (a_{i+1}, a_{i+2}, a_{i}) \\in S \\Rightarrow (z, a_{i+1}, a_{i+2}) \\in S",
+        "image_name": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "upper_len": 65,
+        "metric": {
+            "Edit_dist": 0.8769230769230769
+        },
+        "Edit_num": 57
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "\\[\\frac{1}{p} \\binom{p}{n} &= \\frac{1}{n} \\frac{p-1}{1} \\frac{p-2}{2} \\cdots \\frac{p-n+1}{n-1}\\]",
+        "pred_idx": [
+            3
+        ],
+        "pred": "\\[ \\text { If } f_{1}(x) = f_{2}(x) \\text { for all } x, \\text { then } f_{1}(x) = f_{2}(x) \\text { for all } x . \\]",
+        "gt_position": [
+            8.001
+        ],
+        "pred_position": 742,
+        "norm_gt": "\\frac1p\\binompn=\\frac1n\\fracp-11\\fracp-22\\cdots\\fracp-n+1n-1",
+        "norm_pred": "iff_1(x)=f_2(x)forallx,thenf_1(x)=f_2(x)forallx",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.85,
+        "img_id": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "gt_cdm": "\\frac{1}{p} \\binom{p}{n} &= \\frac{1}{n} \\frac{p-1}{1} \\frac{p-2}{2} \\cdots \\frac{p-n+1}{n-1}",
+        "image_name": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "upper_len": 60,
+        "metric": {
+            "Edit_dist": 0.85
+        },
+        "Edit_num": 51
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "\\[&\\equiv \\frac{(-1)^{n-1}}{n} \\pmod{p},\\]",
+        "pred_idx": [
+            4
+        ],
+        "pred": "\\[ \\text { If } f_{1}(x) = f_{2}(x) \\text { for all } x, \\text { then } f_{1}(x) = f_{2}(x) \\text { for all } x . \\]",
+        "gt_position": [
+            8.002
+        ],
+        "pred_position": 860,
+        "norm_gt": "\\equiv\\frac(-1)^n-1n\\pmodp,",
+        "norm_pred": "iff_1(x)=f_2(x)forallx,thenf_1(x)=f_2(x)forallx",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.8723404255319149,
+        "img_id": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "gt_cdm": "&\\equiv \\frac{(-1)^{n-1}}{n} \\pmod{p},",
+        "image_name": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "upper_len": 47,
+        "metric": {
+            "Edit_dist": 0.8723404255319149
+        },
+        "Edit_num": 41
+    },
+    {
+        "gt_idx": [
+            5
+        ],
+        "gt": "$$\n\\sum_{n=1}^{k} \\frac{(-1)^{n-1}}{n} \\equiv 0 \\pmod{p}.\n$$",
+        "pred_idx": [
+            5
+        ],
+        "pred": "\\[ \\text { If } f_{1}(x) = f_{2}(x) \\text { for all } x, \\text { then } f_{1}(x) = f_{2}(x) \\text { for all } x . \\]",
+        "gt_position": [
+            10
+        ],
+        "pred_position": 978,
+        "norm_gt": "\\sum_n=1^k\\frac(-1)^n-1n\\equiv0\\pmodp",
+        "norm_pred": "iff_1(x)=f_2(x)forallx,thenf_1(x)=f_2(x)forallx",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.851063829787234,
+        "img_id": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "gt_cdm": "\\sum_{n=1}^{k} \\frac{(-1)^{n-1}}{n} \\equiv 0 \\pmod{p}.",
+        "image_name": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "upper_len": 47,
+        "metric": {
+            "Edit_dist": 0.851063829787234
+        },
+        "Edit_num": 40
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "\\[\\sum_{n=1}^{4r} \\frac{(-1)^{n-1}}{n} &= \\sum_{n=1}^{4r} \\frac{1}{n} - 2\\sum_{n=1}^{2r} \\frac{1}{2n}\\]",
+        "pred_idx": [
+            6
+        ],
+        "pred": "\\[ \\text { If } f_{1}(x) = f_{2}(x) \\text { for all } x, \\text { then } f_{1}(x) = f_{2}(x) \\text { for all } x . \\]",
+        "gt_position": [
+            12.001
+        ],
+        "pred_position": 1096,
+        "norm_gt": "\\sum_n=1^4r\\frac(-1)^n-1n=\\sum_n=1^4r\\frac1n-2\\sum_n=1^2r\\frac12n",
+        "norm_pred": "iff_1(x)=f_2(x)forallx,thenf_1(x)=f_2(x)forallx",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.8307692307692308,
+        "img_id": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "gt_cdm": "\\sum_{n=1}^{4r} \\frac{(-1)^{n-1}}{n} &= \\sum_{n=1}^{4r} \\frac{1}{n} - 2\\sum_{n=1}^{2r} \\frac{1}{2n}",
+        "image_name": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "upper_len": 65,
+        "metric": {
+            "Edit_dist": 0.8307692307692308
+        },
+        "Edit_num": 54
+    },
+    {
+        "gt_idx": [
+            7
+        ],
+        "gt": "\\[&= \\sum_{n=1}^{2r} \\left(\\frac{1}{n} - \\frac{1}{n}\\right) + \\sum_{n=2r+1}^{3r} \\left(\\frac{1}{n} + \\frac{1}{6r+1-n}\\right)\\]",
+        "pred_idx": [
+            7
+        ],
+        "pred": "\\[ \\text { If } f_{1}(x) = f_{2}(x) \\text { for all } x, \\text { then } f_{1}(x) = f_{2}(x) \\text { for all } x . \\]",
+        "gt_position": [
+            12.002
+        ],
+        "pred_position": 1214,
+        "norm_gt": "=\\sum_n=1^2r(\\frac1n-\\frac1n)+\\sum_n=2r+1^3r(\\frac1n+\\frac16r+1-n)",
+        "norm_pred": "iff_1(x)=f_2(x)forallx,thenf_1(x)=f_2(x)forallx",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.8484848484848485,
+        "img_id": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "gt_cdm": "&= \\sum_{n=1}^{2r} \\left(\\frac{1}{n} - \\frac{1}{n}\\right) + \\sum_{n=2r+1}^{3r} \\left(\\frac{1}{n} + \\frac{1}{6r+1-n}\\right)",
+        "image_name": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "upper_len": 66,
+        "metric": {
+            "Edit_dist": 0.8484848484848485
+        },
+        "Edit_num": 56
+    },
+    {
+        "gt_idx": [
+            8
+        ],
+        "gt": "\\[&= \\sum_{n=2r+1}^{3r} \\frac{p}{n(p-n)} \\equiv 0 \\pmod{p},\\]",
+        "pred_idx": [
+            8
+        ],
+        "pred": "\\[ \\text { If } f_{1}(x) = f_{2}(x) \\text { for all } x, \\text { then } f_{1}(x) = f_{2}(x) \\text { for all } x . \\]",
+        "gt_position": [
+            12.003
+        ],
+        "pred_position": 1332,
+        "norm_gt": "=\\sum_n=2r+1^3r\\fracpn(p-n)\\equiv0\\pmodp,",
+        "norm_pred": "iff_1(x)=f_2(x)forallx,thenf_1(x)=f_2(x)forallx",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.8936170212765957,
+        "img_id": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "gt_cdm": "&= \\sum_{n=2r+1}^{3r} \\frac{p}{n(p-n)} \\equiv 0 \\pmod{p},",
+        "image_name": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "upper_len": 47,
+        "metric": {
+            "Edit_dist": 0.8936170212765957
+        },
+        "Edit_num": 42
+    },
+    {
+        "gt_idx": [
+            9
+        ],
+        "gt": "\\[\\sum_{n=1}^{4r+3} \\frac{(-1)^{n-1}}{n} &= \\sum_{n=1}^{4r+3} \\frac{1}{n} + 2 \\sum_{n=1}^{2r+1} \\frac{1}{2n}\\]",
+        "pred_idx": [
+            9
+        ],
+        "pred": "\\[ \\text { If } f_{1}(x) = f_{2}(x) \\text { for all } x, \\text { then } f_{1}(x) = f_{2}(x) \\text { for all } x . \\]",
+        "gt_position": [
+            15.001
+        ],
+        "pred_position": 1450,
+        "norm_gt": "\\sum_n=1^4r+3\\frac(-1)^n-1n=\\sum_n=1^4r+3\\frac1n+2\\sum_n=1^2r+1\\frac12n",
+        "norm_pred": "iff_1(x)=f_2(x)forallx,thenf_1(x)=f_2(x)forallx",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.8309859154929577,
+        "img_id": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "gt_cdm": "\\sum_{n=1}^{4r+3} \\frac{(-1)^{n-1}}{n} &= \\sum_{n=1}^{4r+3} \\frac{1}{n} + 2 \\sum_{n=1}^{2r+1} \\frac{1}{2n}",
+        "image_name": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "upper_len": 71,
+        "metric": {
+            "Edit_dist": 0.8309859154929577
+        },
+        "Edit_num": 59
+    },
+    {
+        "gt_idx": [
+            10
+        ],
+        "gt": "\\[&= \\sum_{n=1}^{2r+1} \\left(\\frac{1}{n} - \\frac{1}{n}\\right) + \\sum_{n=2r+2}^{3r+2} \\left(\\frac{1}{n} + \\frac{1}{6r+5-n}\\right)\\]",
+        "pred_idx": [
+            10
+        ],
+        "pred": "\\[ \\text { If } f_{1}(x) = f_{2}(x) \\text { for all } x, \\text { then } f_{1}(x) = f_{2}(x) \\text { for all } x . \\]",
+        "gt_position": [
+            15.002
+        ],
+        "pred_position": 1568,
+        "norm_gt": "=\\sum_n=1^2r+1(\\frac1n-\\frac1n)+\\sum_n=2r+2^3r+2(\\frac1n+\\frac16r+5-n)",
+        "norm_pred": "iff_1(x)=f_2(x)forallx,thenf_1(x)=f_2(x)forallx",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.8571428571428571,
+        "img_id": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "gt_cdm": "&= \\sum_{n=1}^{2r+1} \\left(\\frac{1}{n} - \\frac{1}{n}\\right) + \\sum_{n=2r+2}^{3r+2} \\left(\\frac{1}{n} + \\frac{1}{6r+5-n}\\right)",
+        "image_name": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "upper_len": 70,
+        "metric": {
+            "Edit_dist": 0.8571428571428571
+        },
+        "Edit_num": 60
+    },
+    {
+        "gt_idx": [
+            11
+        ],
+        "gt": "\\[&= \\sum_{n=2r+2}^{3r+2} \\frac{p}{n(p-n)} \\equiv 0 \\pmod{p}.\\]",
+        "pred_idx": [
+            11
+        ],
+        "pred": "\\[ \\text { If } f_{1}(x) = f_{2}(x) \\text { for all } x, \\text { then } f_{1}(x) = f_{2}(x) \\text { for all } x . \\]",
+        "gt_position": [
+            15.003
+        ],
+        "pred_position": 1686,
+        "norm_gt": "=\\sum_n=2r+2^3r+2\\fracpn(p-n)\\equiv0\\pmodp",
+        "norm_pred": "iff_1(x)=f_2(x)forallx,thenf_1(x)=f_2(x)forallx",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.8936170212765957,
+        "img_id": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "gt_cdm": "&= \\sum_{n=2r+2}^{3r+2} \\frac{p}{n(p-n)} \\equiv 0 \\pmod{p}.",
+        "image_name": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "upper_len": 47,
+        "metric": {
+            "Edit_dist": 0.8936170212765957
+        },
+        "Edit_num": 42
+    },
+    {
+        "gt_idx": [
+            12
+        ],
+        "gt": "$$f(x) = f(x^2 + c) = f((-x)^2 + c) = f(-x)$$",
+        "pred_idx": [
+            12
+        ],
+        "pred": "\\[ \\text { If } f_{1}(x) = f_{2}(x) \\text { for all } x, \\text { then } f_{1}(x) = f_{2}(x) \\text { for all } x . \\]",
+        "gt_position": [
+            17
+        ],
+        "pred_position": 1804,
+        "norm_gt": "f(x)=f(x^2+c)=f((-x)^2+c)=f(-x)",
+        "norm_pred": "iff_1(x)=f_2(x)forallx,thenf_1(x)=f_2(x)forallx",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.723404255319149,
+        "img_id": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "gt_cdm": "f(x) = f(x^2 + c) = f((-x)^2 + c) = f(-x)",
+        "image_name": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "upper_len": 47,
+        "metric": {
+            "Edit_dist": 0.723404255319149
+        },
+        "Edit_num": 34
+    },
+    {
+        "gt_idx": [
+            13
+        ],
+        "gt": "\\[\\int_{1}^{2n-1} \\ln x dx & \\le 2(\\ln(3) + \\cdots + \\ln(2n-1))\\]",
+        "pred_idx": [
+            13
+        ],
+        "pred": "\\[ \\text { If } f_{1}(x) = f_{2}(x) \\text { for all } x, \\text { then } f_{1}(x) = f_{2}(x) \\text { for all } x . \\]",
+        "gt_position": [
+            25.001
+        ],
+        "pred_position": 1922,
+        "norm_gt": "\\int_1^2n-1\\lnxdx\\le2(\\ln(3)+\\cdots+\\ln(2n-1))",
+        "norm_pred": "iff_1(x)=f_2(x)forallx,thenf_1(x)=f_2(x)forallx",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.9148936170212766,
+        "img_id": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "gt_cdm": "\\int_{1}^{2n-1} \\ln x dx & \\le 2(\\ln(3) + \\cdots + \\ln(2n-1))",
+        "image_name": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "upper_len": 47,
+        "metric": {
+            "Edit_dist": 0.9148936170212766
+        },
+        "Edit_num": 43
+    },
+    {
+        "gt_idx": [
+            14
+        ],
+        "gt": "\\[& \\le \\int_{3}^{2n+1} \\ln x dx.\\]",
+        "pred_idx": [
+            14
+        ],
+        "pred": "\\[ \\text { If } f_{1}(x) = f_{2}(x) \\text { for all } x, \\text { then } f_{1}(x) = f_{2}(x) \\text { for all } x . \\]",
+        "gt_position": [
+            25.002
+        ],
+        "pred_position": 2040,
+        "norm_gt": "\\le\\int_3^2n+1\\lnxdx",
+        "norm_pred": "iff_1(x)=f_2(x)forallx,thenf_1(x)=f_2(x)forallx",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.8936170212765957,
+        "img_id": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "gt_cdm": "& \\le \\int_{3}^{2n+1} \\ln x dx.",
+        "image_name": "exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png",
+        "upper_len": 47,
+        "metric": {
+            "Edit_dist": 0.8936170212765957
+        },
+        "Edit_num": 42
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "\\[{  { \\mu ( f ) = \\int _ { 0 } ^ { 1 } f ( x ) d x , \\mathrm { V a r } ( f ) = \\int _ { 0 } ^ { 1 } ( f ( x ) - \\mu ( f ) ) ^ { 2 } d x , } }\\]",
+        "pred_idx": [
+            1
+        ],
+        "pred": "\\[ p(f) = \\int_0^1 f(x) dx, \\quad \\text{Var}(f) = \\int_0^1 \\left(f(x) - p(f)\\right)^2 dx, \\]",
+        "edit": 0.10909090909090909,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            2.001
+        ],
+        "pred_position": 84,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "exam_paper_en-file-putnam-archive_2013_Problems_2013_page_002.png",
+        "norm_gt": "\\mu(f)=\\int_0^1f(x)dx,var(f)=\\int_0^1(f(x)-\\mu(f))^2dx,",
+        "norm_pred": "p(f)=\\int_0^1f(x)dx,var(f)=\\int_0^1(f(x)-p(f))^2dx,",
+        "gt_cdm": "{  { \\mu ( f ) = \\int _ { 0 } ^ { 1 } f ( x ) d x , \\mathrm { V a r } ( f ) = \\int _ { 0 } ^ { 1 } ( f ( x ) - \\mu ( f ) ) ^ { 2 } d x , } }",
+        "image_name": "exam_paper_en-file-putnam-archive_2013_Problems_2013_page_002.png",
+        "upper_len": 55,
+        "metric": {
+            "Edit_dist": 0.10909090909090909
+        },
+        "Edit_num": 6
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "\\[{  { M ( f ) = \\operatorname* { m a x } _ { 0 \\leq x \\leq 1 } \\vert f ( x ) \\vert . } }\\]",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[ M(f) = \\max_{x \\in [0,1]} |f(x)|. \\]",
+        "edit": 0.46875,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            2.002
+        ],
+        "pred_position": 177,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "exam_paper_en-file-putnam-archive_2013_Problems_2013_page_002.png",
+        "norm_gt": "{m(f)=*max_{0\\leqx\\leq1}|f(x)|.}",
+        "norm_pred": "m(f)=\\max_x\\in[0,1]|f(x)|",
+        "gt_cdm": "{  { M ( f ) = \\operatorname* { m a x } _ { 0 \\leq x \\leq 1 } \\vert f ( x ) \\vert . } }",
+        "image_name": "exam_paper_en-file-putnam-archive_2013_Problems_2013_page_002.png",
+        "upper_len": 32,
+        "metric": {
+            "Edit_dist": 0.46875
+        },
+        "Edit_num": 15
+    },
+    {
+        "gt_idx": [
+            5
+        ],
+        "gt": "$$\n\\mathrm { V a r } ( f g ) \\leq 2 \\mathrm { V a r } ( f ) M ( g ) ^ { 2 } + 2 \\mathrm { V a r } ( g ) M ( f ) ^ { 2 } .\n$$",
+        "pred_idx": [
+            3
+        ],
+        "pred": "\\[ \\text{Var}(f) \\leq 2\\text{Var}(f|M(f)|) + 2\\text{Var}(g|M(g)|). \\]",
+        "edit": 0.23684210526315788,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            4
+        ],
+        "pred_position": 317,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "img_id": "exam_paper_en-file-putnam-archive_2013_Problems_2013_page_002.png",
+        "norm_gt": "var(fg)\\leq2var(f)m(g)^2+2var(g)m(f)^2",
+        "norm_pred": "var(f)\\leq2var(f|m(f)|)+2var(g|m(g)|)",
+        "gt_cdm": "\\mathrm { V a r } ( f g ) \\leq 2 \\mathrm { V a r } ( f ) M ( g ) ^ { 2 } + 2 \\mathrm { V a r } ( g ) M ( f ) ^ { 2 } .",
+        "image_name": "exam_paper_en-file-putnam-archive_2013_Problems_2013_page_002.png",
+        "upper_len": 38,
+        "metric": {
+            "Edit_dist": 0.23684210526315788
+        },
+        "Edit_num": 9
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "\\[{ {  { \\int _ { 0 } ^ { \\alpha } f ( x ) d x \\le \\int _ { 0 } ^ { \\alpha } B ( \\alpha - x ) d x } } }\\]",
+        "pred_idx": [
+            18
+        ],
+        "pred": "\\[ \\int_{0}^{1} \\int_{0}^{1} f(x,y) \\, dx \\, dy = \\int_{0}^{1} f(x,0) \\, dx + \\int_{0}^{1} f(x,1) \\, dx. \\]",
+        "gt_position": [
+            3.001
+        ],
+        "pred_position": 721,
+        "norm_gt": "{\\int_0^{\\alpha}f(x)dx\\le\\int_0^{\\alpha}b(\\alpha-x)dx}",
+        "norm_pred": "\\int_0^1\\int_0^1f(x,y)dxdy=\\int_0^1f(x,0)dx+\\int_0^1f(x,1)dx",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.6,
+        "img_id": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "gt_cdm": "{ {  { \\int _ { 0 } ^ { \\alpha } f ( x ) d x \\le \\int _ { 0 } ^ { \\alpha } B ( \\alpha - x ) d x } } }",
+        "image_name": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "upper_len": 60,
+        "metric": {
+            "Edit_dist": 0.6
+        },
+        "Edit_num": 36
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "\\[{ {  { \\phantom { \\int _ { 0 } ^ { \\alpha } } = - \\left. \\frac { 1 } { 2 } B ( \\alpha - x ) ^ { 2 } \\right| _ { 0 } ^ { \\alpha } } } }\\]",
+        "pred_idx": [
+            9
+        ],
+        "pred": "\\[\\frac{d}{d\\alpha} g(p^{\\alpha}) = -\\frac{1}{2} \\sum_{k=1}^{\\infty} \\frac{1}{k} p^{-k\\alpha}\\]",
+        "gt_position": [
+            3.002
+        ],
+        "pred_position": 315,
+        "norm_gt": "{\\phantom{\\int_0^{\\alpha}=-.\\frac12b(\\alpha-x)^2|_0^{\\alpha}",
+        "norm_pred": "\\fracd{d\\alpha}g(p^{\\alpha})=-\\frac12\\sum_k=1^{\\infty}\\frac1kp^-k\\alpha",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.647887323943662,
+        "img_id": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "gt_cdm": "{ {  { \\phantom { \\int _ { 0 } ^ { \\alpha } } = - \\left. \\frac { 1 } { 2 } B ( \\alpha - x ) ^ { 2 } \\right| _ { 0 } ^ { \\alpha } } } }",
+        "image_name": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "upper_len": 71,
+        "metric": {
+            "Edit_dist": 0.647887323943662
+        },
+        "Edit_num": 46
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "\\[{ {  { \\phantom { \\int _ { 0 } ^ { \\alpha } } = \\frac { \\alpha ^ { 2 } } { 2 } B \\le \\frac { 1 } { 8 } B } } }\\]",
+        "pred_idx": [
+            44
+        ],
+        "pred": "\\[\\frac{d}{d\\alpha} m_{\\text{max}}(p^{\\alpha}) = -\\frac{1}{2} \\sum_{k=1}^{\\infty} \\frac{1}{k} p^{-k\\alpha}\\]",
+        "gt_position": [
+            3.003
+        ],
+        "pred_position": 2578,
+        "norm_gt": "{\\phantom{\\int_0^{\\alpha}=\\frac\\alpha^22b\\le\\frac18b}",
+        "norm_pred": "\\fracd{d\\alpha}m_max(p^{\\alpha})=-\\frac12\\sum_k=1^{\\infty}\\frac1kp^-k\\alpha",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.6533333333333333,
+        "img_id": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "gt_cdm": "{ {  { \\phantom { \\int _ { 0 } ^ { \\alpha } } = \\frac { \\alpha ^ { 2 } } { 2 } B \\le \\frac { 1 } { 8 } B } } }",
+        "image_name": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "upper_len": 75,
+        "metric": {
+            "Edit_dist": 0.6533333333333333
+        },
+        "Edit_num": 49
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "\\[{ { x _ { n + 1 } - ( 3 + \\sqrt 5 ) x _ { n } = {  \\frac { 2 ^ { n - 1 } } { \\sqrt { 5 } } } \\big ( 2 ( \\alpha ^ { 2 n + 5 } - \\alpha ^ { - ( 2 n + 5 ) } ) } }\\]",
+        "pred_idx": [
+            24
+        ],
+        "pred": "\\[\\alpha_n = \\frac{2n-1}{2^n} = \\frac{1}{2^{n-1}} - \\frac{1}{2^n}\\]",
+        "gt_position": [
+            7.001
+        ],
+        "pred_position": 1006,
+        "norm_gt": "{x_n+1-(3+\\sqrt5)x_n={\\frac2^n-1{\\sqrt5}\\big(2(\\alpha^2n+5-\\alpha^-(2n+5))}",
+        "norm_pred": "\\alpha_n=\\frac2n-12^n=\\frac12^n-1-\\frac12^n",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.72,
+        "img_id": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "gt_cdm": "{ { x _ { n + 1 } - ( 3 + \\sqrt 5 ) x _ { n } = {  \\frac { 2 ^ { n - 1 } } { \\sqrt { 5 } } } \\big ( 2 ( \\alpha ^ { 2 n + 5 } - \\alpha ^ { - ( 2 n + 5 ) } ) } }",
+        "image_name": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "upper_len": 75,
+        "metric": {
+            "Edit_dist": 0.72
+        },
+        "Edit_num": 54
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "\\[{ { { } ~ - ( 3 + \\sqrt 5 ) ( \\alpha ^ { 2 n + 3 } - \\alpha ^ { - ( 2 n + 3 ) } ) \\big ) } }\\]",
+        "pred_idx": [
+            7
+        ],
+        "pred": "\\[\\frac{d}{d\\alpha} g(p^{\\alpha}) = 0\\]",
+        "gt_position": [
+            7.002
+        ],
+        "pred_position": 226,
+        "norm_gt": "-(3+\\sqrt5)(\\alpha^2n+3-\\alpha^-(2n+3))\\big)",
+        "norm_pred": "\\fracd{d\\alpha}g(p^{\\alpha})=0",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.6818181818181818,
+        "img_id": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "gt_cdm": "{ { { } ~ - ( 3 + \\sqrt 5 ) ( \\alpha ^ { 2 n + 3 } - \\alpha ^ { - ( 2 n + 3 ) } ) \\big ) } }",
+        "image_name": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "upper_len": 44,
+        "metric": {
+            "Edit_dist": 0.6818181818181818
+        },
+        "Edit_num": 30
+    },
+    {
+        "gt_idx": [
+            5
+        ],
+        "gt": "\\[{ { { } ~ = 2 ^ { n } \\alpha ^ { - ( 2 n + 3 ) } . } }\\]",
+        "pred_idx": [
+            20
+        ],
+        "pred": "\\[\\alpha_2 = 3/4\\]",
+        "gt_position": [
+            7.003
+        ],
+        "pred_position": 883,
+        "norm_gt": "=2^n\\alpha^-(2n+3).",
+        "norm_pred": "\\alpha_2=3/4",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.5789473684210527,
+        "img_id": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "gt_cdm": "{ { { } ~ = 2 ^ { n } \\alpha ^ { - ( 2 n + 3 ) } . } }",
+        "image_name": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "upper_len": 19,
+        "metric": {
+            "Edit_dist": 0.5789473684210527
+        },
+        "Edit_num": 11
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "\\[& { x _ { n + 1 } - 3 x _ { n } < x _ { n } \\sqrt { 5 } < x _ { n + 1 } - 3 x _ { n } + 1 }\\]",
+        "pred_idx": [
+            32
+        ],
+        "pred": "\\[2^{n+1} \\alpha_{n+1} = (2^{n+1}) \\cdot \\frac{2n+1}{2^{n+1}} = 2n+1\\]",
+        "gt_position": [
+            10.001
+        ],
+        "pred_position": 1669,
+        "norm_gt": "x_n+1-3x_n<x_n\\sqrt5<x_n+1-3x_n+1",
+        "norm_pred": "2^n+1\\alpha_n+1=(2^n+1)\\cdot\\frac2n+12^n+1=2n+1",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7021276595744681,
+        "img_id": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "gt_cdm": "& { x _ { n + 1 } - 3 x _ { n } < x _ { n } \\sqrt { 5 } < x _ { n + 1 } - 3 x _ { n } + 1 }",
+        "image_name": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "upper_len": 47,
+        "metric": {
+            "Edit_dist": 0.7021276595744681
+        },
+        "Edit_num": 33
+    },
+    {
+        "gt_idx": [
+            7
+        ],
+        "gt": "\\[& { ( 3 + \\sqrt { 5 } ) x _ { n } - 1 < x _ { n + 1 } < ( 3 + \\sqrt { 5 } ) x _ { n } }\\]",
+        "pred_idx": [
+            54
+        ],
+        "pred": "\\[\\sum_{k=1}^{n} k = \\frac{n(n+1)}{2}\\]",
+        "gt_position": [
+            10.002
+        ],
+        "pred_position": 3203,
+        "norm_gt": "(3+\\sqrt5)x_n-1<x_n+1<(3+\\sqrt5)x_n",
+        "norm_pred": "\\sum_k=1^nk=\\fracn(n+1)2",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.8285714285714286,
+        "img_id": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "gt_cdm": "& { ( 3 + \\sqrt { 5 } ) x _ { n } - 1 < x _ { n + 1 } < ( 3 + \\sqrt { 5 } ) x _ { n } }",
+        "image_name": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "upper_len": 35,
+        "metric": {
+            "Edit_dist": 0.8285714285714286
+        },
+        "Edit_num": 29
+    },
+    {
+        "gt_idx": [
+            8
+        ],
+        "gt": "\\[& { 4 x _ { n } - ( 3 - \\sqrt { 5 } ) < ( 3 - \\sqrt { 5 } ) x _ { n + 1 } < 4 x _ { n } }\\]",
+        "pred_idx": [
+            22
+        ],
+        "pred": "\\[\\alpha_n = \\frac{2n-1}{2^n}\\]",
+        "gt_position": [
+            10.003
+        ],
+        "pred_position": 931,
+        "norm_gt": "4x_n-(3-\\sqrt5)<(3-\\sqrt5)x_n+1<4x_n",
+        "norm_pred": "\\alpha_n=\\frac2n-12^n",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.8333333333333334,
+        "img_id": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "gt_cdm": "& { 4 x _ { n } - ( 3 - \\sqrt { 5 } ) < ( 3 - \\sqrt { 5 } ) x _ { n + 1 } < 4 x _ { n } }",
+        "image_name": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "upper_len": 36,
+        "metric": {
+            "Edit_dist": 0.8333333333333334
+        },
+        "Edit_num": 30
+    },
+    {
+        "gt_idx": [
+            9
+        ],
+        "gt": "\\[& { 3 x _ { n + 1 } - 4 x _ { n } < x _ { n + 1 } \\sqrt { 5 } < 3 x _ { n + 1 } - 4 x _ { n } + ( 3 - \\sqrt { 5 } ) . }\\]",
+        "pred_idx": [
+            33
+        ],
+        "pred": "\\[\\alpha_{n+1} = \\frac{2n+1}{2^{n+1}}\\]",
+        "gt_position": [
+            10.004
+        ],
+        "pred_position": 1771,
+        "norm_gt": "3x_n+1-4x_n<x_n+1\\sqrt5<3x_n+1-4x_n+(3-\\sqrt5).",
+        "norm_pred": "\\alpha_n+1=\\frac2n+12^n+1",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7872340425531915,
+        "img_id": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "gt_cdm": "& { 3 x _ { n + 1 } - 4 x _ { n } < x _ { n + 1 } \\sqrt { 5 } < 3 x _ { n + 1 } - 4 x _ { n } + ( 3 - \\sqrt { 5 } ) . }",
+        "image_name": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "upper_len": 47,
+        "metric": {
+            "Edit_dist": 0.7872340425531915
+        },
+        "Edit_num": 37
+    },
+    {
+        "gt_idx": [
+            10
+        ],
+        "gt": "\\[{ {  ( P ( X ) + Q ( X ) i ) ( P ( X ) - Q ( X ) i ) } \\ ~ }\\]",
+        "pred_idx": [
+            53
+        ],
+        "pred": "\\[ \\int_{0}^{1} \\int_{0}^{1} f(x,y) \\, dx \\, dy = \\int_{0}^{1} f(x,0) \\, dx + \\int_{0}^{1} f(x,1) \\, dx. \\]",
+        "gt_position": [
+            16.001
+        ],
+        "pred_position": 3062,
+        "norm_gt": "(p(x)+q(x)i)(p(x)-q(x)i)\\}",
+        "norm_pred": "\\int_0^1\\int_0^1f(x,y)dxdy=\\int_0^1f(x,0)dx+\\int_0^1f(x,1)dx",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.8333333333333334,
+        "img_id": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "gt_cdm": "{ {  ( P ( X ) + Q ( X ) i ) ( P ( X ) - Q ( X ) i ) } \\ ~ }",
+        "image_name": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "upper_len": 60,
+        "metric": {
+            "Edit_dist": 0.8333333333333334
+        },
+        "Edit_num": 50
+    },
+    {
+        "gt_idx": [
+            11
+        ],
+        "gt": "\\[{ {  = \\prod _ { j = 0 } ^ { n - 1 } ( X - \\exp ( 2 \\pi i ( 2 j + 1 ) / ( 4 n ) ) ) } \\ ~ }\\]",
+        "pred_idx": [
+            55
+        ],
+        "pred": "\\[\\sum_{k=1}^{n} k^2 = \\frac{n(n+1)(2n+1)}{6}\\]",
+        "gt_position": [
+            16.002
+        ],
+        "pred_position": 3275,
+        "norm_gt": "=\\prod_j=0^n-1(x-\\exp(2\\pii(2j+1)/(4n)))\\}",
+        "norm_pred": "\\sum_k=1^nk^2=\\fracn(n+1)(2n+1)6",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.6904761904761905,
+        "img_id": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "gt_cdm": "{ {  = \\prod _ { j = 0 } ^ { n - 1 } ( X - \\exp ( 2 \\pi i ( 2 j + 1 ) / ( 4 n ) ) ) } \\ ~ }",
+        "image_name": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "upper_len": 42,
+        "metric": {
+            "Edit_dist": 0.6904761904761905
+        },
+        "Edit_num": 29
+    },
+    {
+        "gt_idx": [
+            12
+        ],
+        "gt": "\\[{ {  ~ \\cdot \\prod _ { j = 0 } ^ { n - 1 } ( X + \\exp ( 2 \\pi i ( 2 j + 1 ) / ( 4 n ) ) ) . } }\\]",
+        "pred_idx": [
+            56
+        ],
+        "pred": "\\[\\sum_{k=1}^{n} k^3 = \\left( \\frac{n(n+1)}{2} \\right)^2\\]",
+        "gt_position": [
+            16.003
+        ],
+        "pred_position": 3355,
+        "norm_gt": "\\cdot\\prod_j=0^n-1(x+\\exp(2\\pii(2j+1)/(4n))).",
+        "norm_pred": "\\sum_k=1^nk^3=(\\fracn(n+1)2)^2",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7555555555555555,
+        "img_id": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "gt_cdm": "{ {  ~ \\cdot \\prod _ { j = 0 } ^ { n - 1 } ( X + \\exp ( 2 \\pi i ( 2 j + 1 ) / ( 4 n ) ) ) . } }",
+        "image_name": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "upper_len": 45,
+        "metric": {
+            "Edit_dist": 0.7555555555555555
+        },
+        "Edit_num": 34
+    },
+    {
+        "gt_idx": [
+            13
+        ],
+        "gt": "$$\n\\prod _ { j = 0 } ^ { k - 1 } \\left( \\left\\lfloor { \\frac { n } { k } } \\right\\rfloor - { \\frac { n - j } { k } } \\right) = 0 .\n$$",
+        "pred_idx": [
+            14
+        ],
+        "pred": "\\[\\sum_{k=1}^{\\infty} \\frac{1}{k} p^{-k\\alpha} = 0\\]",
+        "gt_position": [
+            20
+        ],
+        "pred_position": 550,
+        "norm_gt": "\\prod_j=0^k-1(\\lfloor{\\fracnk}\\rfloor-\\fracn-jk)=0",
+        "norm_pred": "\\sum_k=1^{\\infty}\\frac1kp^-k\\alpha=0",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7,
+        "img_id": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "gt_cdm": "\\prod _ { j = 0 } ^ { k - 1 } \\left( \\left\\lfloor { \\frac { n } { k } } \\right\\rfloor - { \\frac { n - j } { k } } \\right) = 0 .",
+        "image_name": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "upper_len": 50,
+        "metric": {
+            "Edit_dist": 0.7
+        },
+        "Edit_num": 35
+    },
+    {
+        "gt_idx": [
+            14
+        ],
+        "gt": "$$\n\\sum _ { i = 1 } ^ { n } ( i + c ) \\log i = { \\frac { 1 } { 2 } } n ^ { 2 } \\log n - { \\frac { 1 } { 4 } } n ^ { 2 } + O ( n \\log n )\n$$",
+        "pred_idx": [
+            58
+        ],
+        "pred": "\\[\\sum_{k=1}^{n} k^5 = \\frac{n^2(n+1)^2(2n^2+2n-1)}{12}\\]",
+        "gt_position": [
+            24
+        ],
+        "pred_position": 3538,
+        "norm_gt": "\\sum_i=1^n(i+c)\\logi={\\frac12}n^2\\logn-{\\frac14}n^2+o(n\\logn)",
+        "norm_pred": "\\sum_k=1^nk^5=\\fracn^2(n+1)^2(2n^2+2n-1)12",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.6065573770491803,
+        "img_id": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "gt_cdm": "\\sum _ { i = 1 } ^ { n } ( i + c ) \\log i = { \\frac { 1 } { 2 } } n ^ { 2 } \\log n - { \\frac { 1 } { 4 } } n ^ { 2 } + O ( n \\log n )",
+        "image_name": "exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png",
+        "upper_len": 61,
+        "metric": {
+            "Edit_dist": 0.6065573770491803
+        },
+        "Edit_num": 37
+    },
+    {
+        "gt_idx": [
+            0
+        ],
+        "gt": "$$ \\frac{1}{x^k - 1} = \\frac{1}{k(x-1) + \\cdots} = \\frac{1}{k}(x-1)^{-1} + \\cdots, $$",
+        "pred_idx": [
+            7
+        ],
+        "pred": "\\[ P(x) = (x^{1/2} - \\frac{1}{2}x^{-1/2}) - (x^{1/2} - \\frac{1}{2}x^{-1/2}) + \\cdots \\]",
+        "gt_position": [
+            5
+        ],
+        "pred_position": 602,
+        "norm_gt": "\\frac1x^k-1=\\frac1k(x-1)+\\cdots=\\frac1k(x-1)^-1+\\cdots,",
+        "norm_pred": "p(x)=(x^{1/2}-\\frac12x^-1/2)-(x^{1/2}-\\frac12x^-1/2)+\\cdots",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.5932203389830508,
+        "img_id": "exam_paper_en-file-putnam-archive_2002_Solutions_2002s_page_001.png",
+        "gt_cdm": "\\frac{1}{x^k - 1} = \\frac{1}{k(x-1) + \\cdots} = \\frac{1}{k}(x-1)^{-1} + \\cdots,",
+        "image_name": "exam_paper_en-file-putnam-archive_2002_Solutions_2002s_page_001.png",
+        "upper_len": 59,
+        "metric": {
+            "Edit_dist": 0.5932203389830508
+        },
+        "Edit_num": 35
+    },
+    {
+        "gt_idx": [
+            1
+        ],
+        "gt": "$$ \\frac{d^n}{dx^n} \\frac{1}{x^k-1} = \\frac{(-1)^n n!}{k(x-1)^{-n-1}} $$",
+        "pred_idx": [
+            4
+        ],
+        "pred": "\\[P_{x}(x) = x^{1/2} - \\frac{1}{2}x^{-1/2}\\]",
+        "gt_position": [
+            7
+        ],
+        "pred_position": 375,
+        "norm_gt": "\\fracd^ndx^n\\frac1x^k-1=\\frac(-1)^nn!k(x-1)^-n-1",
+        "norm_pred": "p_x(x)=x^{1/2}-\\frac12x^-1/2",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7291666666666666,
+        "img_id": "exam_paper_en-file-putnam-archive_2002_Solutions_2002s_page_001.png",
+        "gt_cdm": "\\frac{d^n}{dx^n} \\frac{1}{x^k-1} = \\frac{(-1)^n n!}{k(x-1)^{-n-1}}",
+        "image_name": "exam_paper_en-file-putnam-archive_2002_Solutions_2002s_page_001.png",
+        "upper_len": 48,
+        "metric": {
+            "Edit_dist": 0.7291666666666666
+        },
+        "Edit_num": 35
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "\\[P_{n}(x) &= (x^{k} - 1)^{n+1} \\frac{d^{n}}{dx^{n}} \\frac{1}{x^{k} - 1}\\]",
+        "pred_idx": [
+            1
+        ],
+        "pred": "\\[P_{x}(x) = (x^{1/2} - \\frac{1}{2}x^{-1/2}) - (x^{1/2} - \\frac{1}{2}x^{-1/2}) + \\cdots\\]",
+        "gt_position": [
+            9.001
+        ],
+        "pred_position": 209,
+        "norm_gt": "p_n(x)=(x^k-1)^n+1\\fracd^ndx^n\\frac1x^k-1",
+        "norm_pred": "p_x(x)=(x^{1/2}-\\frac12x^-1/2)-(x^{1/2}-\\frac12x^-1/2)+\\cdots",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.5901639344262295,
+        "img_id": "exam_paper_en-file-putnam-archive_2002_Solutions_2002s_page_001.png",
+        "gt_cdm": "P_{n}(x) &= (x^{k} - 1)^{n+1} \\frac{d^{n}}{dx^{n}} \\frac{1}{x^{k} - 1}",
+        "image_name": "exam_paper_en-file-putnam-archive_2002_Solutions_2002s_page_001.png",
+        "upper_len": 61,
+        "metric": {
+            "Edit_dist": 0.5901639344262295
+        },
+        "Edit_num": 36
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "\\[&= (k(x-1) + \\cdots)^{n+1} \\left( \\frac{(-1)^{n}n!}{k} (x-1)^{-n-1} + \\cdots \\right)\\]",
+        "pred_idx": [
+            0
+        ],
+        "pred": "\\[P(x)^{1/2} = x^{1/2} - \\frac{1}{2}x^{-1/2} + \\cdots\\]",
+        "gt_position": [
+            9.002
+        ],
+        "pred_position": 141,
+        "norm_gt": "=(k(x-1)+\\cdots)^n+1(\\frac(-1)^nn!k(x-1)^-n-1+\\cdots)",
+        "norm_pred": "p(x)^{1/2}=x^{1/2}-\\frac12x^-1/2+\\cdots",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.660377358490566,
+        "img_id": "exam_paper_en-file-putnam-archive_2002_Solutions_2002s_page_001.png",
+        "gt_cdm": "&= (k(x-1) + \\cdots)^{n+1} \\left( \\frac{(-1)^{n}n!}{k} (x-1)^{-n-1} + \\cdots \\right)",
+        "image_name": "exam_paper_en-file-putnam-archive_2002_Solutions_2002s_page_001.png",
+        "upper_len": 53,
+        "metric": {
+            "Edit_dist": 0.660377358490566
+        },
+        "Edit_num": 35
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "\\[&= (-k)^{n} n! + \\cdots.\\]",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[P_{x}(x) = 1 + x^{1/2} + \\cdots\\]",
+        "gt_position": [
+            9.003
+        ],
+        "pred_position": 304,
+        "norm_gt": "=(-k)^nn!+\\cdots",
+        "norm_pred": "p_x(x)=1+x^{1/2}+\\cdots",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.6086956521739131,
+        "img_id": "exam_paper_en-file-putnam-archive_2002_Solutions_2002s_page_001.png",
+        "gt_cdm": "&= (-k)^{n} n! + \\cdots.",
+        "image_name": "exam_paper_en-file-putnam-archive_2002_Solutions_2002s_page_001.png",
+        "upper_len": 23,
+        "metric": {
+            "Edit_dist": 0.6086956521739131
+        },
+        "Edit_num": 14
+    },
+    {
+        "gt_idx": [
+            5
+        ],
+        "gt": "$$\n\\left( \\begin{array}{ccc} 1 & * & * \\\\ * & 0 & * \\\\ * & * & * \\end{array} \\right)\n$$",
+        "pred_idx": [
+            6
+        ],
+        "pred": "\\[ \\begin{aligned} & \\text{ } \\\\ & \\text{ } \\\\ & \\text{ } \\\\ \\end{aligned} \\]",
+        "gt_position": [
+            15
+        ],
+        "pred_position": 518,
+        "norm_gt": "(1**\\\\*0*\\\\***)",
+        "norm_pred": "\\\\\\\\\\\\",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.7333333333333333,
+        "img_id": "exam_paper_en-file-putnam-archive_2002_Solutions_2002s_page_001.png",
+        "gt_cdm": "\\left( \\begin{array}{ccc} 1 & * & * \\\\ * & 0 & * \\\\ * & * & * \\end{array} \\right)",
+        "image_name": "exam_paper_en-file-putnam-archive_2002_Solutions_2002s_page_001.png",
+        "upper_len": 15,
+        "metric": {
+            "Edit_dist": 0.7333333333333333
+        },
+        "Edit_num": 11
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "$$\\begin{array}{c|c|c}A_{11}& A_{22}& A_{33}\\\\ \\hline A_{23}& A_{31}&A_{12}\\\\ \\hline A_{32}&A_{13}&A_{21}\\end{array}$$",
+        "pred_idx": [
+            11
+        ],
+        "pred": "\\[\\{1\\}, \\{2\\}, \\ldots\\]",
+        "gt_position": [
+            22
+        ],
+        "pred_position": 1461,
+        "norm_gt": "a_11a_22a_33\\\\\\hlinea_23a_31a_12\\\\\\hlinea_32a_13a_21",
+        "norm_pred": "1,2,\\ldots",
+        "gt_category_type": "equation_isolated",
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {}
+        ],
+        "edit": 0.9230769230769231,
+        "img_id": "exam_paper_en-file-putnam-archive_2002_Solutions_2002s_page_001.png",
+        "gt_cdm": "\\begin{array}{c|c|c}A_{11}& A_{22}& A_{33}\\\\ \\hline A_{23}& A_{31}&A_{12}\\\\ \\hline A_{32}&A_{13}&A_{21}\\end{array}",
+        "image_name": "exam_paper_en-file-putnam-archive_2002_Solutions_2002s_page_001.png",
+        "upper_len": 52,
+        "metric": {
+            "Edit_dist": 0.9230769230769231
+        },
+        "Edit_num": 48
+    }
+]

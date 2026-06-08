@@ -1,0 +1,28 @@
+# ==== Datasets & third-party benchmark (KHÔNG commit) ====
+# OmniDocBench dataset (~1.4GB ảnh + GT công khai, tải riêng)
+eval/OmniDocBench_data/
+# Repo benchmark bên thứ 3 (clone riêng, có .git riêng)
+eval/OmniDocBench_eval/
+
+# ==== Python ====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ==== Virtual envs ====
+.venv/
+venv/
+env/
+
+# ==== IDE / OS ====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==== Misc ====
+*.tmp
+*.bak

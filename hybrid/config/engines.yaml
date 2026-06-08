@@ -1,0 +1,19 @@
+# Cấu hình từng engine Tier B (model path, serving args). Pin version khi cài.
+# Slice đầu chỉ dùng `lmstudio`. Hai engine còn lại là target/đối chứng (chưa code).
+
+lmstudio:
+  kind: openai_compatible
+  base_url: "http://localhost:1234/v1"
+  model: "qwen/qwen3-vl-8b"
+  notes: "Qwen3-VL-8B qua LM Studio. 0 hạ tầng, ~7GB VRAM, KHÔNG có bbox/quad native."
+
+paddleocrvl:        # target accuracy về sau (SOTA ~94.5% OmniDocBench v1.5)
+  kind: vllm
+  model: "PaddleOCR-VL-1.5"
+  status: "chưa triển khai — cần vLLM build CUDA 12.8+ cho Blackwell sm_120"
+  notes: "Trả quad 4 điểm → grounding native. Cắm cùng ParseEngine interface."
+
+ppstructure:        # đối chứng no-VLM, deterministic
+  kind: paddle_pipeline
+  status: "chưa triển khai"
+  notes: "PP-StructureV3 (det+rec+layout+table) để so accuracy/latency vs VLM."

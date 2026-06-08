@@ -1,0 +1,638 @@
+[32m2026-06-08 07:02:54.624[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_collect_page_matches[0m:[36m2054[0m - [1m[quick-match] using page workers=6[0m
+
+Matching pages:   0%|                                                                                               | 0/100 [00:00<?, ?it/s][32m2026-06-08 07:03:00.436[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] page-e4053f20-e6e6-430e-83ef-db298a3199aa.png: choose=hungarian_unsplit page_cost=46.3215[0m
+
+Matching pages:   1%|8                                                                                      | 1/100 [00:05<09:35,  5.81s/it][32m2026-06-08 07:03:00.511[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] page-47977c29-59ca-4534-9a00-becad3bfdaa4.png: choose=hungarian_unsplit page_cost=8.5254[0m
+[32m2026-06-08 07:03:08.669[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] page-d43b98f8-6a96-44f8-a3cf-65de9397f582.png: choose=hungarian_unsplit page_cost=3.6727[0m
+
+Matching pages:   3%|##6                                                                                    | 3/100 [00:14<07:22,  4.56s/it][32m2026-06-08 07:03:09.424[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] page-573c437e-c309-4483-a038-ef2f440b104a.png: choose=quick_unsplit page_cost=25.4765[0m
+
+Matching pages:   5%|####3                                                                                  | 5/100 [00:14<03:48,  2.41s/it][32m2026-06-08 07:03:16.989[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] page-b13fef06-6ae9-4b2d-a948-0340e03f97ce.png: choose=quick_unsplit page_cost=3.2846[0m
+
+Matching pages:   8%|######9                                                                                | 8/100 [00:22<03:46,  2.47s/it]
+Matching pages:  11%|#########4                                                                            | 11/100 [00:22<02:07,  1.43s/it]
+Matching pages:  12%|##########3                                                                           | 12/100 [00:23<01:56,  1.32s/it]
+Matching pages:  20%|#################2                                                                    | 20/100 [00:23<00:39,  2.00it/s]
+Matching pages:  21%|##################                                                                    | 21/100 [00:25<00:47,  1.65it/s][32m2026-06-08 07:03:22.311[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] page-961a543b-d09d-4fd8-944a-1a38d67bb3bc.png: choose=quick_unsplit page_cost=6.5666[0m
+
+Matching pages:  22%|##################9                                                                   | 22/100 [00:27<01:04,  1.21it/s]
+Matching pages:  23%|###################7                                                                  | 23/100 [00:28<01:02,  1.24it/s]
+Matching pages:  26%|######################3                                                               | 26/100 [00:28<00:37,  1.98it/s]
+Matching pages:  27%|#######################2                                                              | 27/100 [00:28<00:33,  2.16it/s]
+Matching pages:  28%|########################                                                              | 28/100 [00:29<00:36,  1.97it/s]
+Matching pages:  29%|########################9                                                             | 29/100 [00:29<00:30,  2.31it/s]
+Matching pages:  30%|#########################8                                                            | 30/100 [00:29<00:25,  2.76it/s]
+Matching pages:  31%|##########################6                                                           | 31/100 [00:31<00:44,  1.54it/s]
+Matching pages:  32%|###########################5                                                          | 32/100 [00:35<01:38,  1.45s/it][32m2026-06-08 07:03:30.584[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] docstructbench_llm-raw-scihub-o.O-s00128-008-9367-z.pdf_4.jpg: choose=hungarian_unsplit page_cost=3.8119[0m
+
+Matching pages:  34%|#############################2                                                        | 34/100 [00:35<01:08,  1.03s/it][32m2026-06-08 07:03:30.624[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] page-0a262e27-b24d-4429-9b21-90563d4fada7.png: choose=quick_unsplit page_cost=17.6505[0m
+
+Matching pages:  37%|###############################8                                                      | 37/100 [00:36<00:38,  1.63it/s]
+Matching pages:  38%|################################6                                                     | 38/100 [00:43<01:55,  1.86s/it]
+Matching pages:  39%|#################################5                                                    | 39/100 [00:47<02:22,  2.34s/it][32m2026-06-08 07:03:45.508[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] page-8cbbe0d4-a3a8-4533-a620-048bebfa714b.png: choose=hungarian_unsplit page_cost=22.5467[0m
+
+Matching pages:  42%|####################################1                                                 | 42/100 [00:50<01:38,  1.70s/it][32m2026-06-08 07:03:45.770[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] jiaocaineedrop_jiaocai_needrop_en_2718.jpg: choose=quick_unsplit page_cost=4.8145[0m
+
+Matching pages:  44%|#####################################8                                                | 44/100 [00:51<01:08,  1.22s/it]
+Matching pages:  45%|######################################7                                               | 45/100 [00:51<00:56,  1.03s/it]
+Matching pages:  48%|#########################################2                                            | 48/100 [00:51<00:31,  1.67it/s]
+Matching pages:  49%|##########################################1                                           | 49/100 [00:51<00:26,  1.89it/s]
+Matching pages:  50%|###########################################                                           | 50/100 [00:55<00:55,  1.11s/it]
+Matching pages:  51%|###########################################8                                          | 51/100 [00:55<00:44,  1.10it/s]
+Matching pages:  54%|##############################################4                                       | 54/100 [00:55<00:22,  2.01it/s]
+Matching pages:  55%|###############################################3                                      | 55/100 [00:57<00:32,  1.39it/s]
+Matching pages:  56%|################################################1                                     | 56/100 [00:57<00:27,  1.63it/s][32m2026-06-08 07:03:54.150[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] page-c1c135ad-427e-482b-b01c-05c0ccbc6e76.png: choose=hungarian_unsplit page_cost=33.7147[0m
+
+Matching pages:  57%|#################################################                                     | 57/100 [00:59<00:41,  1.04it/s]
+Matching pages:  58%|#################################################8                                    | 58/100 [01:01<00:48,  1.14s/it]
+Matching pages:  59%|##################################################7                                   | 59/100 [01:01<00:38,  1.08it/s]
+Matching pages:  60%|###################################################6                                  | 60/100 [01:04<00:56,  1.42s/it]
+Matching pages:  61%|####################################################4                                 | 61/100 [01:04<00:46,  1.18s/it]
+Matching pages:  63%|######################################################1                               | 63/100 [01:05<00:25,  1.43it/s]
+Matching pages:  65%|#######################################################9                              | 65/100 [01:05<00:17,  2.03it/s]
+Matching pages:  66%|########################################################7                             | 66/100 [01:05<00:14,  2.31it/s][32m2026-06-08 07:04:02.900[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_maybe_apply_local_text_span_fallback[0m:[36m639[0m - [1m[text-fallback] jiaocaineedrop_jiaocai_needrop_en_1276.jpg: gt_idx=[18] edit=0.5122->0.2830 pred_idx=[19, 20][0m
+
+Matching pages:  67%|#########################################################6                            | 67/100 [01:08<00:35,  1.07s/it]
+Matching pages:  68%|##########################################################4                           | 68/100 [01:14<01:14,  2.32s/it]
+Matching pages:  70%|############################################################2                         | 70/100 [01:14<00:41,  1.37s/it][32m2026-06-08 07:04:09.732[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] jiaocaineedrop_jiaocai_needrop_en_541.jpg: choose=quick_unsplit page_cost=5.6674[0m
+
+Matching pages:  73%|##############################################################7                       | 73/100 [01:15<00:20,  1.31it/s][32m2026-06-08 07:04:10.569[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] PPT_MMAT5390Lecture1_page_024.png: choose=quick_unsplit page_cost=0.0000[0m
+
+Matching pages:  76%|#################################################################3                    | 76/100 [01:15<00:13,  1.76it/s]
+Matching pages:  78%|###################################################################                   | 78/100 [01:16<00:09,  2.34it/s][32m2026-06-08 07:04:11.195[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] PPT_linear-algebra primer_page_007.png: choose=quick_unsplit page_cost=1.6316[0m
+
+Matching pages:  79%|###################################################################9                  | 79/100 [01:16<00:09,  2.25it/s]
+Matching pages:  80%|####################################################################8                 | 80/100 [01:17<00:09,  2.07it/s]
+Matching pages:  81%|#####################################################################6                | 81/100 [01:21<00:24,  1.28s/it]
+Matching pages:  82%|######################################################################5               | 82/100 [01:22<00:22,  1.28s/it]
+Matching pages:  83%|#######################################################################3              | 83/100 [01:24<00:21,  1.29s/it][32m2026-06-08 07:04:18.955[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] book_zh_GB149361994_extracted_page_7.png: choose=quick_unsplit page_cost=3.0132[0m
+
+Matching pages:  88%|###########################################################################6          | 88/100 [01:24<00:05,  2.01it/s][32m2026-06-08 07:04:19.727[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] book_en_国外数学教材-非数学专业教材-线性代数-Gilbert Strang—Linear Algebra and Its Applications 4e_0017.png: choose=quick_unsplit page_cost=0.0714[0m
+
+Matching pages:  89%|############################################################################5         | 89/100 [01:25<00:05,  1.85it/s]
+Matching pages:  90%|#############################################################################4        | 90/100 [01:50<00:49,  4.99s/it][32m2026-06-08 07:05:04.868[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] book_en_国外数学教材-An Excursion through Elementary Mathematics（初等数学漫游）-An excursion through elementary mathematics, Vol.3 (Caminha Muniz Neto A)_0100.png: choose=hungarian_unsplit page_cost=27.6470[0m
+
+Matching pages:  91%|##############################################################################2       | 91/100 [02:10<01:12,  8.09s/it]
+Matching pages:  92%|###############################################################################1      | 92/100 [02:10<00:51,  6.38s/it]
+Matching pages:  93%|###############################################################################9      | 93/100 [02:19<00:48,  6.93s/it]
+Matching pages:  94%|################################################################################8     | 94/100 [02:20<00:32,  5.36s/it]
+Matching pages:  95%|#################################################################################7    | 95/100 [02:20<00:19,  3.95s/it][32m2026-06-08 07:05:15.105[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] exam_paper_en-file-putnam-archive_1996_Solutions_1996s_page_002.png: choose=hungarian_unsplit page_cost=68.7098[0m
+[32m2026-06-08 07:05:28.673[0m | [33m[1mWARNING [0m | [36msrc.dataset.end2end_dataset[0m:[36m_log_slow_stage[0m:[36m115[0m - [33m[1m[match-stage-slow] jiaocaineedrop_jiaocai_needrop_en_1564.jpg: stage=page_total elapsed=110.28s[0m
+
+Matching pages:  97%|###################################################################################4  | 97/100 [02:34<00:15,  5.19s/it][32m2026-06-08 07:05:31.343[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] exam_paper_en-file-putnam-archive_2002_Solutions_2002s_page_001.png: choose=hungarian_unsplit page_cost=82.8380[0m
+
+Matching pages:  98%|####################################################################################2 | 98/100 [02:36<00:09,  4.59s/it][32m2026-06-08 07:06:15.958[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png: choose=hungarian_unsplit page_cost=72.6192[0m
+[32m2026-06-08 07:06:15.958[0m | [33m[1mWARNING [0m | [36msrc.dataset.end2end_dataset[0m:[36m_log_slow_stage[0m:[36m115[0m - [33m[1m[match-stage-slow] exam_paper_en-file-putnam-archive_2007_Solutions_2007s_page_004.png: stage=page_total elapsed=116.22s[0m
+
+Matching pages:  99%|#####################################################################################1| 99/100 [03:21<00:14, 14.73s/it][32m2026-06-08 07:06:40.528[0m | [1mINFO    [0m | [36msrc.dataset.end2end_dataset[0m:[36m_match_display_formula_candidates[0m:[36m1568[0m - [1m[formula-match-candidate] jiaocaineedrop_20608808.pdf_0.jpg: choose=hungarian_unsplit page_cost=160.0508[0m
+[32m2026-06-08 07:06:40.528[0m | [33m[1mWARNING [0m | [36msrc.dataset.end2end_dataset[0m:[36m_log_slow_stage[0m:[36m115[0m - [33m[1m[match-stage-slow] jiaocaineedrop_20608808.pdf_0.jpg: stage=page_total elapsed=190.84s[0m
+
+Matching pages: 100%|#####################################################################################| 100/100 [03:45<00:00, 17.34s/it]
+Matching pages: 100%|#####################################################################################| 100/100 [03:45<00:00,  2.26s/it]
+###### Process:  predictions_quick_match
+【text_block】
+Edit_dist:
+---------------  --------
+ALL_page_avg     0.467042
+edit_whole       0.760511
+edit_sample_avg  0.651919
+---------------  --------
+====================================================================================================
+----Anno Attribute---------------
+sample_count:
+
+====================================================================================================
+Edit_dist:
+--------------------------------  --------
+ALL                               0.467042
+None                              0.399537
+colorful_backgroud                0.290966
+data_source: PPT2PDF              0.125475
+data_source: academic_literature  0.361046
+data_source: book                 0.302483
+data_source: colorful_textbook    0.429939
+data_source: exam_paper           0.575475
+data_source: historical_document  0.984425
+data_source: magazine             0.544155
+data_source: newspaper            0.906008
+data_source: note                 0.540182
+data_source: research_report      0.776166
+fuzzy_content                     0.984425
+geometric_deformation             0.648734
+language: en_ch_mixed             0.368741
+language: english                 0.351118
+language: simplified_chinese      0.616024
+language: traditional_chinese     0.895081
+layout: 1andmore_column           0.504899
+layout: double_column             0.454069
+layout: other_layout              0.640646
+layout: single_column             0.345553
+layout: three_column              0.97299
+subset: equation_hard             0.400001
+subset: layout_hard               0.433425
+subset: table_hard                0.784512
+subset: v1.5                      0.459793
+watermark                         0.335093
+with_watermark                    0.31
+--------------------------------  --------
+====================================================================================================
+【display_formula】
+Edit_dist:
+---------------  --------
+ALL_page_avg     0.538411
+edit_whole       0.652099
+edit_sample_avg  0.604398
+---------------  --------
+====================================================================================================
+----Anno Attribute---------------
+sample_count:
+
+====================================================================================================
+Edit_dist:
+--------------------------------  --------
+ALL                               0.538411
+None                              0.514491
+colorful_backgroud                0.407131
+data_source: PPT2PDF              0.324803
+data_source: academic_literature  0.6771
+data_source: book                 0.504156
+data_source: colorful_textbook    0.371114
+data_source: exam_paper           0.625371
+geometric_deformation             0.644068
+language: english                 0.540801
+language: simplified_chinese      0.53393
+layout: 1andmore_column           0.652995
+layout: double_column             0.596349
+layout: single_column             0.499958
+subset: equation_hard             0.644157
+subset: layout_hard               0.434239
+subset: v1.5                      0.50042
+--------------------------------  --------
+====================================================================================================
+[TEDS] workers=6 samples=36 timeout=120.0
+
+TEDS:   0%|                                                                                                          | 0/36 [00:00<?, ?it/s]
+TEDS:   3%|##7                                                                                               | 1/36 [00:02<01:26,  2.49s/it]
+TEDS:  19%|###################                                                                               | 7/36 [00:04<00:18,  1.61it/s]
+TEDS:  25%|########################5                                                                         | 9/36 [00:05<00:12,  2.21it/s]
+TEDS:  28%|##########################9                                                                      | 10/36 [00:05<00:10,  2.43it/s]
+TEDS:  31%|#############################6                                                                   | 11/36 [00:05<00:09,  2.66it/s]
+TEDS:  36%|###################################                                                              | 13/36 [00:07<00:13,  1.71it/s]
+TEDS:  42%|########################################4                                                        | 15/36 [00:07<00:08,  2.48it/s]
+TEDS:  44%|###########################################1                                                     | 16/36 [00:07<00:07,  2.71it/s]
+TEDS:  47%|#############################################8                                                   | 17/36 [00:07<00:06,  2.93it/s]
+TEDS:  53%|###################################################1                                             | 19/36 [00:09<00:09,  1.75it/s]
+TEDS:  58%|########################################################5                                        | 21/36 [00:09<00:05,  2.58it/s]
+TEDS:  61%|###########################################################2                                     | 22/36 [00:10<00:05,  2.45it/s]
+TEDS:  67%|################################################################6                                | 24/36 [00:11<00:04,  2.53it/s]
+TEDS:  69%|###################################################################3                             | 25/36 [00:12<00:06,  1.76it/s]
+TEDS:  72%|######################################################################                           | 26/36 [00:12<00:05,  1.91it/s]
+TEDS:  78%|###########################################################################4                     | 28/36 [00:13<00:04,  1.95it/s]
+TEDS:  83%|################################################################################8                | 30/36 [00:14<00:02,  2.01it/s]
+TEDS:  86%|###################################################################################5             | 31/36 [00:15<00:02,  2.10it/s]
+TEDS:  89%|######################################################################################2          | 32/36 [00:15<00:01,  2.21it/s]
+TEDS:  94%|###########################################################################################6     | 34/36 [00:16<00:00,  2.30it/s]
+TEDS:  97%|##############################################################################################3  | 35/36 [00:16<00:00,  2.75it/s]
+TEDS: 100%|#################################################################################################| 36/36 [00:17<00:00,  2.32it/s]
+TEDS: 100%|#################################################################################################| 36/36 [00:17<00:00,  2.11it/s]
+【table】
+TEDS:
+---  --------
+all  0.188074
+---  --------
+====================================================================================================
+TEDS_structure_only:
+---  --------
+all  0.363644
+---  --------
+====================================================================================================
+Edit_dist:
+---------------  --------
+ALL_page_avg     0.791949
+edit_whole       0.84711
+edit_sample_avg  0.82112
+---------------  --------
+====================================================================================================
+----Anno Attribute---------------
+sample_count:
+
+====================================================================================================
+Edit_dist:
+--------------------------------  --------
+ALL                               0.791949
+data_source: PPT2PDF              0.727008
+data_source: academic_literature  0.770343
+data_source: book                 0.581972
+data_source: exam_paper           0.902994
+data_source: newspaper            1
+data_source: note                 0.99693
+data_source: research_report      0.776134
+language: en_ch_mixed             0.708982
+language: english                 0.800308
+language: simplified_chinese      0.801969
+language: traditional_chinese     0.686144
+layout: 1andmore_column           0.735376
+layout: double_column             1
+layout: other_layout              0.878417
+layout: single_column             0.762206
+subset: equation_hard             0.677389
+subset: table_hard                0.820814
+subset: v1.5                      0.791896
+watermark                         0.708982
+--------------------------------  --------
+====================================================================================================
+TEDS:
+--------------------------------  ----------
+ALL                               0.224171
+data_source: PPT2PDF              0.191286
+data_source: academic_literature  0.172883
+data_source: book                 0.622636
+data_source: exam_paper           0.102491
+data_source: newspaper            0
+data_source: note                 0.00149463
+data_source: research_report      0.231521
+language: en_ch_mixed             0.307474
+language: english                 0.224451
+language: simplified_chinese      0.209823
+language: traditional_chinese     0.32542
+layout: 1andmore_column           0.227506
+layout: double_column             0
+layout: other_layout              0.324021
+layout: single_column             0.239294
+subset: equation_hard             0.733576
+subset: table_hard                0.259275
+subset: v1.5                      0.185946
+watermark                         0.307474
+--------------------------------  ----------
+====================================================================================================
+TEDS_structure_only:
+--------------------------------  ----------
+ALL                               0.406669
+data_source: PPT2PDF              0.333333
+data_source: academic_literature  0.44317
+data_source: book                 0.854354
+data_source: exam_paper           0.216667
+data_source: newspaper            0
+data_source: note                 0.00650477
+data_source: research_report      0.465559
+language: en_ch_mixed             0.65
+language: english                 0.402051
+language: simplified_chinese      0.382831
+language: traditional_chinese     0.505556
+layout: 1andmore_column           0.596573
+layout: double_column             0
+layout: other_layout              0.5
+layout: single_column             0.422098
+subset: equation_hard             0.954545
+subset: table_hard                0.41048
+subset: v1.5                      0.373544
+watermark                         0.65
+--------------------------------  ----------
+====================================================================================================
+【reading_order】
+Edit_dist:
+---------------  --------
+ALL_page_avg     0.410513
+edit_whole       0.57476
+edit_sample_avg  0.410513
+---------------  --------
+====================================================================================================
+----Anno Attribute---------------
+sample_count:
+
+====================================================================================================
+Edit_dist:
+--------------------------------  --------
+ALL                               0.410513
+None                              0.337656
+colorful_backgroud                0.191829
+data_source: PPT2PDF              0.132222
+data_source: academic_literature  0.369427
+data_source: book                 0.321302
+data_source: colorful_textbook    0.393427
+data_source: exam_paper           0.593402
+data_source: historical_document  0.452381
+data_source: magazine             0.339105
+data_source: newspaper            0.871944
+data_source: note                 0.437775
+data_source: research_report      0.463542
+fuzzy_content                     0.452381
+geometric_deformation             0.392857
+language: en_ch_mixed             0.431194
+language: english                 0.348741
+language: simplified_chinese      0.487077
+language: traditional_chinese     0.35119
+layout: 1andmore_column           0.459077
+layout: double_column             0.427466
+layout: other_layout              0.531643
+layout: single_column             0.321901
+layout: three_column              0.744915
+subset: equation_hard             0.462265
+subset: layout_hard               0.212381
+subset: table_hard                0.35
+subset: v1.5                      0.420498
+watermark                         0.456506
+with_watermark                    0.142857
+--------------------------------  --------
+====================================================================================================
+========== RUNTIME_ENVIRONMENT predictions_quick_match ==========
+save_name: predictions_quick_match
+[system]
+platform: Windows-10-10.0.26100-SP0
+python_version: 3.10.20 | packaged by Anaconda, Inc. | (main, Mar 11 2026, 17:42:35) [MSC v.1942 64 bit (AMD64)]
+python_executable: C:\Users\Admin\.conda\envs\omnidocbench\python.exe
+python_prefix: C:\Users\Admin\.conda\envs\omnidocbench
+conda_env: 
+conda_prefix: 
+libc: 
+uname: Windows LinhKhanh 10 10.0.26100 AMD64 Intel64 Family 6 Model 191 Stepping 2, GenuineIntel
+[system_packages]
+package_manager: unavailable
+fontconfig: unavailable (no supported package manager found)
+ghostscript: unavailable (no supported package manager found)
+imagemagick: unavailable (no supported package manager found)
+latexml: unavailable (no supported package manager found)
+python3: unavailable (no supported package manager found)
+python3-pip: unavailable (no supported package manager found)
+python3-setuptools: unavailable (no supported package manager found)
+python3-wheel: unavailable (no supported package manager found)
+texlive-base: unavailable (no supported package manager found)
+texlive-binaries: unavailable (no supported package manager found)
+texlive-fonts-recommended: unavailable (no supported package manager found)
+texlive-lang-chinese: unavailable (no supported package manager found)
+texlive-lang-cjk: unavailable (no supported package manager found)
+texlive-latex-base: unavailable (no supported package manager found)
+texlive-latex-extra: unavailable (no supported package manager found)
+texlive-plain-generic: unavailable (no supported package manager found)
+[python_packages]
+Levenshtein: 0.25.1
+Pillow: 10.4.0
+PyYAML: 6.0.2
+apted: 1.0.3
+beautifulsoup4: 4.11.1
+evaluate: 0.4.3
+func-timeout: 4.3.5
+loguru: 0.7.2
+lxml: 4.9.1
+matplotlib: 3.7.5
+nltk: 3.9.1
+numpy: 1.24.4
+pandas: 2.0.3
+pip: 26.1.1
+pylatexenc: 2.10
+scipy: 1.10.1
+setuptools: 82.0.1
+tabulate: 0.9.0
+tqdm: 4.67.1
+wheel: 0.46.3
+[external_tools]
+convert: path=C:\WINDOWS\system32\convert.EXE returncode=4 output=Invalid drive specification.
+ghostscript: path=gs returncode=None output=unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)
+identify: path=identify returncode=None output=unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)
+kpsewhich: path=/share/texlive\kpsewhich returncode=None output=unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)
+latexmlc: path=latexmlc returncode=None output=unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)
+magick: path=magick returncode=None output=unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)
+pdflatex: path=/share/texlive\pdflatex returncode=None output=unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)
+tlmgr: path=tlmgr returncode=None output=unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)
+[texlive]
+cjk_font_family: gkai
+cjk_sty: status=not_found path=unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified) version=unavailable date= header=
+cjk_font_fd: status=not_found path=unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified) version=unavailable date= header=
+
+========== END_RUNTIME_ENVIRONMENT predictions_quick_match ==========
+========== STAGE_EXECUTION predictions_quick_match ==========
+save_name: predictions_quick_match
+[page_match]
+workers: 6
+page_count: 100
+quick_match_truncated_timeout_sec: 300
+match_timeout_sec: 420
+fallbacks:
+  - page_timeout: count=0
+  - quick_match_timeout: count=0
+[table.TEDS]
+workers: 6
+timeout_sec: 120.0
+sample_count: 36
+timeout_case_count: 0
+error_case_count: 0
+exception_case_count: 0
+
+========== END_STAGE_EXECUTION predictions_quick_match ==========
+========== FINAL_EVAL_RUN_REPORT predictions_quick_match ==========
+{
+  "notebook_metric_summary": {
+    "metrics": {
+      "display_formula_CDM": {
+        "notebook_value": null,
+        "page_denominator": null,
+        "raw": null
+      },
+      "reading_order_Edit_dist": {
+        "notebook_value": 0.4105134727518083,
+        "page_denominator": 99,
+        "raw": 0.4105134727518083
+      },
+      "table_TEDS": {
+        "notebook_value": 22.417064626002983,
+        "page_denominator": 22,
+        "raw": 0.22417064626002983
+      },
+      "table_TEDS_structure_only": {
+        "notebook_value": 40.66691394744101,
+        "page_denominator": 22,
+        "raw": 0.40666913947441014
+      },
+      "text_block_Edit_dist": {
+        "notebook_value": 0.4670423496341961,
+        "page_denominator": 95,
+        "raw": 0.4670423496341961
+      }
+    },
+    "overall_notebook": null,
+    "source": "tools/generate_result_tables.ipynb#cell-2"
+  },
+  "page_denominators": {
+    "display_formula": {
+      "Edit_dist": {
+        "ALL": 23
+      }
+    },
+    "reading_order": {
+      "Edit_dist": {
+        "ALL": 99
+      }
+    },
+    "table": {
+      "Edit_dist": {
+        "ALL": 22
+      },
+      "TEDS": {
+        "ALL": 22
+      },
+      "TEDS_structure_only": {
+        "ALL": 22
+      }
+    },
+    "text_block": {
+      "Edit_dist": {
+        "ALL": 95
+      }
+    }
+  },
+  "runtime_environment": {
+    "external_tools": {
+      "convert": {
+        "output": "Invalid drive specification.",
+        "path": "C:\\WINDOWS\\system32\\convert.EXE",
+        "returncode": 4
+      },
+      "ghostscript": {
+        "output": "unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)",
+        "path": "gs",
+        "returncode": null
+      },
+      "identify": {
+        "output": "unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)",
+        "path": "identify",
+        "returncode": null
+      },
+      "kpsewhich": {
+        "output": "unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)",
+        "path": "/share/texlive\\kpsewhich",
+        "returncode": null
+      },
+      "latexmlc": {
+        "output": "unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)",
+        "path": "latexmlc",
+        "returncode": null
+      },
+      "magick": {
+        "output": "unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)",
+        "path": "magick",
+        "returncode": null
+      },
+      "pdflatex": {
+        "output": "unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)",
+        "path": "/share/texlive\\pdflatex",
+        "returncode": null
+      },
+      "tlmgr": {
+        "output": "unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)",
+        "path": "tlmgr",
+        "returncode": null
+      }
+    },
+    "python_packages": {
+      "Levenshtein": "0.25.1",
+      "Pillow": "10.4.0",
+      "PyYAML": "6.0.2",
+      "apted": "1.0.3",
+      "beautifulsoup4": "4.11.1",
+      "evaluate": "0.4.3",
+      "func-timeout": "4.3.5",
+      "loguru": "0.7.2",
+      "lxml": "4.9.1",
+      "matplotlib": "3.7.5",
+      "nltk": "3.9.1",
+      "numpy": "1.24.4",
+      "pandas": "2.0.3",
+      "pip": "26.1.1",
+      "pylatexenc": "2.10",
+      "scipy": "1.10.1",
+      "setuptools": "82.0.1",
+      "tabulate": "0.9.0",
+      "tqdm": "4.67.1",
+      "wheel": "0.46.3"
+    },
+    "system": {
+      "conda_env": "",
+      "conda_prefix": "",
+      "libc": "",
+      "os_release": {},
+      "platform": "Windows-10-10.0.26100-SP0",
+      "python_executable": "C:\\Users\\Admin\\.conda\\envs\\omnidocbench\\python.exe",
+      "python_prefix": "C:\\Users\\Admin\\.conda\\envs\\omnidocbench",
+      "python_version": "3.10.20 | packaged by Anaconda, Inc. | (main, Mar 11 2026, 17:42:35) [MSC v.1942 64 bit (AMD64)]",
+      "uname": "Windows LinhKhanh 10 10.0.26100 AMD64 Intel64 Family 6 Model 191 Stepping 2, GenuineIntel"
+    },
+    "system_packages": {
+      "package_manager": "unavailable",
+      "tracked_packages": {
+        "fontconfig": "unavailable (no supported package manager found)",
+        "ghostscript": "unavailable (no supported package manager found)",
+        "imagemagick": "unavailable (no supported package manager found)",
+        "latexml": "unavailable (no supported package manager found)",
+        "python3": "unavailable (no supported package manager found)",
+        "python3-pip": "unavailable (no supported package manager found)",
+        "python3-setuptools": "unavailable (no supported package manager found)",
+        "python3-wheel": "unavailable (no supported package manager found)",
+        "texlive-base": "unavailable (no supported package manager found)",
+        "texlive-binaries": "unavailable (no supported package manager found)",
+        "texlive-fonts-recommended": "unavailable (no supported package manager found)",
+        "texlive-lang-chinese": "unavailable (no supported package manager found)",
+        "texlive-lang-cjk": "unavailable (no supported package manager found)",
+        "texlive-latex-base": "unavailable (no supported package manager found)",
+        "texlive-latex-extra": "unavailable (no supported package manager found)",
+        "texlive-plain-generic": "unavailable (no supported package manager found)"
+      }
+    },
+    "texlive": {
+      "cjk_font_family": "gkai",
+      "cjk_font_fd": {
+        "date": "",
+        "header": "",
+        "path": "unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)",
+        "status": "not_found",
+        "version": "unavailable"
+      },
+      "cjk_sty": {
+        "date": "",
+        "header": "",
+        "path": "unavailable (FileNotFoundError: [WinError 2] The system cannot find the file specified)",
+        "status": "not_found",
+        "version": "unavailable"
+      }
+    }
+  },
+  "save_name": "predictions_quick_match",
+  "stage_execution": {
+    "metrics": {
+      "table": {
+        "TEDS": {
+          "error_case_count": 0,
+          "error_cases": [],
+          "exception_case_count": 0,
+          "exception_cases": [],
+          "sample_count": 36,
+          "timeout_case_count": 0,
+          "timeout_cases": [],
+          "timeout_sec": 120.0,
+          "workers": 6
+        }
+      }
+    },
+    "page_match": {
+      "fallbacks": {
+        "page_timeout": {
+          "cases": [],
+          "count": 0
+        },
+        "quick_match_timeout": {
+          "cases": [],
+          "count": 0
+        }
+      },
+      "match_timeout_sec": 420,
+      "page_count": 100,
+      "quick_match_truncated_timeout_sec": 300,
+      "workers": 6
+    }
+  }
+}
+========== END_FINAL_EVAL_RUN_REPORT predictions_quick_match ==========
+[final-eval-run-report] saved to ./result/predictions_quick_match_run_summary.json
+[runtime-environment-json] saved to ./result/predictions_quick_match_runtime_environment.json
+[runtime-environment-log] saved to ./result/predictions_quick_match_runtime_environment.log
+[stage-execution-json] saved to ./result/predictions_quick_match_stage_execution.json
+[stage-execution-log] saved to ./result/predictions_quick_match_stage_execution.log

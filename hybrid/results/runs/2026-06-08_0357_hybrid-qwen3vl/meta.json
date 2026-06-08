@@ -1,0 +1,41 @@
+{
+  "run_id": "2026-06-08_0357_hybrid-qwen3vl",
+  "timestamp": "2026-06-08_0357",
+  "solution": "hybrid-qwen3vl",
+  "engine": "qwen3-vl-8b@lmstudio",
+  "model": "qwen/qwen3-vl-8b",
+  "max_tokens": 4096,
+  "n_sample": 100,
+  "sample_file": "C:\\Projects\\ComputerVision\\RnD_pipeline\\eval\\samples\\sample_100.txt",
+  "generate_stats": {
+    "n_total": 100,
+    "n_done": 100,
+    "n_error": 0,
+    "avg_latency_s": 28.71,
+    "p50_latency_s": 13.42,
+    "max_latency_s": 65.96,
+    "elapsed_s": 2902.6
+  },
+  "metrics": {
+    "overall": {
+      "text_block.Edit_dist": 0.467,
+      "display_formula.Edit_dist": 0.5384,
+      "table.TEDS": 0.1881,
+      "table.TEDS_structure_only": 0.3636,
+      "table.Edit_dist": 0.7919,
+      "reading_order.Edit_dist": 0.4105
+    },
+    "by_source": {
+      "PPT2PDF": 0.1255,
+      "academic_literature": 0.361,
+      "book": 0.3025,
+      "colorful_textbook": 0.4299,
+      "exam_paper": 0.5755,
+      "historical_document": 0.9844,
+      "magazine": 0.5442,
+      "newspaper": 0.906,
+      "note": 0.5402,
+      "research_report": 0.7762
+    }
+  }
+}

@@ -1,0 +1,29 @@
+Solutions 105
+
+The last two equations in this expression are known from the basic result about E[U] so that the only really new part concerns the expectation of the product UV. Now, by the definition of E(U, V)
+
+$$
+\mathrm{UV} = \exp(\mathbf{X}^{\prime} \mathbf{Y}) = \exp(\mathbf{X}^{\prime} \mathbf{Y})
+$$
+
+Let the rv $\mathbf{X} = \mathbf{S} + \mathbf{Y}$. Clearly, $\mathbf{S}$ is normally distributed, with mean $\mu_{\mathbf{S}} = \mu_{\mathbf{X}} + \mu_{\mathbf{Y}}$ and variance $\sigma_{\mathbf{S}}^{2} = \sigma_{\mathbf{X}}^{2} + \sigma_{\mathbf{Y}}^{2}$. It then follows from the basic result about E[U] that
+
+$$
+\mathrm{E}[\mathrm{UV}] = \mathrm{E}[\exp(\mathbf{S}^{\prime} \mathbf{Y})] = \exp\left(\mu_{\mathbf{S}} + \frac{1}{2} \sigma_{\mathbf{S}}^{2}\right)
+$$
+
+Putting together this result — with $\mu_{\mathbf{S}}, \sigma_{\mathbf{S}}$ expressed in terms of the original parameters as earlier — and the previously known facts about the means and variances of U, V, the correlation coefficient, in other slight simplification, found to be
+
+$$
+\mathrm{cor}(\mathrm{U}, \mathrm{V}) = \frac{\exp(\sigma_{\mathbf{X}} \sigma_{\mathbf{Y}}) - 1}{\sqrt{(\exp(\sigma_{\mathbf{X}}^{2}) - 1)(\exp(\sigma_{\mathbf{Y}}^{2}) - 1)}}
+$$
+
+Note that the correlation between U and V is completely independent of the means of X and Y. As explained earlier, the exponentiation turns the location parameters $\mu_{\mathbf{X}}, \mu_{\mathbf{Y}}$ of X and Y into scaling factors of U and V. Because variations of the scaling factors generally do not change linear correlations, the result was to be expected. On the other hand, the standard deviations $\sigma_{\mathbf{X}}, \sigma_{\mathbf{Y}}$ of X and Y turn into powers for U and V, which generally do influence the linear correlation coefficient.
+
+The result about the correlation of U and V may also be used to verify the properties we already discussed in part c. Note, in particular, that in the equal-variance case $\sigma_{\mathbf{X}} = \sigma_{\mathbf{Y}} = \sigma$ we get
+
+$$
+\mathrm{cor}(\mathrm{U}, \mathrm{V}) = \frac{\exp(\sigma^{2}) - 1}{\exp(\sigma^{2}) - 1} = 1
+$$
+
+The correlation of U and V is shown in Figure 3.25 as a function of the correlation of the original rv X and Y for three values of $\sigma$. For $\sigma = +1$, the two correlations are identical, but for any other value the correlation between U and V is weaker than that between X and Y.

@@ -1,0 +1,23 @@
+# Cấu hình mặc định pipeline (slice đầu).
+# Ngưỡng routing, engine mặc định, paths. Đọc bởi pipeline/api khi cần.
+
+routing:
+  digital_min_chars: 50      # text-layer >= ngưỡng → Tier 0
+
+engines:
+  default_tier_b: lmstudio   # lmstudio | paddleocrvl (về sau) | ppstructure (đối chứng)
+
+tier_b_lmstudio:
+  base_url: "http://localhost:1234/v1"
+  model: "qwen/qwen3-vl-8b"
+  temperature: 0.0
+  max_tokens: 8192
+  timeout_s: 600
+  max_retries: 2
+
+ingest:
+  render_dpi: 150            # DPI render PDF→ảnh cho VLM
+
+eval:
+  images_dir: "../eval/OmniDocBench_data/images"
+  pred_dir: "../eval/predictions/end2end"
