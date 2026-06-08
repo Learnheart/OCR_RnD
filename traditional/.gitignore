@@ -1,0 +1,15 @@
+# Transient run artifacts — keep the small measured records, drop the bulk.
+results/runs/*/predictions/
+results/runs/*/gt_subset.json
+results/runs/*/result/
+results/runs/*/*.log
+results/*.log
+# keep: results/runs/*/summary.md, meta.json, latency.json, eval_config.yaml
+#       results/comparison.md
+
+# smoke/debug throwaway runs
+results/runs/*_traditional-smoke/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/

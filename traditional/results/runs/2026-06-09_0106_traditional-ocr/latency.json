@@ -1,0 +1,9 @@
+{
+  "n_images": 100,
+  "n_generated": 100,
+  "n_error": 0,
+  "elapsed_s": 506.0,
+  "avg_latency_s": 5.06,
+  "p50_latency_s": 3.51,
+  "max_latency_s": 37.54
+}

@@ -1,0 +1,7 @@
+commit	feature	status	notes
+wip	F1:foundation-contract	pass	schemas/loader/serializer/base copied byte-compatible
+wip	F2:cv-preprocess	pass	deskew (minAreaRect, 0.3-15deg band) + denoise, 5 tests
+wip	F3:paddle-engine	pass	PP-Structure primary + PP-OCRv4 fallback, CPU forced
+wip	F4:reading-order	pass	recursive XY-cut, 5 tests
+wip	F5:orchestration-eval	pass	pipeline/batch/eval_run/parse_one/compare_runs
+wip	F6:tests-docs	pass	31 tests green; AGENT.md/CHANGELOG/README/plan

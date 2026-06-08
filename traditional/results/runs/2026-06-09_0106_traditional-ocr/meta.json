@@ -1,0 +1,111 @@
+{
+  "run_id": "2026-06-09_0106_traditional-ocr",
+  "timestamp": "2026-06-09_0106",
+  "solution": "traditional-ocr",
+  "engine": "paddleocr-ppstructure@cpu",
+  "n_sample": 100,
+  "sample_file": "C:\\Projects\\ComputerVision\\RnD_pipeline\\eval\\samples\\sample_100.txt",
+  "generate_stats": {
+    "n_images": 100,
+    "n_generated": 100,
+    "n_error": 0,
+    "elapsed_s": 506.0,
+    "avg_latency_s": 5.06,
+    "p50_latency_s": 3.51,
+    "max_latency_s": 37.54
+  },
+  "metrics": {
+    "overall": {
+      "text_block.Edit_dist": 0.3422,
+      "display_formula.Edit_dist": 0.8394,
+      "table.TEDS": 0.1699,
+      "table.TEDS_structure_only": 0.4198,
+      "table.Edit_dist": 0.6828,
+      "reading_order.Edit_dist": 0.3671
+    },
+    "by_source": {
+      "PPT2PDF": 0.2374,
+      "academic_literature": 0.3249,
+      "book": 0.3742,
+      "colorful_textbook": 0.2409,
+      "exam_paper": 0.4475,
+      "historical_document": 0.9176,
+      "magazine": 0.1672,
+      "newspaper": 0.6941,
+      "note": 0.3503,
+      "research_report": 0.1862
+    },
+    "matrix": {
+      "PPT2PDF": {
+        "text_edit": 0.2374,
+        "formula_edit": 0.7623,
+        "table_teds": 0.2483,
+        "table_edit": 0.7637,
+        "reading_edit": 0.2772
+      },
+      "academic_literature": {
+        "text_edit": 0.3249,
+        "formula_edit": 0.9014,
+        "table_teds": 0.4026,
+        "table_edit": 0.4105,
+        "reading_edit": 0.3482
+      },
+      "book": {
+        "text_edit": 0.3742,
+        "formula_edit": 0.8085,
+        "table_teds": 0.2448,
+        "table_edit": 0.6644,
+        "reading_edit": 0.4595
+      },
+      "colorful_textbook": {
+        "text_edit": 0.2409,
+        "formula_edit": 0.6507,
+        "table_teds": null,
+        "table_edit": null,
+        "reading_edit": 0.2321
+      },
+      "exam_paper": {
+        "text_edit": 0.4475,
+        "formula_edit": 0.9253,
+        "table_teds": 0.0,
+        "table_edit": 1.0,
+        "reading_edit": 0.4974
+      },
+      "historical_document": {
+        "text_edit": 0.9176,
+        "formula_edit": null,
+        "table_teds": null,
+        "table_edit": null,
+        "reading_edit": 0.2857
+      },
+      "magazine": {
+        "text_edit": 0.1672,
+        "formula_edit": null,
+        "table_teds": null,
+        "table_edit": null,
+        "reading_edit": 0.1195
+      },
+      "newspaper": {
+        "text_edit": 0.6941,
+        "formula_edit": null,
+        "table_teds": 0.0,
+        "table_edit": 1.0,
+        "reading_edit": 0.6074
+      },
+      "note": {
+        "text_edit": 0.3503,
+        "formula_edit": null,
+        "table_teds": 0.0,
+        "table_edit": 1.0,
+        "reading_edit": 0.2853
+      },
+      "research_report": {
+        "text_edit": 0.1862,
+        "formula_edit": null,
+        "table_teds": 0.342,
+        "table_edit": 0.5337,
+        "reading_edit": 0.399
+      }
+    }
+  }
+}
