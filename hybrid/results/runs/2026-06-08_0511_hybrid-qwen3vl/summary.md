@@ -1,31 +1,33 @@
 # Eval run — 2026-06-08_0511_hybrid-qwen3vl
 
 - **Solution**: hybrid-qwen3vl  ·  **Engine**: qwen3-vl-8b@lmstudio  ·  **model**: qwen/qwen3-vl-8b  ·  max_tokens=4096
-- **Sample**: 100 ảnh  ·  `sample_100.txt`
+- **Sample**: 100 ảnh  ·  `sample_100.txt`  ·  reuse 100/100
 - **Generation**: avg 0.0s/ảnh · p50 0s · max 0s · 0.0 phút · lỗi 0
 
-## Overall (Edit_dist: thấp=tốt · TEDS: cao=tốt)
+## Tổng quan theo task
 
-| Metric | Value |
-|---|---|
-| text_block.Edit_dist | 0.467 |
-| display_formula.Edit_dist | 0.5384 |
-| table.TEDS | 0.1881 |
-| table.TEDS_structure_only | 0.3636 |
-| table.Edit_dist | 0.7919 |
-| reading_order.Edit_dist | 0.4105 |
+| Task.metric | Value | Chiều |
+|---|---|---|
+| text_block.Edit_dist | 0.467 | ↓ thấp=tốt |
+| display_formula.Edit_dist | 0.538 | ↓ thấp=tốt |
+| table.TEDS | 0.188 | ↑ cao=tốt |
+| table.TEDS_structure_only | 0.364 | ↑ cao=tốt |
+| table.Edit_dist | 0.792 | ↓ thấp=tốt |
+| reading_order.Edit_dist | 0.410 | ↓ thấp=tốt |
 
-## text_block Edit_dist theo nguồn (thấp=tốt)
+## Ma trận nguồn tài liệu × task
 
-| data_source | Edit_dist |
-|---|---|
-| PPT2PDF | 0.1255 |
-| book | 0.3025 |
-| academic_literature | 0.361 |
-| colorful_textbook | 0.4299 |
-| note | 0.5402 |
-| magazine | 0.5442 |
-| exam_paper | 0.5755 |
-| research_report | 0.7762 |
-| newspaper | 0.906 |
-| historical_document | 0.9844 |
+> Edit_dist (text/formula/table/reading) **thấp=tốt** · TEDS **cao=tốt**. `–` = nguồn không có loại phần tử đó trên các trang sample; giá trị 1.0 ở formula/table thường nghĩa là trang không có công thức/bảng để khớp.
+
+| data_source | text ↓ | formula ↓ | table TEDS ↑ | table edit ↓ | reading ↓ |
+|---|---|---|---|---|---|
+| PPT2PDF | 0.126 | 0.325 | 0.191 | 0.727 | 0.132 |
+| book | 0.302 | 0.504 | 0.623 | 0.582 | 0.321 |
+| academic_literature | 0.361 | 0.677 | 0.173 | 0.770 | 0.369 |
+| colorful_textbook | 0.430 | 0.371 | – | – | 0.393 |
+| note | 0.540 | – | 0.002 | 0.997 | 0.438 |
+| magazine | 0.544 | – | – | – | 0.339 |
+| exam_paper | 0.576 | 0.625 | 0.102 | 0.903 | 0.593 |
+| research_report | 0.776 | – | 0.232 | 0.776 | 0.464 |
+| newspaper | 0.906 | – | 0.000 | 1.000 | 0.872 |
+| historical_document | 0.984 | – | – | – | 0.452 |

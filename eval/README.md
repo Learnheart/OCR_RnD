@@ -2,6 +2,10 @@
 
 Bộ ground truth + công cụ đánh giá chất lượng OCR/document-parsing cho pipeline trong `RnD_pipeline/`.
 
+> 🆕 **Người mới?** Đọc [`BENCHMARK_GUIDE.md`](BENCHMARK_GUIDE.md) trước — giới thiệu benchmark,
+> giải thích các chỉ số (Edit Distance vs TEDS), cách đọc output và dùng số để tinh chỉnh pipeline.
+> File README này là phần **thao tác/lệnh/env** chi tiết.
+
 ## Cấu trúc thư mục
 
 ```

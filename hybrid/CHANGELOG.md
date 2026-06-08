@@ -23,6 +23,11 @@ Slice đầu end-to-end (M0→M2): ảnh/PDF → Markdown, đo trên OmniDocBenc
 - `[hybrid]` `eval_run.py --reuse-dir` (mặc định: run trước cùng solution + shared
   `eval/predictions/end2end`) — tái dùng prediction đã sinh, chỉ sinh phần thiếu
   (tiết kiệm GPU). `scripts/resummarize.py` — tái tóm tắt run cũ không cần chấm lại.
+- `[hybrid]` `summary.md` nâng cấp: **tổng quan theo task** (6 metric kèm chiều ↑/↓) +
+  **ma trận nguồn × task** (text/formula/table-TEDS/table-edit/reading theo data_source).
+- `[eval]` `eval/BENCHMARK_GUIDE.md` — hướng dẫn benchmark cho người mới: giới thiệu
+  OmniDocBench, giải thích chỉ số (Edit Distance vs TEDS), đọc output, dùng số tinh chỉnh
+  pipeline. Cross-link từ `eval/README.md` + `../CLAUDE.md`.
 - `[eval]` `eval/samples/sample_100.txt` — manifest 100 ảnh chuẩn (10 nguồn).
 
 ### Fixed

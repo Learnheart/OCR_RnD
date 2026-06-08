@@ -90,7 +90,7 @@ summary: <one-line description of what this is about>
 
 ## 🧪 How to run the eval
 
-The benchmark is **OmniDocBench v1.5** (1651 real document pages). The harness + ground truth live in `RnD_pipeline/eval/`. Full details and gotchas are in `eval/README.md` — this is the quick operational summary.
+The benchmark is **OmniDocBench v1.5** (1651 real document pages). The harness + ground truth live in `RnD_pipeline/eval/`. Full details and gotchas are in `eval/README.md` — this is the quick operational summary. **New to the benchmark?** Read `eval/BENCHMARK_GUIDE.md` first — it explains the metrics (Edit Distance vs TEDS), how to read the output, and how to use the numbers to tune a pipeline.
 
 **Output contract every solution must produce:** for each input image in `eval/OmniDocBench_data/images/`, emit **one Markdown file** into `eval/predictions/end2end/`, named the same as the image but with a `.md` extension. The `.md` holds the full page as Markdown (text + tables as HTML/Markdown + formulas as LaTeX `$...$`).
 

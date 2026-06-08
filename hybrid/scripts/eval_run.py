@@ -138,41 +138,89 @@ def summarize(metric_file: Path) -> dict:
                 # Edit_dist→ALL_page_avg; TEDS→"all"; fallback edit_whole
                 val = mv.get("ALL_page_avg", mv.get("all", mv.get("edit_whole")))
                 out["overall"][f"{cat}.{mname}"] = _clean(val)
-    # text_block per data_source (Edit_dist)
-    tb_page = d.get("text_block", {}).get("page", {}).get("Edit_dist", {})
-    for k, v in tb_page.items():
-        if k.startswith("data_source:") and isinstance(v, (int, float)):
-            cv = _clean(v)
-            if cv is not None:
-                out["by_source"][k.replace("data_source: ", "")] = cv
+    # ma trận đầy đủ: nguồn × (mọi task). page.{metric}["data_source: X"]
+    cols = [
+        ("text_edit", "text_block", "Edit_dist"),       # ↓
+        ("formula_edit", "display_formula", "Edit_dist"),  # ↓
+        ("table_teds", "table", "TEDS"),                 # ↑
+        ("table_edit", "table", "Edit_dist"),            # ↓
+        ("reading_edit", "reading_order", "Edit_dist"),  # ↓
+    ]
+
+    def page_by_source(task: str, metric: str) -> dict:
+        pg = d.get(task, {}).get("page", {}).get(metric, {})
+        res = {}
+        if isinstance(pg, dict):
+            for k, v in pg.items():
+                if k.startswith("data_source:") and isinstance(v, (int, float)):
+                    res[k.replace("data_source: ", "")] = _clean(v)
+        return res
+
+    per = {col: page_by_source(task, metric) for col, task, metric in cols}
+    sources = sorted(set().union(*[set(v) for v in per.values()])) if per else []
+    out["matrix"] = {
+        s: {col: per[col].get(s) for col, _, _ in cols} for s in sources
+    }
+    # giữ by_source = cột text_edit (cho console + tương thích cũ)
+    out["by_source"] = {s: out["matrix"][s]["text_edit"]
+                        for s in sources if out["matrix"][s]["text_edit"] is not None}
     return out
 
 
 def write_summary_md(run_dir: Path, meta: dict) -> None:
-    """Bảng tóm tắt human-readable cho loopback so sánh nhanh."""
+    """Tóm tắt human-readable: tổng quan theo task + ma trận nguồn × task."""
     m = meta.get("metrics", {})
     ov = m.get("overall", {})
+    matrix = m.get("matrix", {})
     gs = meta.get("generate_stats", {})
+
+    def cell(v) -> str:
+        return "–" if v is None else f"{v:.3f}"
+
+    # tổng quan theo task (mỗi metric kèm chiều)
+    overall_rows = []
+    for k, v in ov.items():
+        arrow = "↑ cao=tốt" if "TEDS" in k else "↓ thấp=tốt"
+        overall_rows.append(f"| {k} | {cell(v)} | {arrow} |")
+
     lines = [
         f"# Eval run — {meta.get('run_id','')}",
         "",
         f"- **Solution**: {meta.get('solution')}  ·  **Engine**: {meta.get('engine')}  "
         f"·  **model**: {meta.get('model')}  ·  max_tokens={meta.get('max_tokens')}",
-        f"- **Sample**: {meta.get('n_sample')} ảnh  ·  `{Path(meta.get('sample_file','')).name}`",
+        f"- **Sample**: {meta.get('n_sample')} ảnh  ·  `{Path(meta.get('sample_file','')).name}`"
+        + (f"  ·  reuse {meta.get('reuse_seeded')}/{meta.get('n_sample')}"
+           if meta.get('reuse_seeded') else ""),
         f"- **Generation**: avg {gs.get('avg_latency_s')}s/ảnh · p50 {gs.get('p50_latency_s')}s "
         f"· max {gs.get('max_latency_s')}s · {gs.get('elapsed_s',0)/60:.1f} phút · lỗi {gs.get('n_error')}",
         "",
-        "## Overall (Edit_dist: thấp=tốt · TEDS: cao=tốt)",
+        "## Tổng quan theo task",
         "",
-        "| Metric | Value |",
-        "|---|---|",
+        "| Task.metric | Value | Chiều |",
+        "|---|---|---|",
+        *overall_rows,
+        "",
+        "## Ma trận nguồn tài liệu × task",
+        "",
+        "> Edit_dist (text/formula/table/reading) **thấp=tốt** · TEDS **cao=tốt**. "
+        "`–` = nguồn không có loại phần tử đó trên các trang sample; giá trị 1.0 ở "
+        "formula/table thường nghĩa là trang không có công thức/bảng để khớp.",
+        "",
+        "| data_source | text ↓ | formula ↓ | table TEDS ↑ | table edit ↓ | reading ↓ |",
+        "|---|---|---|---|---|---|",
     ]
-    for k, v in ov.items():
-        lines.append(f"| {k} | {v} |")
-    lines += ["", "## text_block Edit_dist theo nguồn (thấp=tốt)", "",
-              "| data_source | Edit_dist |", "|---|---|"]
-    for k, v in sorted(m.get("by_source", {}).items(), key=lambda x: x[1]):
-        lines.append(f"| {k} | {v} |")
+    # sắp xếp theo text_edit tăng dần (tốt → tệ), None xuống cuối
+    def text_key(s):
+        v = matrix[s].get("text_edit")
+        return (v is None, v if v is not None else 0)
+
+    for s in sorted(matrix, key=text_key):
+        r = matrix[s]
+        lines.append(
+            f"| {s} | {cell(r.get('text_edit'))} | {cell(r.get('formula_edit'))} "
+            f"| {cell(r.get('table_teds'))} | {cell(r.get('table_edit'))} "
+            f"| {cell(r.get('reading_edit'))} |"
+        )
     lines.append("")
     (run_dir / "summary.md").write_text("\n".join(lines), encoding="utf-8")
 
