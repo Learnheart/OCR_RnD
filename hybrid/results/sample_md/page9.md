@@ -1,0 +1,92 @@
+The image displays a cropped section of a scientific or technical document, featuring a table with data on the "Dissolution of Calcium Carbonate" under various conditions. The table has columns for "Time (min)", "pH", "Temperature (°C)", "CaCO₃ Dissolved (mg)", and "CaCO₃ Remaining (mg)". The data is presented in a structured format with numerical values and units.
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th>Time (min)</th>
+      <th>pH</th>
+      <th>Temperature (°C)</th>
+      <th>CaCO₃ Dissolved (mg)</th>
+      <th>CaCO₃ Remaining (mg)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>7.0</td>
+      <td>25</td>
+      <td>0</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>7.0</td>
+      <td>25</td>
+      <td>100</td>
+      <td>900</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>7.0</td>
+      <td>25</td>
+      <td>200</td>
+      <td>800</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>7.0</td>
+      <td>25</td>
+      <td>300</td>
+      <td>700</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>7.0</td>
+      <td>25</td>
+      <td>400</td>
+      <td>600</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>7.0</td>
+      <td>25</td>
+      <td>500</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td>7.0</td>
+      <td>25</td>
+      <td>600</td>
+      <td>400</td>
+    </tr>
+    <tr>
+      <td>70</td>
+      <td>7.0</td>
+      <td>25</td>
+      <td>700</td>
+      <td>300</td>
+    </tr>
+    <tr>
+      <td>80</td>
+      <td>7.0</td>
+      <td>25</td>
+      <td>800</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>90</td>
+      <td>7.0</td>
+      <td>25</td>
+      <td>900</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td>7.0</td>
+      <td>25</td>
+      <td>1000</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
