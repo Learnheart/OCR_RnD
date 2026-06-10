@@ -11,6 +11,8 @@ from __future__ import annotations
 import cv2
 import numpy as np
 
+from .enhance import enhance_low_contrast
+
 # Only correct skew within this band. Below MIN we treat as noise (leave as-is);
 # above MAX we assume the angle estimate is wrong (e.g. a big figure dominates).
 MIN_SKEW_DEG = 0.3
@@ -53,11 +55,26 @@ def deskew(image: np.ndarray) -> tuple[np.ndarray, float]:
 
 
 def preprocess(
-    image: np.ndarray, do_deskew: bool = True, do_denoise: bool = False
+    image: np.ndarray,
+    do_deskew: bool = True,
+    do_denoise: bool = False,
+    do_enhance: bool = True,
 ) -> tuple[np.ndarray, dict]:
-    """Run the preprocessing chain. Returns (image, info) where info logs what ran."""
+    """Run the preprocessing chain. Returns (image, info) where info logs what ran.
+
+    Order rationale: contrast enhancement runs FIRST. CLAHE makes faded ink
+    sharper, which gives the skew estimator (it binarizes ink via Otsu) much more
+    reliable foreground on washed-out pages — so enhance-before-deskew helps the
+    angle estimate. The enhance step gates binarization internally and is a no-op
+    on clean pages, so clean docs flow through unchanged. ``do_enhance`` defaults
+    True because the gate (see enhance.estimate_contrast) is conservative enough
+    not to touch clean sources.
+    """
     info: dict = {"deskew_deg": 0.0, "denoise": False}
     out = image
+    if do_enhance:
+        out, enhance_info = enhance_low_contrast(out)
+        info["enhance"] = enhance_info
     if do_deskew:
         out, deg = deskew(out)
         info["deskew_deg"] = round(deg, 3)

@@ -1,0 +1,15 @@
+INFO: Could not find files for the given pattern(s).
+C:\Users\Admin\.conda\envs\ocr-worker\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0610 01:29:55.994462  2256 onednn_context.cc:81] oneDNN v3.6.2
+page1.jpg: blocks=4 path=structure fallback=False low_contrast=False md_chars=656 9.6s
+page2.jpg: blocks=0 path=structure fallback=False low_contrast=False md_chars=1 1.5s
+page3.jpg: blocks=8 path=structure fallback=False low_contrast=True md_chars=2857 4.0s
+page4.jpg: blocks=9 path=structure fallback=False low_contrast=False md_chars=3377 5.8s
+page5.jpg: blocks=4 path=structure fallback=False low_contrast=True md_chars=1863 5.2s
+page6.jpg: blocks=1 path=fallback fallback=True low_contrast=False md_chars=2105 11.4s
+page7.jpg: blocks=1 path=fallback fallback=True low_contrast=False md_chars=3620 12.2s
+page8.jpg: blocks=8 path=structure fallback=False low_contrast=False md_chars=3793 5.1s
+page9.jpg: blocks=1 path=fallback fallback=True low_contrast=False md_chars=2772 19.2s
+REALLIFE_DONE

@@ -1,7 +1,4 @@
 commit	feature	status	notes
-wip	F1:foundation-contract	pass	schemas/loader/serializer/base copied byte-compatible
-wip	F2:cv-preprocess	pass	deskew (minAreaRect, 0.3-15deg band) + denoise, 5 tests
-wip	F3:paddle-engine	pass	PP-Structure primary + PP-OCRv4 fallback, CPU forced
-wip	F4:reading-order	pass	recursive XY-cut, 5 tests
-wip	F5:orchestration-eval	pass	pipeline/batch/eval_run/parse_one/compare_runs
-wip	F6:tests-docs	pass	31 tests green; AGENT.md/CHANGELOG/README/plan
+local	F2:low-contrast-preprocess	pass	CLAHE+gated adaptive-binarize on flat pages; conservative AND-gate std<40 & spread<110; 5 tests pass, full suite 43 pass
+local	F1:trace-artifacts	pass	renderers+report+--trace flag; 12 tests, 43/43 suite green
+local	F3:formula-table-md	partial	LaTeXOCR fully wired (lazy _formula_engine + ROI crop) but DEGRADED by default: model cached offline & loads, yet LaTeXOCR inference segfaults (0xC0000005) on Blackwell sm_120+paddle3.x (same class as known GPU bug); installed missing tokenizers dep. enable_formula flag (default off)->formula_engine=none; serializer $$ display-wrap + list bullets; table HTML attr-scrub keeps rowspan/colspan. 27 targeted + 57 full tests pass

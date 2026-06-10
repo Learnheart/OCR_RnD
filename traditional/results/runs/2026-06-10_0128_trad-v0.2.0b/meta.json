@@ -1,0 +1,63 @@
+{
+  "run_id": "2026-06-10_0128_trad-v0.2.0b",
+  "timestamp": "2026-06-10_0128",
+  "solution": "trad-v0.2.0b",
+  "engine": "paddleocr-ppstructure@cpu",
+  "n_sample": 20,
+  "sample_file": "C:\\Projects\\ComputerVision\\RnD_pipeline\\eval\\samples\\sample_100.txt",
+  "generate_stats": {
+    "n_images": 20,
+    "n_generated": 20,
+    "n_error": 0,
+    "elapsed_s": 51.4,
+    "avg_latency_s": 2.57,
+    "p50_latency_s": 2.28,
+    "max_latency_s": 6.96
+  },
+  "metrics": {
+    "overall": {
+      "text_block.Edit_dist": 0.1984,
+      "display_formula.Edit_dist": 0.7324,
+      "table.TEDS": 0.1487,
+      "table.TEDS_structure_only": 0.4697,
+      "table.Edit_dist": 0.7432,
+      "reading_order.Edit_dist": 0.2926
+    },
+    "by_source": {
+      "PPT2PDF": 0.2606,
+      "book": 0.2399,
+      "colorful_textbook": 0.0255,
+      "magazine": 0.029
+    },
+    "matrix": {
+      "PPT2PDF": {
+        "text_edit": 0.2606,
+        "formula_edit": 0.7241,
+        "table_teds": 0.2108,
+        "table_edit": 0.7858,
+        "reading_edit": 0.2667
+      },
+      "book": {
+        "text_edit": 0.2399,
+        "formula_edit": 0.738,
+        "table_teds": 0.0865,
+        "table_edit": 0.7005,
+        "reading_edit": 0.3962
+      },
+      "colorful_textbook": {
+        "text_edit": 0.0255,
+        "formula_edit": null,
+        "table_teds": null,
+        "table_edit": null,
+        "reading_edit": 0.1364
+      },
+      "magazine": {
+        "text_edit": 0.029,
+        "formula_edit": null,
+        "table_teds": null,
+        "table_edit": null,
+        "reading_edit": 0.125
+      }
+    }
+  }
+}

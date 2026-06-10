@@ -10,7 +10,10 @@ A staged traditional pipeline. Every page flows through:
 1. **Ingest** (`ingest/loader.py`) — decode image to BGR numpy (handles CJK Windows
    paths via `np.fromfile`+`imdecode`). PDFs via lazy PyMuPDF (benchmark is all images).
 2. **Preprocess** (`preprocess/cv_preprocess.py`) — conservative deskew (min-area-rect,
-   only corrects 0.3–15° skew) + optional denoise. Clean renders pass through ~untouched.
+   only corrects 0.3–15° skew) + optional denoise + **low-contrast enhance**
+   (`preprocess/enhance.py`, `do_enhance` default ON). Gated CLAHE / adaptive-binarize
+   for washed-out / aged pages (newspaper, historical); an AND-gate (`std<40` &
+   `p95−p5` spread `<110`) keeps clean / color pages passing through ~untouched.
 3. **Structure + OCR** (`extract/paddle_engine.py`)
    - **Primary:** PaddleOCR **PP-Structure** → layout regions (text/title/table/equation/
      header/footer) with PP-OCRv4 text recognition; tables returned as **HTML** (for TEDS).
@@ -20,7 +23,14 @@ A staged traditional pipeline. Every page flows through:
 4. **Reading order** (`layout/reading_order.py`) — recursive **XY-cut** over block
    bounding boxes: peels full-width bands (headers) then splits columns.
 5. **Serialize** (`serialize/markdown.py`) — Block[] → Markdown (titles `#`, tables HTML,
-   formulas `$$…$$`). **Byte-compatible with the hybrid serializer** → comparable scores.
+   formulas display-wrapped `$$…$$`, `list` blocks as `-` bullets).
+   **Byte-compatible with the hybrid serializer** → comparable scores.
+
+> **Formula engine (`enable_formula`, default OFF).** A LaTeXOCR recognizer is fully
+> wired in `extract/paddle_engine.py` behind the `enable_formula` flag, but it is
+> **OFF by default**: LaTeXOCR inference segfaults (`0xC0000005`) on this Blackwell
+> sm_120 + paddle 3.x box (same hardware class as the GPU note below). With the flag
+> off, formulas degrade to OCR'd text. Re-enable once a compatible wheel ships.
 
 The `Block`/`PageResult`/`DocumentResult` contract and the `ParseEngine` ABC are *copied*
 from `hybrid/` (CLAUDE.md Rule 2: solutions stay isolated) but kept identical in shape.
@@ -72,6 +82,46 @@ cd C:\Projects\ComputerVision\RnD_pipeline\traditional
 Each run lands in `results/runs/<YYYY-MM-DD_HHMM>_traditional-ocr/` with `summary.md`,
 `meta.json`, `predictions/`, `gt_subset.json`, `score.log`, `result/`.
 
+## Tracing / debugging
+
+When a page parses badly, run it with `--trace` to capture every step's intermediate
+state on disk. Tracing is **opt-in** (`Tracer` threaded through `Pipeline`) and
+**zero-cost / output-identical when off** — eval and batch runs never trace.
+
+```powershell
+$PY = "$env:USERPROFILE\.conda\envs\ocr-worker\python.exe"
+$env:PYTHONUTF8 = "1"
+cd C:\Projects\ComputerVision\RnD_pipeline\traditional
+
+# trace one image → results/traces/ (the [DIR] argument is optional)
+& $PY scripts/parse_one.py "..\eval\OmniDocBench_data\images\<name>.jpg" --trace
+# or pick a target dir:
+& $PY scripts/parse_one.py "<img>" --trace results/traces
+```
+
+Steps traced: **ingest → preprocess → extract → reading_order → serialize**, each with
+its timing and a structured summary. The structure-vs-fallback decision is recorded
+explicitly (was full-page OCR used, and why).
+
+### Artifact layout
+
+Each document gets a dir named after its id; pages land under `page_NNN/`:
+
+```
+results/traces/<doc_id>/
+├── trace.json              # machine-readable: per-step records, timings, summaries, artifact paths
+├── report.md               # human-readable: per-step timing table + prominent FALLBACK callout + regions table
+└── page_000/
+    ├── original.png        # image as ingested
+    ├── preprocessed.png    # after deskew/denoise/enhance (bbox coordinate space)
+    ├── structure_raw.json  # raw layout/regions + the explicit fallback decision (engine.last_meta)
+    ├── layout_overlay.png  # bboxes colored by block type + reading-order numbers
+    └── crops/              # per-block crops, named <order>_<type>.png (capped at 60/page)
+```
+
+The low-contrast enhance result (whether it fired, and the gate metrics) is surfaced in
+the `preprocess` step under the `enhance` key.
+
 ## Measured score (OmniDocBench sample_100) — run 2026-06-09_0106
 
 Same 100 images as the hybrid baseline. **Traditional wins 5 of 7 metrics** and is
@@ -97,8 +147,10 @@ research_report / PPT / textbook; weakest on newspaper + historical scripts.
 - **Speed/cost:** no GPU/LLM — runs on CPU, no LM Studio, no VLM tokens. Far cheaper.
 - **Grounding:** every block has a real bbox (VLM tier has none) → enables XY-cut reading
   order and future provenance/validation.
-- **Weak spots (this slice):** formulas are OCR'd text not true LaTeX (LaTeX-OCR + CDM
-  scoring deferred to Docker); handwriting/historical scripts; heavy color backgrounds.
+- **Weak spots (this slice):** formulas are OCR'd text not true LaTeX (LaTeXOCR is wired
+  but OFF — segfaults on sm_120, see Method note); handwriting/historical scripts; heavy
+  color backgrounds. Low-contrast enhance (v0.2.0) targets washed-out / aged pages, but
+  its **OmniDocBench metric delta is NOT yet measured** — a sample eval is pending.
 
 ## Deferred / next
 

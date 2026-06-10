@@ -1,6 +1,26 @@
 # PROGRESS — traditional/ (classic OCR pipeline)
 
-_Last updated: 2026-06-09_
+_Last updated: 2026-06-10_
+
+## 2026-06-10 — Tracing + output-quality upgrade landed (v0.2.0)
+
+Per-step tracing + quality upgrade shipped (MINOR, **no output-contract break**).
+
+- **Tracing:** new `src/idp_trad/trace/` module; opt-in `Tracer` threaded through
+  `Pipeline`; `scripts/parse_one.py --trace [DIR]` (default `results/traces`). Per page:
+  `original.png`, `preprocessed.png`, `structure_raw.json` (+ explicit fallback
+  decision), `layout_overlay.png`, `crops/`; per doc: `trace.json` + `report.md`. Off
+  by default → zero overhead, eval output unchanged. See `docs/sequences/trace-flow.md`.
+- **Quality:** low-contrast enhance (`preprocess/enhance.py`, `do_enhance` ON,
+  conservatively AND-gated); serializer formula `$$…$$` + `list` bullets; table HTML
+  cleanup (rowspan/colspan preserved).
+- **Blocker:** LaTeXOCR formula recognizer wired behind `enable_formula` but **DEFAULT
+  OFF** — segfaults (`0xC0000005`) on Blackwell sm_120 + paddle 3.x; degrades to OCR text.
+- **Tests:** **57/57 green**. Live `--trace` on 5 OmniDocBench images verified all
+  artifacts/steps + fallback flag; enhance gating confirmed conservative.
+- **Pending:** OmniDocBench **metric delta NOT yet measured** — next step is a
+  small-sample eval (Rule 4) to quantify the enhance / serializer changes vs the
+  v0.1.0 baseline before any full run.
 
 ## State: ✅ Slice 1 done & measured
 

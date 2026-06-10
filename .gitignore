@@ -26,3 +26,9 @@ Thumbs.db
 # ==== Misc ====
 *.tmp
 *.bak
+
+# ==== Trace bundles (QA artifacts chứa ảnh — KHÔNG commit, theo convention results/ chỉ giữ .md/.json/log) ====
+hybrid/results/v2_runs/
+traditional/results/reallife_traces/
+# Dump pytest tạm
+traditional/test_*.txt
