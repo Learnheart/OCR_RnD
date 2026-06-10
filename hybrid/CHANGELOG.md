@@ -6,6 +6,36 @@ versioning theo [SemVer]. Mục mới nhất trên cùng.
 [Keep a Changelog]: https://keepachangelog.com/
 [SemVer]: https://semver.org/
 
+## [0.2.0] — 2026-06-10
+
+Pipeline **V2 — modular layout-driven** (S1→S5), chạy song song với V1 (không thay
+đổi output-contract OmniDocBench của V1 → MINOR). Mục tiêu: tách hộp đen VLM một-bước
+thành `detect → fan-out chuyên biệt theo loại vùng → merge`, mỗi step có output trung
+gian để truy vết & chấm riêng. Xem `docs/2026-06-10/v2-modular-layout-pipeline/`.
+
+### Added
+- `[hybrid]` `src/idp/pipeline_v2.py` — orchestrator V2: preprocess (S1) → layout
+  detect (S2) → fan-out handler theo `RegionGroup` (S3) → reading-order/merge (S4) →
+  serialize (S5). Có fallback full-page OCR khi layout không ra vùng xử lý được.
+- `[hybrid]` Module hoá theo step: `preprocess/` (OpenCV), `layout/`
+  (`PPStructureLayoutDetector`, ép `use_gpu=False` — Blackwell paddle GPU hỏng),
+  `extract/handlers/` (text/table/VLM formula·chart·seal, registry fan-out),
+  `reading_order/` (XY-cut), `serialize/json.py`.
+- `[hybrid]` `trace/` — trace bundle mỗi trang (input/preprocess/layout/handlers/
+  reading-order/output) + `index.html` để QA trực quan từng step.
+- `[hybrid]` `scripts/run_v2.py` — batch runner V2 trên 1 thư mục ảnh (sinh trace
+  bundle, tùy chọn `--preds-out` ghi `.md` cho OmniDocBench).
+- `[hybrid]` Schema V2 (additive, không phá V1): `Region`, `RegionGroup`,
+  `LayoutResult` trong `src/idp/schemas.py`.
+- `[hybrid]` `eval/sample/` — 9 ảnh QA trực quan (không GT) cho pha R10.
+- `[hybrid]` `docs/2026-06-10/v2-modular-layout-pipeline/` (plan + design),
+  `highlevel_design.png`.
+
+### Note
+- VLM handler gọi LM Studio qua HTTP (httpx); paddle CPU + VLM chạy chung 1 process
+  trong conda env `ocr-worker`. QA 9 ảnh sample: 0 warning, ~21s/ảnh. Chưa có số
+  OmniDocBench cho V2 (pha kế: `--preds-out` → chấm trên sample 100).
+
 ## [0.1.0] — 2026-06-08
 
 Slice đầu end-to-end (M0→M2): ảnh/PDF → Markdown, đo trên OmniDocBench v1.5.

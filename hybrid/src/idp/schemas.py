@@ -65,3 +65,32 @@ class DocumentResult(BaseModel):
     engines_used: list[str] = Field(default_factory=list)
     pages: list[PageResult] = Field(default_factory=list)
     warnings: list[str] = Field(default_factory=list)
+
+
+# ───────────────────────────── V2 (modular layout-driven) ─────────────────────
+# Pipeline V2 chia trang thành Region (S2 layout) rồi fan-out theo `group` tới
+# handler chuyên biệt (S3). Xem docs/2026-06-10/v2-modular-layout-pipeline/.
+
+#: 5 nhánh fan-out + "drop" (vùng bỏ qua: abandon/mask…).
+RegionGroup = Literal["text", "table", "formula", "chart", "seal", "drop"]
+
+
+class Region(BaseModel):
+    """1 vùng layout (S2). `region_id` ổn định để trace xuyên các step.
+
+    `bbox` là pixel theo ảnh ĐÃ preprocess (cùng hệ với crop của handler).
+    `label` giữ nhãn thô của detector; `group` là nhánh fan-out đã ánh xạ.
+    """
+
+    label: str
+    group: RegionGroup
+    bbox: BBox
+    score: float = 1.0
+    region_id: int = 0
+    reading_order: int | None = None  # gán ở S4
+
+
+class LayoutResult(BaseModel):
+    page: int = 0
+    regions: list[Region] = Field(default_factory=list)
+    image_size: tuple[int, int] = (0, 0)  # (w, h) ảnh đã preprocess
